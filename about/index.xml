@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/about/</link>
+    <description>Recent content in Abouts on Juliano Marcon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contato</title>
+      <link>https://jmarcon.github.io/about/contato/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -0300</pubDate>
+      
+      <guid>https://jmarcon.github.io/about/contato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://jmarcon.github.io/about/julianomarcon/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -0300</pubDate>
+      
+      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
+      <description>&lt;p&gt;Profissional com grande experiência na area de projetos e desenvolvimento de software. Habilidade em liderar e motivar equipes. Conhecimento em diversas metodologias de gerenciamento de projetos. Pessoa dinâmica e comunicativa.&lt;/p&gt;
+
+&lt;div class=&#34;experiences section&#34;&gt;
+            &lt;h3 class=&#34;title&#34;&gt;// Profissional&lt;/h3&gt;
+            &lt;div class=&#34;content&#34;&gt;
+              &lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;Rede&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;02/2015 - hoje&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Coordenador de Sistemas&lt;/h4&gt;
+                     Liderança de equipes de projetos de desenvolvimento de novos canais digitais.
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;Redecard&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;01/2012 - 02/2015&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Analista de Sistemas Sênior&lt;/h4&gt;
+                     Gerenciamento e desenvolvimento de projetos de médio e grande porte na area de canais de atendimento e e-commerce.
+                  &lt;/div&gt;
+               &lt;/div&gt;
+               &lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;BSI Tecnologia&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;08/2011 - 01/2012&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Analista de Sistemas Sênior&lt;/h4&gt;
+                     Desenvolvimento de aplicações de automação de atividades alocado no Itaú.
+                  &lt;/div&gt;
+               &lt;/div&gt;
+               &lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;TechResult&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;06/2011 - 08/2011&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Web Application Developer&lt;/h4&gt;
+                     Atualização de aplicações de intranet (web) alocado na Prodesp.
+                  &lt;/div&gt;
+               &lt;/div&gt;
+               &lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;Informa Consultoria&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;04/2011 - 06/2011&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Application Developer&lt;/h4&gt;
+                     Criação e atualização de aplicações para radio difusoras em Java, .NET e Genexus.
+                  &lt;/div&gt;
+               &lt;/div&gt;
+               &lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;KEES Informatica&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;06/2010 - 06/2011&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Instrutor - Certificações .NET&lt;/h4&gt;
+                     Ministrando treinamentos para certificações Microsoft (.NET).
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;Dual Consultoria&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;06/2009 - 04/2011&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Analista de Sistemas Sênior&lt;/h4&gt;
+                     Analise e desenvolvimento de soluções em plataforma windows e web. Criação de novos produtos e integrações entre sistemas legados.
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;People Computação&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;05/2008 - 06/2009&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Instrutor - Programação&lt;/h4&gt;
+                     Ministrando treinamentos de programação (web-desiner, java, c#).
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;Secretaria da Educação&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;02/2008 - 06/2009&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Professor - Matemática&lt;/h4&gt;
+                     Dando aulas de Matemática e Física para alunos de ensino fundamental e médio.
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;MCOM Soluções e Tecnologia&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;06/2007 - 12/2007&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Analista de Produtos&lt;/h4&gt;
+                     Prestação de serviços personalizados de manutenção de produtos de tecnologia.
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;EMPRO&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;01/2007 - 06/2007&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Analista de Suporte&lt;/h4&gt;
+                     Instalação e manutenção de computadores, impressoras e rede das entidades mantidas pela prefeitura.
+                  &lt;/div&gt;
+               &lt;/div&gt;&lt;div ng-repeat=&#34;experience in vm.personal.experiences&#34; class=&#34;experience row ng-scope&#34;&gt;
+                  &lt;div class=&#34;col-sm-4&#34;&gt;
+                     &lt;h4 class=&#34;company ng-binding&#34;&gt;S3 Computadores&lt;/h4&gt;
+                     &lt;p class=&#34;text-primary ng-binding&#34;&gt;04/2002 - 06/2005&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-sm-8 ng-binding&#34;&gt;
+                     &lt;h4 class=&#34;position ng-binding&#34;&gt;Técnico em Informática&lt;/h4&gt;
+                     Venda, instalação, montagem e manutenção de computadores.
+                  &lt;/div&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+         &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
