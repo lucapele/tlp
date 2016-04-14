@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/about/</link>
+    <description>RSS in Abouts on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contato</title>
+      <link>https://jmarcon.github.io/about/contato/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/about/contato/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/" alt="" />
+        &lt;hr/&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://jmarcon.github.io/about/julianomarcon/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/" alt="" />
+        &lt;p&gt;Profissional com grande experiência na area de projetos e desenvolvimento de software. Habilidade em liderar e motivar equipes. Conhecimento em diversas metodologias de gerenciamento de projetos. Pessoa dinâmica e comunicativa.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

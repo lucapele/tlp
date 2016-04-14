@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackatons on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/hackatons/</link>
+    <description>RSS in Hackatons on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Sat, 19 Mar 2016 17:18:14 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/hackatons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TI Bimodal : Uma questão de respeito</title>
+      <link>https://jmarcon.github.io/post/TI-Bimodal-uma-questao-de-respeito/</link>
+      <pubDate>Sat, 19 Mar 2016 17:18:14 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/TI-Bimodal-uma-questao-de-respeito/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
+        &lt;p&gt;Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.&lt;/p&gt;
+
+&lt;p&gt;A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.&lt;/p&gt;
+
+&lt;p&gt;O Gartner define como:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A TI Bimodal é a prática de gerenciar separadamente dois modos coerentes de entrega de TI, um focado na estabilidade e outro focado na agilidade. &lt;strong&gt;O Modo1&lt;/strong&gt; é tradicional e sequencial enfatizando a segurança e a precisão. &lt;strong&gt;O Modo2&lt;/strong&gt; é exploratório e não linear pensando sempre em velocidade e agilidade.
+&lt;div class=&#34;reference&#34;&gt;&lt;a href=&#34;http://http://www.gartner.com/it-glossary/bimodal/&#34;&gt;Gartner&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;As grandes companhias estão aplicando o modelo ou estão seriamente inclinadas a tentar o modelo bimodal. Arrisco afirmar que esse modelo acaba sendo aplicado naturalmente e implicitamente ao iniciar o processo de contratação de pessoas com a cultura de agilidade e as inserindo dentro dos ambientes corporativos.&lt;/p&gt;
+
+&lt;p&gt;O desafio neste modelo não está seriamente em coexistir os processos e projetos nos dois modelos. O grande risco a ser gerenciado na aplicação de uma estratégia bimodal é tratar o conflito cultural entre os dois mundos.&lt;/p&gt;
+
+&lt;p&gt;As pessoas que estão investindo seu tempo e esforços em crescer dentro do Modo2 focando em inovação, exploração, velocidade e agilidade se vêem com a responsabilidade e cobrança em dar uma nova visão da empresa para o mercado de forma extremamente rápida, ou seja, ciclos de entregas rápidas e constantes.&lt;/p&gt;
+
+&lt;p&gt;Os profissionais que têm seu foco no Modo1 sempre preocupados com um processo seguro, alta qualidade e precisão das mudanças aplicadas sempre garantindo que a empresa esteja 100% disponível a seus clientes possuem ciclos mais longos de entrega.&lt;/p&gt;
+
+&lt;p&gt;Quando existe a interação entre os dois modelos é que as coisas complicam. Os objetivos dos profissionais são, em muitas vezes, excludentes. E, principalmente, as cobranças de metas e resultados também ocorrem de forma diferente.&lt;/p&gt;
+
+&lt;p&gt;Gerir o conflito de interesses é o principal desafio dentro do modelo bimodal e a forma de lidar com essas diferenças não deve ser através da separação das demandas e sim pelo respeito entre os times.&lt;/p&gt;
+
+&lt;p&gt;A movimentação para um modelo de inovação com equipes separadas pode aparentar uma preferência da empresa pela inovação diante da operação. Isso pode causar um impacto negativo nas pessoas que trabalham melhor no Modo1 e que escolheram se dedicar a isso.&lt;/p&gt;
+
+&lt;p&gt;Em algumas situações, as equipes mais ágeis do Modo2 podem ficar indignadas com a cadência mais lenta de entregas do Modo1 e acabam por forçar a evolução através do desrespeito dos limites entre os Modos de trabalho.&lt;/p&gt;
+
+&lt;p&gt;Quando uma oportunidade de mudança de um processo de um produto aparece diante das equipes no Modo1 parecendo algo simples e a equipe do Modo2 avalia as mudanças nos diversos processos que esta oportunidade pode causar e que os impactos nos sistemas podem levar a um ciclo mais longo de entrega. O sentimento de incapacidade de mudança do time do Modo1 aparece rapidamente.&lt;/p&gt;
+
+&lt;p&gt;Equipes do Modo1 devem ter autonomia para fazer as experimentações necessárias para encontrar novas formas e produtos, mas é de extrema importância que essa mesma equipe &lt;strong&gt;respeite&lt;/strong&gt; a autonomia e&lt;/p&gt;
+
+&lt;p&gt;Ambas as partes devem respeitar seus pares em relação a evolução tecnológica da empresa e trabalharem juntos para construir um modelo de trabalho onde a negociação entre os times resulte em uma sincronização dos ciclos de entrega garantindo evolução contínua com grandes lançamentos em ciclos mais longos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../../../images/post/bimodal.png&#34; class=&#34;img-responsive&#34; alt=&#34;Bimodal IT cycles&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;É essencial que os times do Modo2 se preparem para um mundo de &lt;a href=&#34;https://pt.wikipedia.org/wiki/Internet_das_Coisas&#34;&gt;objetos conectados na internet&lt;/a&gt; a todo momento, a &lt;a href=&#34;https://en.wikipedia.org/wiki/Social_media_measurement&#34;&gt;monitoração da interação social&lt;/a&gt; de seu cliente diante da marca, disponibilização de produtos e serviços em canais que nem mesmo existem atualmente, identificação e segurança do usuário no mundo digital, computação em nuvem e os possíveis concorrentes que esses modelos podem trazer (&lt;a href=&#34;https://pt.wikipedia.org/wiki/Software_como_serviço&#34;&gt;SaaS&lt;/a&gt; e &lt;a href=&#34;https://pt.wikipedia.org/wiki/Plataforma_como_serviço&#34;&gt;PaaS&lt;/a&gt;), etc.&lt;/p&gt;
+
+&lt;p&gt;São diversas coisas que não necessariamente impactam a disponibilização dos serviços essenciais da empresa e que podem dar visibilidade e velocidade para as empresas dentro dos cenários digitais do futuro.&lt;/p&gt;
+
+&lt;p&gt;E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Benefícios de Hackatons e DoJos internos</title>
+      <link>https://jmarcon.github.io/post/beneficios-de-hackatons-dojos-internos/</link>
+      <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/beneficios-de-hackatons-dojos-internos/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
+        
+
+&lt;p&gt;Grandes empresas executam DoJos ou Hackatons sobre desenvolvimento para
+identificar equipes e profissionais de alto nível para oferecer uma nova
+oportunidade de participar de algo maior. Muitas vezes, a mesma empresa ignora
+os benefícios de manter eventos como esse dentro da corporação.&lt;/p&gt;
+
+&lt;h3 id=&#34;pagar-as-promessas-de-eleição:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;Pagar as promessas de eleição&lt;/h3&gt;
+
+&lt;p&gt;Quando o objetivo dos eventos externos é alcançado, a empresa consegue contratar
+ótimos profissionais e agregar valor com novas tecnologias. No entanto, quando
+esses profissionais passam a fazer parte do dia a dia da corporação, percebem
+que a diversão do evento não faz parte das atividades e que aquilo era apenas
+uma promessa de eleição.&lt;/p&gt;
+
+&lt;p&gt;Executar eventos internamente demonstra consistência e continuidade nos valores
+e que a empresa não apenas quer apenas &lt;strong&gt;parecer&lt;/strong&gt; cool, como isso é parte
+integrante da cultura organizacional.&lt;/p&gt;
+
+&lt;h3 id=&#34;reconhecimento-do-conhecimento:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;Reconhecimento do conhecimento&lt;/h3&gt;
+
+&lt;p&gt;Colocar as melhores mentes técnicas para liderar reuniões como essa é parte do
+reconhecimento por sua evolução e conhecimento. As premiações de hackatons,
+apesar de serem muitas vezes simbólicas, demonstram o quanto a empresa dá valor
+ao conhecimento técnico e que a instituição entende o setor de desenvolvimento
+de software como algo importante para o futuro e não apenas um commodity.&lt;/p&gt;
+
+&lt;h3 id=&#34;motivação-para-inovação:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;Motivação para inovação&lt;/h3&gt;
+
+&lt;p&gt;O cotidiano das pessoas dentro das empresas é algo cheio de responsabilidades e
+dificilmente sobra tempo para inovar.&lt;/p&gt;
+
+&lt;p&gt;Eventos como hackatons separam tempo para que os funcionários possam pensar
+&lt;em&gt;fora da caixa&lt;/em&gt;, exercitar soluções diferentes para os mesmos problemas, criar
+algo novo com conhecimento do todo e discutir sobre o que é mais produtivo para
+a empresa.&lt;/p&gt;
+
+&lt;p&gt;O evento se torna um investimento em soluções mais rápidas no futuro.&lt;/p&gt;
+
+&lt;h3 id=&#34;diversão-produtiva:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;Diversão produtiva&lt;/h3&gt;
+
+&lt;p&gt;Lógico que estes eventos tem como um dos pilares o divertimento. Mas ao final,
+algo de concreto é apresentado e possivelmente poderá ser aproveitado como o
+início de um novo produto ou, com poucas adaptações, um novo recurso pronto para
+ser disponibilizado para seus clientes.&lt;/p&gt;
+
+&lt;h3 id=&#34;juntos-somos-mais:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;Juntos somos mais&lt;/h3&gt;
+
+&lt;p&gt;Compartilhar um tempo divertido com pessoas com objetivos parecidos vai trazer
+uma integração maior entre times e melhorar o clima organizacional. Não será
+difícil perceber que as principais mudanças de comportamento das pessoas vão
+ocorrer após estes eventos.&lt;/p&gt;
+
+&lt;p&gt;Eventos devem, inclusive, promover a integração entre pessoas de times
+ferentes.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-prática-leva-a-perfeição:ef6b01917f022ea73d9f43ea7ad318f2&#34;&gt;A prática leva a perfeição&lt;/h3&gt;
+
+&lt;p&gt;Por último e não menos importante, a manutenção de eventos como DoJos de
+programação faz com que o compartilhamento do conhecimento gere a evolução do
+padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
+qualidade do código e boas praticas de desenvolvimento e, por consequência, o
+aumento da qualidade dos projetos entregues.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

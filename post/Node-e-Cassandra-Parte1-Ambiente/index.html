@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    
+    <script type="text/javascript">
+      var enforce = "jmarcon.github.io";
+      if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Node e Cassandra - Parte 1 : Ambiente">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content=" 2016-03-20">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/">
+    <meta property="og:site_name" content="Juliano Marcon">
+    
+    <meta property="og:tags" content="Node">
+    
+    <meta property="og:tags" content="Cassandra">
+    
+    <meta property="og:tags" content="Docker">
+    
+    <meta property="og:tags" content="Infraestrutura">
+    
+    <meta name="generator" content="Hugo 0.15" />
+    <title>Node e Cassandra - Parte 1 : Ambiente
+      &middot;
+      Juliano Marcon</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/hybrid.min.css">
+    
+    <link rel="stylesheet" href="https://jmarcon.github.io/css/style.css">
+
+    
+
+    
+    
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://jmarcon.github.io/">JULIANO MARCON</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a></li>
+				
+					<li><a href="https://jmarcon.github.io/post/">Blog</a></li>
+				
+					<li><a href="https://jmarcon.github.io/about/contato">Contato</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://jmarcon.github.io/">JULIANO MARCON</a></h1>
+		
+
+		
+			<small class="text-center center-block">SOLUÇÕES EM PRIMEIRO LUGAR</small>
+		
+
+		
+			
+      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANFAAAAJDVkYWU4ZjhkLTQzNmItNDNhMS1hMjEzLTA5YmUzNzgyMzAyOQ.jpg" alt="My Picture" class="img-circle center-block">
+		
+		
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a>
+			
+				<a href="https://jmarcon.github.io/post/">Blog</a>
+			
+				<a href="https://jmarcon.github.io/about/contato">Contato</a>
+			
+		</div>
+    <div class="addthis_horizontal_follow_toolbox text-center"></div>
+    
+
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+
+<main>
+	<header>
+      <h1>Node e Cassandra - Parte 1 : Ambiente</h1>
+	</header>
+
+	<article>
+        <img src="https://jmarcon.github.io//images/post/docker.png" alt=""
+        class="img-responsive"
+        style="width: 100%; padding-bottom:20px; "/>
+
+    
+
+<p>Este é o primeiro de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
+
+<p>Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
+<a href="https://www.mongodb.org">MongoDB</a>. Mas o Cassandra pode ser uma alternativa para
+alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
+leitura.</p>
+
+<h3 id="instalando-o-ambiente:70c19a891c2bb5f982203ccd3712f66e">Instalando o ambiente.</h3>
+
+<p>Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
+para adaptar o que vamos ter aqui para outros sistemas.</p>
+
+<p>Para abstrair um pouco vamos utilizar o <a href="http://www.docker.com">Docker</a> e deixar
+um pouco mais automático com o recurso &ldquo;docker-compose&rdquo;.</p>
+
+<p>No OSX e no Windows, o pessoal do Docker adquiriu o
+<a href="https://www.kitematic.com">Kitematic</a> que após instalado vai lhe fornecer
+todos os requisitos necessários para criar nosso ambiente.</p>
+
+<h4 id="preparando-os-arquivos:70c19a891c2bb5f982203ccd3712f66e">Preparando os arquivos</h4>
+
+<p>Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
+nesse projeto.</p>
+
+<p>Crie a seguinte extrutura na sua maquina:</p>
+
+<pre><code class="language-javascript">[cassandra_docker]
+  [cassandra]
+  [node]
+    [api]
+</code></pre>
+
+<h4 id="criando-a-maquina-do-cassandra:70c19a891c2bb5f982203ccd3712f66e">Criando a maquina do Cassandra</h4>
+
+<p>Dentro da pasta do cassandra vamos criar o arquivo de nome <strong>Dockerfile</strong> que vai
+informar ao docker como criar a maquina.</p>
+
+<pre><code class="language-ruby"># Partir do docker inicial do cassandra no DockerHub
+FROM cassandra:latest
+</code></pre>
+
+<p>Bem simples!</p>
+
+<h4 id="criando-a-maquina-do-nodejs:70c19a891c2bb5f982203ccd3712f66e">Criando a maquina do NodeJS</h4>
+
+<p>Dentro da pasta node crie mais um arquivo com o node de <strong>Dockerfile</strong> para
+configurar o docker que vai rodar o node.</p>
+
+<pre><code class="language-ruby"># Partir do docker inicial do node do DockerHub
+FROM node:latest
+
+# Criar a pasta onde a aplicação vai rodar
+RUN mkdir /api
+
+# Definir a pasta criada como a pasta de trabalho
+WORKDIR /api
+
+# Executar a instalação das dependecias
+ENTRYPOINT [&quot;/bin/bash&quot;, &quot;start.sh&quot;]
+</code></pre>
+
+<p>Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
+deixar algo preparado aqui.</p>
+
+<h4 id="configurando-a-composição:70c19a891c2bb5f982203ccd3712f66e">Configurando a composição</h4>
+
+<p>Crie na pasta raiz (cassandra_docker) um arquivo com o nome &ldquo;docker-compose.yml&rdquo;
+que vai receber a configuração detalhada de como o dockers vão ser criados e
+como eles vão se conectar.</p>
+
+<pre><code class="language-ruby">cassandra:
+  build: ./cassandra
+  expose:
+    - &quot;27017&quot;
+  ports:
+  - &quot;7199:7199&quot;
+  - &quot;7000:7000&quot;
+  - &quot;7001:7001&quot;
+  - &quot;9160:9160&quot;
+  - &quot;9042:9042&quot;
+
+nodejs:
+  build: ./node
+  volumes:
+    - &quot;./node/api:/api&quot;
+  expose:
+    - &quot;3000&quot;
+  ports:
+    - &quot;3000:3000&quot;
+  links:
+    - &quot;cassandra:cassandra&quot;
+</code></pre>
+
+<h3 id="iniciando-as-maquinas:70c19a891c2bb5f982203ccd3712f66e">Iniciando as maquinas</h3>
+
+<p>Execute o comando abaixo e aguarde a maquina do cassandra subir:</p>
+
+<pre><code class="language-bash">docker-compose up -d cassandra
+</code></pre>
+
+<p>É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
+cassandra estará rodando e estará acessivel pelo endereço 192.168.99.100:27017 se
+quiser utilizar uma GUI para acessar o banco.</p>
+
+<blockquote>
+<p>O IP <strong><em>192.168.99.100</em></strong> é atribuído para a maquina virtual (virtualbox) criada como
+docker-machine pelo Kitematic.</p>
+</blockquote>
+
+	</article>
+  <br/>
+  <footer>
+    <small>
+          Publicado em: 20 de Março de 2016
+          por <b>Juliano Marcon</b>
+    </small>
+    <br/>
+    <div class="addthis_sharing_toolbox"></div>
+  </footer>
+</main>
+
+
+
+      <hr/>
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'jmarcon';
+    var disqus_identifier = 'https:\/\/jmarcon.github.io\/post\/Node-e-Cassandra-Parte1-Ambiente\/';
+    var disqus_title = 'Node e Cassandra - Parte 1 : Ambiente';
+    var disqus_url = 'https:\/\/jmarcon.github.io\/post\/Node-e-Cassandra-Parte1-Ambiente\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+<hr/>
+<div class="text-center">
+  mais
+</div>
+<div class="row">
+  <div class="col-md-6 text-right ">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/TI-Bimodal-uma-questao-de-respeito/"> TI Bimodal : Uma questão de respeito <i class="fa fa-backward"></i> </a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/"> <i class="fa fa-forward"></i> Node e Cassandra - Parte 2 : O mínimo do cassandra </a>
+  </div>
+</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63413033-3', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/jmarcon.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+  
+  <script src="https://jmarcon.github.io//js/App.js"></script>
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f54ac57e5950e1"></script>
+</body>
+</html>
+

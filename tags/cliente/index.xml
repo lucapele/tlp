@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cliente on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/cliente/</link>
+    <description>RSS in Cliente on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Wed, 16 Mar 2016 15:42:00 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/cliente/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Guerra das linguagens</title>
+      <link>https://jmarcon.github.io/post/guerra-das-linguagens/</link>
+      <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/guerra-das-linguagens/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
+        
+
+&lt;p&gt;Praticamente todos os dias vejo pessoas se degladiando sobre qual linguagem
+preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
+tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
+evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
+quando se trata de um time de desenvolvimento.&lt;/p&gt;
+
+&lt;h3 id=&#34;vantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Vantagens&lt;/h3&gt;
+
+&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+
+&lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
+cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
+comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
+
+&lt;p&gt;Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Falar é uma necessidade, escutar é uma arte
+&lt;div class=&#34;reference&#34;&gt;Johann Goethe&lt;/div&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;desvantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Desvantagens&lt;/h3&gt;
+
+&lt;h4 id=&#34;solução-em-segundo-plano:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+
+&lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
+problema ou identificar se suas vantagens são parte dos requisitos da solução
+que está sendo avaliada.&lt;/p&gt;
+
+&lt;p&gt;O time sempre tem que ter o foco de entregar um
+software com qualidade, ou seja, a solução é mais importante que os gostos
+pessoais envolvidos na solução.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;impactos-no-relacionamento-do-time:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+
+&lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
+concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
+ânimos se exaltam quando alguém percebe que, por algum motivo, o outro está
+vencendo a disputa ou que seus argumentos não serão suficientes para convencer
+a maior parte da equipe.&lt;/p&gt;
+
+&lt;p&gt;O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
+das hipóteses, o lado mais fraco ficará inibido em argumentar em um outro
+momento ou ficará desestimulado em participar ativamente de definições futuras.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;olhos-fechados-para-o-novo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+
+&lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
+vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
+adquiriram adeptos fortes. Isso só corrobora com a visão de que estas discussões
+não geram um resultado final.&lt;/p&gt;
+
+&lt;p&gt;O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
+nascendo e morrendo em todas as linguagens de programação. Cada uma tentando
+resolver um problema.&lt;/p&gt;
+
+&lt;p&gt;Não é dificil entender que fixar a visão sobre a perspectiva técnica não vai
+fomentar que as pessoas procurem por novas soluções para resolver os requisitos
+do cliente e da solução.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
+suas mentes não conseguem mudar nada.
+&lt;div class=&#34;reference&#34;&gt;George Bernard Shaw&lt;/div&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;débito-técnico-antes-do-começo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+
+&lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
+sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
+desenvolvimento vai iniciar já com débitos técnicos referentes à solução e é
+ainda mais crítico quando percebemos que uma escolha equivocada no início vai
+gerar grandes retrabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusão:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;Ter uma opnião sobre uma tecnologia é algo de extrema importância para todo
+profissional envolvido com o desenvolvimento de soluções mas, tão importante
+quanto, é entender que os conceitos ágeis também se aplicam nesse momento e que
+ter a mente aberta ao diferente é essencial para entregar software com
+qualidade.&lt;/p&gt;
+
+&lt;p&gt;Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
+com a mesma &amp;ldquo;base&amp;rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
+time vai existir muito mais trabalho para implantar uma cultura ágil do que o
+contrário (contratar um pensamento ágil e permitir que os bons técnicos evoluam
+em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;quem-ganha-a-guerra:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+
+&lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
+
+&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:e2e03f82989894836cfdf3ba3d474301&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

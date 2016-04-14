@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/categories/node/</link>
+    <description>RSS in Node on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Tue, 22 Mar 2016 17:19:31 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/categories/node/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
+      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</link>
+      <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
+        &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
+&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
+base de dados que usaremos no cassandra.&lt;/p&gt;
+
+&lt;p&gt;Então vamos criar a aplicação dentro da pasta&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;cassandra_node &amp;gt; node &amp;gt; api&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vamos criar nosso arquivo &lt;strong&gt;package.json&lt;/strong&gt; que definirá nossa aplicação e suas
+dependências com o seguinte conteúdo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;{
+  &amp;quot;name&amp;quot; : &amp;quot;node-api-demo&amp;quot;,
+  &amp;quot;main&amp;quot; : &amp;quot;server.js&amp;quot;,
+  &amp;quot;dependencies&amp;quot; : {
+    &amp;quot;express&amp;quot; : &amp;quot;~4.9.0&amp;quot;,
+    &amp;quot;body-parser&amp;quot; : &amp;quot;~1.8.1&amp;quot;,
+    &amp;quot;async&amp;quot; : &amp;quot;1.5.2&amp;quot;,
+    &amp;quot;cassandra-driver&amp;quot; : &amp;quot;~3.0.1&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Inicie um arquivo &lt;strong&gt;server.js&lt;/strong&gt; e insira o conteúdo abaixo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var cassandra  = require(&#39;cassandra-driver&#39;);
+var express    = require(&#39;express&#39;);
+var app        = express();
+var bodyParser = require(&#39;body-parser&#39;);
+
+// Configurar o App para usar o body-parser
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+// Definindo a porta padrão (Lembre do docker-compose.yml)
+var port = process.env.PORT || 3000;
+
+// Criando nosso cliente de conexão.
+var client = new cassandra.Client({
+  contactPoints: [&#39;192.168.99.100&#39;],
+  keyspace: &#39;demo&#39;
+});
+
+// Conectando no banco de dados
+client.connect(function(err) {
+  console.log(err);
+});
+
+
+// Definindo a rotas para nossa API
+var router = express.Router();
+
+router.get(&#39;/&#39;, function(req, res) {
+  res.json({ message: &#39;Wohooo!!! Bem vindo a nossa API&#39; });
+});
+
+router.post(&#39;/login&#39;, function(req, res) {
+  var email = req.body.email;
+  var pass = req.body.password;
+
+  client.execute(
+    &amp;quot;SELECT email, password FROM users &amp;quot; +
+    &amp;quot;WHERE email = &#39;&amp;quot; + email + &amp;quot;&#39;&amp;quot;,
+    function(err, result) {
+      if (err)
+        res.send(err);
+
+      var user = result.rows[0];
+      if (user == null) {
+        res.json({ message: &#39;Usuario ou senha invalidos &#39; });
+      }
+      else if (user.password != pass) {
+        //Se tentar executar um WHERE diretamente no Cassandra ele apresentará
+        //um erro. Não criamos um índice para a coluna password.
+        res.json({ message: &#39;Usuario ou senha invalidos &#39; });
+      }
+      else {
+        res.json({ message: user.email });
+      }
+    });
+});
+
+router.post(&#39;/register&#39;, function(req, res) {
+  var email = req.body.email;
+  var pass = req.body.password;
+  var params = [email, pass];
+
+  client.execute(
+    &amp;quot;INSERT INTO users (email, password) values (?, ?)&amp;quot;, params, function(err) {
+      if (err)
+        res.send(err);
+
+      res.json({ message: &amp;quot;Cadastrado com sucesso!&amp;quot; });
+    }
+  );
+});
+
+router.get(&#39;/first&#39;, function(req, res) {
+  client.execute(
+    &amp;quot;SELECT email, password FROM users LIMIT 1&amp;quot;,
+    function(err, result) {
+      if (err)
+        res.send(err);
+
+      var user = result.rows[0];
+      if (user == null) {
+        res.json({ message: &#39;Nenhum encontrado &#39; });
+      } else {
+        res.json({ message: user.email });
+      }
+    });
+});
+
+//Registrar nossas rotas com um prefixo api
+app.use(&#39;/api&#39;, router);
+
+
+//Iniciando o servidor
+app.listen(port);
+
+console.log(&#39;A Magica acontece na porta &#39; + port);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para que a aplicação node seja iniciada, vamos criar o arquivo &lt;strong&gt;start.sh&lt;/strong&gt; na pasta
+api (junto com o &lt;em&gt;server.js&lt;/em&gt;) com o conteúdo abaixo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!\bin\bash
+
+#Instalar as dependências
+npm install
+
+#Iniciar a aplicação pelo packages.json
+npm start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Assim, vamos iniciar também nossa maquina docker com o comando:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d nodejs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Utilize um utilitario como o &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; ou o
+&lt;a href=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; para fazer chamadas na sua API nos
+endereços:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/&#34;&gt;http://192.168.99.100:3000/api/&lt;/a&gt; (GET)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/first&#34;&gt;http://192.168.99.100:3000/api/first&lt;/a&gt; (GET)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/register&#34;&gt;http://192.168.99.100:3000/api/register&lt;/a&gt; (POST)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
+      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</link>
+      <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
+        &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
+&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
+benchmarks encontrados na internet para que você possa tomar a decisão.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.planetcassandra.org/nosql-performance-benchmarks/&#34;&gt;Planet Cassandra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems&#34;&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html&#34;&gt;JaxEnter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Neste momento, vamos preparar nossa base para receber os dados de nossa api. Para
+nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
+em uma autenticação simples.&lt;/p&gt;
+
+&lt;p&gt;Com o Docker do Cassandra rodando como descrito no
+&lt;a href=&#34;../Node-e-Cassandra-Parte1-Ambiente&#34;&gt;artigo anterior&lt;/a&gt;, vamos agora nos conectar
+na base de dados.&lt;/p&gt;
+
+&lt;p&gt;Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
+maquina docker temporaria, execute o comando abaixo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c &#39;exec cqlsh &amp;quot;$CASSANDRA_PORT_9042_TCP_ADDR&amp;quot;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;O termo  &lt;strong&gt;cassandranode_cassandra_1&lt;/strong&gt; encontrado no comando acima se refere
+ao nome do Docker que esta rodando o cassandra no Kitematic.&lt;/p&gt;
+
+&lt;p&gt;Desta forma, deve ver o prompt do cassandra rodando no terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
+se fosse o Schema do banco de dados. É nesse espaço que criaremos nossa tabela
+depois.&lt;/p&gt;
+
+&lt;p&gt;Vamos criar o Keyspace:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; CREATE KEYSPACE demo
+   ... WITH REPLICATION = {
+   ... &#39;class&#39; : &#39;SimpleStrategy&#39;,
+   ... &#39;replication_factor&#39; : 1
+   ... };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Os parametros passados para replicação não serão tratados aqui.&lt;/p&gt;
+
+&lt;p&gt;Verifique se o Keyspace foi criado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; DESC KEYSPACES;
+
+demo   system_schema   system_auth   ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Defina o Keyspace que vamos trabalhar agora.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; USE demo;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E crie nossa tabela&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; CREATE TABLE users (
+        ... email text,
+        ... password text,
+        ... PRIMARY KEY (email)
+        ... );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Criamos nossa tabela, para ver que tudo esta no banco execute o comando:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; DESC SCHEMA;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
+que será finalizado no próximo artigo.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Node e Cassandra - Parte 1 : Ambiente</title>
+      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</link>
+      <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</guid>
+      <description>
+        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
+        
+
+&lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
+&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
+&lt;a href=&#34;https://www.mongodb.org&#34;&gt;MongoDB&lt;/a&gt;. Mas o Cassandra pode ser uma alternativa para
+alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
+leitura.&lt;/p&gt;
+
+&lt;h3 id=&#34;instalando-o-ambiente:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
+
+&lt;p&gt;Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
+para adaptar o que vamos ter aqui para outros sistemas.&lt;/p&gt;
+
+&lt;p&gt;Para abstrair um pouco vamos utilizar o &lt;a href=&#34;http://www.docker.com&#34;&gt;Docker&lt;/a&gt; e deixar
+um pouco mais automático com o recurso &amp;ldquo;docker-compose&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;No OSX e no Windows, o pessoal do Docker adquiriu o
+&lt;a href=&#34;https://www.kitematic.com&#34;&gt;Kitematic&lt;/a&gt; que após instalado vai lhe fornecer
+todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
+
+&lt;h4 id=&#34;preparando-os-arquivos:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Preparando os arquivos&lt;/h4&gt;
+
+&lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
+nesse projeto.&lt;/p&gt;
+
+&lt;p&gt;Crie a seguinte extrutura na sua maquina:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;[cassandra_docker]
+  [cassandra]
+  [node]
+    [api]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;criando-a-maquina-do-cassandra:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
+
+&lt;p&gt;Dentro da pasta do cassandra vamos criar o arquivo de nome &lt;strong&gt;Dockerfile&lt;/strong&gt; que vai
+informar ao docker como criar a maquina.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do cassandra no DockerHub
+FROM cassandra:latest
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Bem simples!&lt;/p&gt;
+
+&lt;h4 id=&#34;criando-a-maquina-do-nodejs:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
+
+&lt;p&gt;Dentro da pasta node crie mais um arquivo com o node de &lt;strong&gt;Dockerfile&lt;/strong&gt; para
+configurar o docker que vai rodar o node.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do node do DockerHub
+FROM node:latest
+
+# Criar a pasta onde a aplicação vai rodar
+RUN mkdir /api
+
+# Definir a pasta criada como a pasta de trabalho
+WORKDIR /api
+
+# Executar a instalação das dependecias
+ENTRYPOINT [&amp;quot;/bin/bash&amp;quot;, &amp;quot;start.sh&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
+deixar algo preparado aqui.&lt;/p&gt;
+
+&lt;h4 id=&#34;configurando-a-composição:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Configurando a composição&lt;/h4&gt;
+
+&lt;p&gt;Crie na pasta raiz (cassandra_docker) um arquivo com o nome &amp;ldquo;docker-compose.yml&amp;rdquo;
+que vai receber a configuração detalhada de como o dockers vão ser criados e
+como eles vão se conectar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;cassandra:
+  build: ./cassandra
+  expose:
+    - &amp;quot;27017&amp;quot;
+  ports:
+  - &amp;quot;7199:7199&amp;quot;
+  - &amp;quot;7000:7000&amp;quot;
+  - &amp;quot;7001:7001&amp;quot;
+  - &amp;quot;9160:9160&amp;quot;
+  - &amp;quot;9042:9042&amp;quot;
+
+nodejs:
+  build: ./node
+  volumes:
+    - &amp;quot;./node/api:/api&amp;quot;
+  expose:
+    - &amp;quot;3000&amp;quot;
+  ports:
+    - &amp;quot;3000:3000&amp;quot;
+  links:
+    - &amp;quot;cassandra:cassandra&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;iniciando-as-maquinas:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
+
+&lt;p&gt;Execute o comando abaixo e aguarde a maquina do cassandra subir:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d cassandra
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
+cassandra estará rodando e estará acessivel pelo endereço 192.168.99.100:27017 se
+quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;O IP &lt;strong&gt;&lt;em&gt;192.168.99.100&lt;/em&gt;&lt;/strong&gt; é atribuído para a maquina virtual (virtualbox) criada como
+docker-machine pelo Kitematic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
