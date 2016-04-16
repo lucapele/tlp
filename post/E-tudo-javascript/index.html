@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    
+    <script type="text/javascript">
+      var enforce = "jmarcon.github.io";
+      if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="É tudo JavaScript">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content=" 2016-04-16">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://jmarcon.github.io/post/E-tudo-javascript/">
+    <meta property="og:site_name" content="Juliano Marcon">
+    
+    <meta property="og:tags" content="Cliente">
+    
+    <meta property="og:tags" content="Gestão">
+    
+    <meta name="generator" content="Hugo 0.15" />
+    <title>É tudo JavaScript
+      &middot;
+      Juliano Marcon</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://jmarcon.github.io/css/style.css">
+
+    
+
+    
+    
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://jmarcon.github.io/">JULIANO MARCON</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a></li>
+				
+					<li><a href="https://jmarcon.github.io/post/">Blog</a></li>
+				
+					<li><a href="https://jmarcon.github.io/about/contato">Contato</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://jmarcon.github.io/">JULIANO MARCON</a></h1>
+		
+
+		
+			<small class="text-center center-block">SOLUÇÕES EM PRIMEIRO LUGAR</small>
+		
+
+		
+			
+      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANFAAAAJDVkYWU4ZjhkLTQzNmItNDNhMS1hMjEzLTA5YmUzNzgyMzAyOQ.jpg" alt="My Picture" class="img-circle center-block">
+		
+		
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a>
+			
+				<a href="https://jmarcon.github.io/post/">Blog</a>
+			
+				<a href="https://jmarcon.github.io/about/contato">Contato</a>
+			
+		</div>
+    <div class="addthis_horizontal_follow_toolbox text-center"></div>
+    
+
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+
+<main>
+	<header>
+      <h1>É tudo JavaScript</h1>
+	</header>
+
+	<article>
+        <img src="https://jmarcon.github.io//images/post/meanjs.png" alt=""
+        class="img-responsive"
+        style="width: 100%; padding-bottom:20px; "/>
+
+    
+
+<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
+tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
+se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear
+todo o ambiente em uma única linguagem.</p>
+
+<p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
+<a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
+que foque primeiro nas tecnologias em separado:</p>
+
+<ul>
+<li><a href="https://www.mongodb.org"><strong>M</strong>ongo</a></li>
+<li><a href="http://www.expressjs.com"><strong>E</strong>xpress</a></li>
+<li><a href="https://www.angularjs.org"><strong>A</strong>ngular</a></li>
+<li><a href="https://www.nodejs.org"><strong>N</strong>ode</a></li>
+</ul>
+
+<p>Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
+esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
+para apoiar sua escolha.</p>
+
+<h3 id="vantagens:6ab6f73ffb6bdcb82ecbc2adb6f80588">Vantagens</h3>
+
+<h4 id="a-linguagem-é-sempre-a-mesma:6ab6f73ffb6bdcb82ecbc2adb6f80588">A linguagem é sempre a mesma</h4>
+
+<p>Ter um ambiente onde todos os sistemas falam a mesma lingua ajuda que as pessoas
+consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
+rotina da melhor forma.</p>
+
+<p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
+o code-review de outros mais facilmente, mais e mais pessoas terão a capacidade de
+avaliar se o que está sendo produzido é feito da melhor forma.</p>
+
+<h4 id="curva-de-aprendizagem:6ab6f73ffb6bdcb82ecbc2adb6f80588">Curva de aprendizagem</h4>
+
+<p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
+evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
+
+<p>A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
+de cursos e treinamentos estão disponíveis para apoiar a evolução de um time em
+formação.</p>
+
+<h4 id="a-linguagem-é-bem-difundida:6ab6f73ffb6bdcb82ecbc2adb6f80588">A linguagem é bem difundida</h4>
+
+<p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provavel que
+exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
+momento de montar um time de desenvolvedores.</p>
+
+<p>Contratar novos profissionais quando o produto evoluir e crescer pode ser um
+desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
+de recrutamento captar pessoas para o time em crescimento.</p>
+
+<h4 id="existe-muita-coisa-pronta:6ab6f73ffb6bdcb82ecbc2adb6f80588">Existe muita coisa pronta</h4>
+
+<p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
+repositórios na internet aumenta significativamente a cada dia. Isso pode significar
+um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.</p>
+
+<p>O uso de repositórios como o <a href="https://www.npmjs.com">NPM</a> torna simples utilizar novos
+módulos nas aplicações.</p>
+
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/js_back_front_joke.jpg" alt="Tudo javascript" 
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
+
+<h3 id="desvantagens:6ab6f73ffb6bdcb82ecbc2adb6f80588">Desvantagens</h3>
+
+<h4 id="a-linguagem-é-sempre-a-mesma-1:6ab6f73ffb6bdcb82ecbc2adb6f80588">A linguagem é sempre a mesma</h4>
+
+<p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
+lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
+pode causar um risco para os projetos.</p>
+
+<p>Afinal, um programador de aplicação &ldquo;front-end&rdquo; tem um foco de pensamento e racioncínio
+diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
+informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
+
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:6ab6f73ffb6bdcb82ecbc2adb6f80588">A linguagem é bem difundida e existe muita coisa pronta</h4>
+
+<p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
+projeto novo.</p>
+
+<p>A facilidade de encontrar conhecimento e modulos prontos gera o risco de contratar
+pessoas que apenas sabem utilizar os recursos prontos e não tem conhecimento para
+desenvolver a solução da melhor forma.</p>
+
+<p>Alguns profissionais criam aplicações &ldquo;do zero&rdquo; que, sem que eles escrevam realmente
+uma linha de código voltada para o produto, possuem mais de 3500 arquivos.</p>
+
+<p>Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
+é polêmico). Segue duas referências interessantes para estudo que podem exemplificar
+bem como isso pode estar afetando a comunidade.</p>
+
+<ul>
+<li><a href="http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/">NPM : Have we forgotten how to program?</a></li>
+<li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
+</ul>
+
+<h4 id="dependência:6ab6f73ffb6bdcb82ecbc2adb6f80588">Dependência</h4>
+
+<p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
+de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
+
+<p>Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
+de determinados recursos e acabam restringindo o uso da tecnologia como um todo.
+Muitas vezes estas restrições são agravadas quando novas versões do framwork são
+lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</p>
+
+<p>A dependência pode ficar ainda mais evidente quando um framework para de ser
+desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
+débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
+
+<h5 id="é-muita-coisa-para-um-único-profissional:6ab6f73ffb6bdcb82ecbc2adb6f80588">É muita coisa para um único profissional</h5>
+
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/MEAN-Stack-Expertise.jpg" alt="Não é pouca coisa" 
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
+
+<h2 id="conclusão:6ab6f73ffb6bdcb82ecbc2adb6f80588">Conclusão</h2>
+
+<p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
+principalmente para profissionais ou empresas que pretendem provar um conceito e que
+após um resultado positivo se preparem para mitigar os riscos e construir não apenas
+uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
+dentro de seus ambientes.</p>
+
+	</article>
+  <br/>
+  <footer>
+    <small>
+          Publicado em: 16 de Abril de 2016
+          por <b>Juliano Marcon</b>
+    </small>
+    <br/>
+    <div class="addthis_sharing_toolbox"></div>
+  </footer>
+</main>
+
+
+
+      <hr/>
+      <div id="disqus_thread"></div>
+      <script>
+          var disqus_config = function () {
+              this.page.url = "https://jmarcon.github.io/post/E-tudo-javascript/";  
+              this.page.identifier = "%C3%A9-tudo-javascript"; 
+          };
+          (function() {  
+              var d = document, s = d.createElement('script');
+              s.src = '//juliano-marcon.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+<hr/>
+<div class="text-center">
+  mais
+</div>
+<div class="row">
+  <div class="col-md-6 text-right ">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/outsourcing-riscos-e-oportunidades/"> Outsourcing: Riscos e Oportunidades <i class="fa fa-backward"></i> </a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn cc-btn-default disabled" href=""> </a>
+  </div>
+</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63413033-3', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/jmarcon.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="https://jmarcon.github.io//js/App.js"></script>
+  <script id="dsq-count-scr" src="//jmarcon.disqus.com/count.js" async></script>
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f54ac57e5950e1"></script>
+</body>
+</html>
+
