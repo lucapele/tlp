@@ -13,10 +13,10 @@
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</link>
+      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</guid>
+      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o

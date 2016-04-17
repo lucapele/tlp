@@ -3,47 +3,52 @@
   
   <url>
     <loc>https://jmarcon.github.io/</loc>
-    <lastmod>2016-04-16T15:42:00-03:00</lastmod>
+    <lastmod>2016-03-12T15:42:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/E-tudo-javascript/</loc>
-    <lastmod>2016-04-16T15:42:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jmarcon.github.io/post/outsourcing-riscos-e-oportunidades/</loc>
+    <loc>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</loc>
     <lastmod>2016-03-12T15:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</loc>
+    <loc>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</loc>
+    <lastmod>2016-04-16T15:42:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</loc>
+    <lastmod>2016-03-12T15:42:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</loc>
     <lastmod>2016-03-22T15:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</loc>
+    <loc>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</loc>
     <lastmod>2016-03-21T15:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</loc>
+    <loc>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</loc>
     <lastmod>2016-03-20T15:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/TI-Bimodal-uma-questao-de-respeito/</loc>
+    <loc>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</loc>
     <lastmod>2016-03-12T19:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/guerra-das-linguagens/</loc>
+    <loc>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</loc>
     <lastmod>2016-03-16T15:42:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/beneficios-de-hackatons-dojos-internos/</loc>
+    <loc>https://jmarcon.github.io/post/20160312-beneficios-de-hackatons-dojos-internos/</loc>
     <lastmod>2016-03-12T15:42:00-03:00</lastmod>
   </url>
   
@@ -53,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://jmarcon.github.io/post/qual-seu-lado-da-forca/</loc>
+    <loc>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forc%CC%A7a/</loc>
     <lastmod>2016-03-03T00:19:25-03:00</lastmod>
   </url>
   

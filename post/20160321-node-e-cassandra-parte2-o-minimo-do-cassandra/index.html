@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    
+    <script type="text/javascript">
+      var enforce = "jmarcon.github.io";
+      if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Node e Cassandra - Parte 2 : O mínimo do cassandra">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content=" 2016-03-21">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/">
+    <meta property="og:site_name" content="Juliano Marcon">
+    
+    <meta property="og:tags" content="Node">
+    
+    <meta property="og:tags" content="Cassandra">
+    
+    <meta property="og:tags" content="NoSQL">
+    
+    <meta name="generator" content="Hugo 0.15" />
+    <title>Node e Cassandra - Parte 2 : O mínimo do cassandra
+      &middot;
+      Juliano Marcon</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/hybrid.min.css">
+    
+    <link rel="stylesheet" href="https://jmarcon.github.io/css/style.css">
+
+    
+
+    
+    
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://jmarcon.github.io/">JULIANO MARCON</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a></li>
+				
+					<li><a href="https://jmarcon.github.io/post/">Blog</a></li>
+				
+					<li><a href="https://jmarcon.github.io/about/contato">Contato</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://jmarcon.github.io/">JULIANO MARCON</a></h1>
+		
+
+		
+			<small class="text-center center-block">SOLUÇÕES EM PRIMEIRO LUGAR</small>
+		
+
+		
+			
+      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANFAAAAJDVkYWU4ZjhkLTQzNmItNDNhMS1hMjEzLTA5YmUzNzgyMzAyOQ.jpg" alt="My Picture" class="img-circle center-block">
+		
+		
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a>
+			
+				<a href="https://jmarcon.github.io/post/">Blog</a>
+			
+				<a href="https://jmarcon.github.io/about/contato">Contato</a>
+			
+		</div>
+    <div class="addthis_horizontal_follow_toolbox text-center"></div>
+    
+
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+
+<main>
+	<header>
+      <h1>Node e Cassandra - Parte 2 : O mínimo do cassandra</h1>
+	</header>
+
+	<article>
+        <img src="https://jmarcon.github.io//images/post/cassandra.png" alt=""
+        class="img-responsive"
+        style="width: 100%; padding-bottom:20px; "/>
+
+    <p>Este é o segundo de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
+
+<p>Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
+benchmarks encontrados na internet para que você possa tomar a decisão.</p>
+
+<ul>
+<li><a href="http://www.planetcassandra.org/nosql-performance-benchmarks/">Planet Cassandra</a></li>
+<li><a href="https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems">MongoDB</a></li>
+<li><a href="https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html">JaxEnter</a></li>
+</ul>
+
+<p>Neste momento, vamos preparar nossa base para receber os dados de nossa api. Para
+nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
+em uma autenticação simples.</p>
+
+<p>Com o Docker do Cassandra rodando como descrito no
+<a href="../Node-e-Cassandra-Parte1-Ambiente">artigo anterior</a>, vamos agora nos conectar
+na base de dados.</p>
+
+<p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
+maquina docker temporaria, execute o comando abaixo:</p>
+
+<pre><code class="language-bash">docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c 'exec cqlsh &quot;$CASSANDRA_PORT_9042_TCP_ADDR&quot;'
+</code></pre>
+
+<p>O termo  <strong>cassandranode_cassandra_1</strong> encontrado no comando acima se refere
+ao nome do Docker que esta rodando o cassandra no Kitematic.</p>
+
+<p>Desta forma, deve ver o prompt do cassandra rodando no terminal:</p>
+
+<pre><code class="language-bash">cqlsh&gt;
+</code></pre>
+
+<p>A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
+se fosse o Schema do banco de dados. É nesse espaço que criaremos nossa tabela
+depois.</p>
+
+<p>Vamos criar o Keyspace:</p>
+
+<pre><code class="language-bash">cqlsh&gt; CREATE KEYSPACE demo
+   ... WITH REPLICATION = {
+   ... 'class' : 'SimpleStrategy',
+   ... 'replication_factor' : 1
+   ... };
+</code></pre>
+
+<p>Os parametros passados para replicação não serão tratados aqui.</p>
+
+<p>Verifique se o Keyspace foi criado:</p>
+
+<pre><code class="language-bash">cqlsh&gt; DESC KEYSPACES;
+
+demo   system_schema   system_auth   ...
+</code></pre>
+
+<p>Defina o Keyspace que vamos trabalhar agora.</p>
+
+<pre><code class="language-bash">cqlsh&gt; USE demo;
+</code></pre>
+
+<p>E crie nossa tabela</p>
+
+<pre><code class="language-bash">cqlsh:demo&gt; CREATE TABLE users (
+        ... email text,
+        ... password text,
+        ... PRIMARY KEY (email)
+        ... );
+</code></pre>
+
+<p>Criamos nossa tabela, para ver que tudo esta no banco execute o comando:</p>
+
+<pre><code class="language-bash">cqlsh:demo&gt; DESC SCHEMA;
+</code></pre>
+
+<p>Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
+que será finalizado no próximo artigo.</p>
+
+	</article>
+  <br/>
+  <footer>
+    <small>
+          Publicado em: 21 de Março de 2016
+          por <b>Juliano Marcon</b>
+    </small>
+    <br/>
+    <div class="addthis_sharing_toolbox"></div>
+  </footer>
+</main>
+
+
+
+      <hr/>
+      <div id="disqus_thread"></div>
+      <script>
+          var disqus_config = function () {
+              this.page.url = "https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/";  
+              this.page.identifier = "node-e-cassandra---parte-2--o-m%C3%ADnimo-do-cassandra"; 
+          };
+          (function() {  
+              var d = document, s = d.createElement('script');
+              s.src = '//juliano-marcon.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+<hr/>
+<div class="text-center">
+  mais
+</div>
+<div class="row">
+  <div class="col-md-6 text-right ">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/"> Node e Cassandra - Parte 1 : Ambiente <i class="fa fa-backward"></i> </a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/"> <i class="fa fa-forward"></i> Node e Cassandra - Parte 3 : Criando uma API Simples </a>
+  </div>
+</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63413033-3', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/jmarcon.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+  
+  <script src="https://jmarcon.github.io//js/App.js"></script>
+  <script id="dsq-count-scr" src="//jmarcon.disqus.com/count.js" async></script>
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f54ac57e5950e1"></script>
+</body>
+</html>
+

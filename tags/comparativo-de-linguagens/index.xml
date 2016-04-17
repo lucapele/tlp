@@ -13,10 +13,10 @@
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/guerra-das-linguagens/</link>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/guerra-das-linguagens/</guid>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         
@@ -27,9 +27,9 @@ tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
 quando se trata de um time de desenvolvimento.&lt;/p&gt;
 
-&lt;h3 id=&#34;vantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Vantagens&lt;/h3&gt;
+&lt;h3 id=&#34;vantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Vantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
 
 &lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -44,9 +44,9 @@ comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;desvantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Desvantagens&lt;/h3&gt;
+&lt;h3 id=&#34;desvantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Desvantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;solução-em-segundo-plano:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+&lt;h4 id=&#34;solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
 
 &lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -58,7 +58,7 @@ pessoais envolvidos na solução.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;impactos-no-relacionamento-do-time:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+&lt;h4 id=&#34;impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
 
 &lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -72,7 +72,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;olhos-fechados-para-o-novo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+&lt;h4 id=&#34;olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
 
 &lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -95,7 +95,7 @@ suas mentes não conseguem mudar nada.
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;débito-técnico-antes-do-começo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+&lt;h4 id=&#34;débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
 
 &lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -105,7 +105,7 @@ gerar grandes retrabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;conclusão:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Conclusão&lt;/h3&gt;
+&lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
 
 &lt;p&gt;Ter uma opnião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -121,11 +121,11 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;quem-ganha-a-guerra:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+&lt;h3 id=&#34;quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
 
 &lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
 
-&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:e2e03f82989894836cfdf3ba3d474301&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;

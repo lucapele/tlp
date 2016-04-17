@@ -13,10 +13,10 @@
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>https://jmarcon.github.io/post/E-tudo-javascript/</link>
+      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/E-tudo-javascript/</guid>
+      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
         
@@ -41,9 +41,9 @@ que foque primeiro nas tecnologias em separado:&lt;/p&gt;
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
 para apoiar sua escolha.&lt;/p&gt;
 
-&lt;h3 id=&#34;vantagens:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Vantagens&lt;/h3&gt;
+&lt;h3 id=&#34;vantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Vantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
 
 &lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma lingua ajuda que as pessoas
 consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
@@ -53,7 +53,7 @@ rotina da melhor forma.&lt;/p&gt;
 o code-review de outros mais facilmente, mais e mais pessoas terão a capacidade de
 avaliar se o que está sendo produzido é feito da melhor forma.&lt;/p&gt;
 
-&lt;h4 id=&#34;curva-de-aprendizagem:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
+&lt;h4 id=&#34;curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
 
 &lt;p&gt;A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
 evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.&lt;/p&gt;
@@ -62,7 +62,7 @@ evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtiv
 de cursos e treinamentos estão disponíveis para apoiar a evolução de um time em
 formação.&lt;/p&gt;
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
+&lt;h4 id=&#34;a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
 
 &lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provavel que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
@@ -72,7 +72,7 @@ momento de montar um time de desenvolvedores.&lt;/p&gt;
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
 de recrutamento captar pessoas para o time em crescimento.&lt;/p&gt;
 
-&lt;h4 id=&#34;existe-muita-coisa-pronta:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Existe muita coisa pronta&lt;/h4&gt;
+&lt;h4 id=&#34;existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Existe muita coisa pronta&lt;/h4&gt;
 
 &lt;p&gt;Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
@@ -91,9 +91,9 @@ módulos nas aplicações.&lt;/p&gt;
   &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;desvantagens:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Desvantagens&lt;/h3&gt;
+&lt;h3 id=&#34;desvantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Desvantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma-1:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
 
 &lt;p&gt;Você deve estar se perguntando: &amp;ldquo;Mas isso não é uma vantagem?&amp;rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
@@ -103,7 +103,7 @@ pode causar um risco para os projetos.&lt;/p&gt;
 diferente do programador de &amp;ldquo;back-end&amp;rdquo; que tem um foco diferente de como armazenar
 informações e deveria ter apoio de conhecedores do banco de dados escolhido.&lt;/p&gt;
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;A linguagem é bem difundida e existe muita coisa pronta&lt;/h4&gt;
+&lt;h4 id=&#34;a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida e existe muita coisa pronta&lt;/h4&gt;
 
 &lt;p&gt;Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
 projeto novo.&lt;/p&gt;
@@ -124,7 +124,7 @@ bem como isso pode estar afetando a comunidade.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/kA4-b7hvWhg&#34;&gt;Why Code in Node.js often gets Rejected by SoundCloud&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;dependência:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Dependência&lt;/h4&gt;
+&lt;h4 id=&#34;dependência:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Dependência&lt;/h4&gt;
 
 &lt;p&gt;A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
 de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.&lt;/p&gt;
@@ -138,7 +138,7 @@ lançadas e a aplicação precisa de refactorings para utilizar o que é novo.&l
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
 débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&gt;
 
-&lt;h5 id=&#34;é-muita-coisa-para-um-único-profissional:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;É muita coisa para um único profissional&lt;/h5&gt;
+&lt;h5 id=&#34;é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;É muita coisa para um único profissional&lt;/h5&gt;
 
 &lt;div class=&#34;row&#34;&gt;
   &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
@@ -150,7 +150,7 @@ débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&g
   &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;conclusão:6ab6f73ffb6bdcb82ecbc2adb6f80588&#34;&gt;Conclusão&lt;/h2&gt;
+&lt;h2 id=&#34;conclusão:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Conclusão&lt;/h2&gt;
 
 &lt;p&gt;Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito e que
@@ -163,10 +163,10 @@ dentro de seus ambientes.&lt;/p&gt;
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</link>
+      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte3-Criando-uma-API-Simples/</guid>
+      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
@@ -330,10 +330,10 @@ endereços:&lt;/p&gt;
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</link>
+      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</guid>
+      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
@@ -419,10 +419,10 @@ que será finalizado no próximo artigo.&lt;/p&gt;
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
@@ -435,7 +435,7 @@ que será finalizado no próximo artigo.&lt;/p&gt;
 alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
 leitura.&lt;/p&gt;
 
-&lt;h3 id=&#34;instalando-o-ambiente:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
+&lt;h3 id=&#34;instalando-o-ambiente:2d07405689eed99118c9470fa868ed61&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
 
 &lt;p&gt;Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
 para adaptar o que vamos ter aqui para outros sistemas.&lt;/p&gt;
@@ -447,7 +447,7 @@ um pouco mais automático com o recurso &amp;ldquo;docker-compose&amp;rdquo;.&lt
 &lt;a href=&#34;https://www.kitematic.com&#34;&gt;Kitematic&lt;/a&gt; que após instalado vai lhe fornecer
 todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
 
-&lt;h4 id=&#34;preparando-os-arquivos:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Preparando os arquivos&lt;/h4&gt;
+&lt;h4 id=&#34;preparando-os-arquivos:2d07405689eed99118c9470fa868ed61&#34;&gt;Preparando os arquivos&lt;/h4&gt;
 
 &lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
 nesse projeto.&lt;/p&gt;
@@ -460,7 +460,7 @@ nesse projeto.&lt;/p&gt;
     [api]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;criando-a-maquina-do-cassandra:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
+&lt;h4 id=&#34;criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
 
 &lt;p&gt;Dentro da pasta do cassandra vamos criar o arquivo de nome &lt;strong&gt;Dockerfile&lt;/strong&gt; que vai
 informar ao docker como criar a maquina.&lt;/p&gt;
@@ -471,7 +471,7 @@ FROM cassandra:latest
 
 &lt;p&gt;Bem simples!&lt;/p&gt;
 
-&lt;h4 id=&#34;criando-a-maquina-do-nodejs:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
+&lt;h4 id=&#34;criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
 
 &lt;p&gt;Dentro da pasta node crie mais um arquivo com o node de &lt;strong&gt;Dockerfile&lt;/strong&gt; para
 configurar o docker que vai rodar o node.&lt;/p&gt;
@@ -492,7 +492,7 @@ ENTRYPOINT [&amp;quot;/bin/bash&amp;quot;, &amp;quot;start.sh&amp;quot;]
 &lt;p&gt;Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
 deixar algo preparado aqui.&lt;/p&gt;
 
-&lt;h4 id=&#34;configurando-a-composição:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Configurando a composição&lt;/h4&gt;
+&lt;h4 id=&#34;configurando-a-composição:2d07405689eed99118c9470fa868ed61&#34;&gt;Configurando a composição&lt;/h4&gt;
 
 &lt;p&gt;Crie na pasta raiz (cassandra_docker) um arquivo com o nome &amp;ldquo;docker-compose.yml&amp;rdquo;
 que vai receber a configuração detalhada de como o dockers vão ser criados e
@@ -521,7 +521,7 @@ nodejs:
     - &amp;quot;cassandra:cassandra&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;iniciando-as-maquinas:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
+&lt;h3 id=&#34;iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
 
 &lt;p&gt;Execute o comando abaixo e aguarde a maquina do cassandra subir:&lt;/p&gt;
 
@@ -542,10 +542,10 @@ docker-machine pelo Kitematic.&lt;/p&gt;
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/guerra-das-linguagens/</link>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/guerra-das-linguagens/</guid>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         
@@ -556,9 +556,9 @@ tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
 quando se trata de um time de desenvolvimento.&lt;/p&gt;
 
-&lt;h3 id=&#34;vantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Vantagens&lt;/h3&gt;
+&lt;h3 id=&#34;vantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Vantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
 
 &lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -573,9 +573,9 @@ comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;desvantagens:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Desvantagens&lt;/h3&gt;
+&lt;h3 id=&#34;desvantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Desvantagens&lt;/h3&gt;
 
-&lt;h4 id=&#34;solução-em-segundo-plano:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+&lt;h4 id=&#34;solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
 
 &lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -587,7 +587,7 @@ pessoais envolvidos na solução.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;impactos-no-relacionamento-do-time:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+&lt;h4 id=&#34;impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
 
 &lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -601,7 +601,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;olhos-fechados-para-o-novo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+&lt;h4 id=&#34;olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
 
 &lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -624,7 +624,7 @@ suas mentes não conseguem mudar nada.
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;débito-técnico-antes-do-começo:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+&lt;h4 id=&#34;débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
 
 &lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -634,7 +634,7 @@ gerar grandes retrabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;conclusão:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Conclusão&lt;/h3&gt;
+&lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
 
 &lt;p&gt;Ter uma opnião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -650,11 +650,11 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;quem-ganha-a-guerra:e2e03f82989894836cfdf3ba3d474301&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+&lt;h3 id=&#34;quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
 
 &lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
 
-&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:e2e03f82989894836cfdf3ba3d474301&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;

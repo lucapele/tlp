@@ -13,10 +13,10 @@
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</link>
+      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte2-O-minimo-do-cassandra/</guid>
+      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o

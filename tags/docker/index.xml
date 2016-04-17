@@ -13,10 +13,10 @@
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/Node-e-Cassandra-Parte1-Ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
         <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
@@ -29,7 +29,7 @@
 alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
 leitura.&lt;/p&gt;
 
-&lt;h3 id=&#34;instalando-o-ambiente:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
+&lt;h3 id=&#34;instalando-o-ambiente:2d07405689eed99118c9470fa868ed61&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
 
 &lt;p&gt;Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
 para adaptar o que vamos ter aqui para outros sistemas.&lt;/p&gt;
@@ -41,7 +41,7 @@ um pouco mais automático com o recurso &amp;ldquo;docker-compose&amp;rdquo;.&lt
 &lt;a href=&#34;https://www.kitematic.com&#34;&gt;Kitematic&lt;/a&gt; que após instalado vai lhe fornecer
 todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
 
-&lt;h4 id=&#34;preparando-os-arquivos:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Preparando os arquivos&lt;/h4&gt;
+&lt;h4 id=&#34;preparando-os-arquivos:2d07405689eed99118c9470fa868ed61&#34;&gt;Preparando os arquivos&lt;/h4&gt;
 
 &lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
 nesse projeto.&lt;/p&gt;
@@ -54,7 +54,7 @@ nesse projeto.&lt;/p&gt;
     [api]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;criando-a-maquina-do-cassandra:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
+&lt;h4 id=&#34;criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
 
 &lt;p&gt;Dentro da pasta do cassandra vamos criar o arquivo de nome &lt;strong&gt;Dockerfile&lt;/strong&gt; que vai
 informar ao docker como criar a maquina.&lt;/p&gt;
@@ -65,7 +65,7 @@ FROM cassandra:latest
 
 &lt;p&gt;Bem simples!&lt;/p&gt;
 
-&lt;h4 id=&#34;criando-a-maquina-do-nodejs:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
+&lt;h4 id=&#34;criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
 
 &lt;p&gt;Dentro da pasta node crie mais um arquivo com o node de &lt;strong&gt;Dockerfile&lt;/strong&gt; para
 configurar o docker que vai rodar o node.&lt;/p&gt;
@@ -86,7 +86,7 @@ ENTRYPOINT [&amp;quot;/bin/bash&amp;quot;, &amp;quot;start.sh&amp;quot;]
 &lt;p&gt;Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
 deixar algo preparado aqui.&lt;/p&gt;
 
-&lt;h4 id=&#34;configurando-a-composição:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Configurando a composição&lt;/h4&gt;
+&lt;h4 id=&#34;configurando-a-composição:2d07405689eed99118c9470fa868ed61&#34;&gt;Configurando a composição&lt;/h4&gt;
 
 &lt;p&gt;Crie na pasta raiz (cassandra_docker) um arquivo com o nome &amp;ldquo;docker-compose.yml&amp;rdquo;
 que vai receber a configuração detalhada de como o dockers vão ser criados e
@@ -115,7 +115,7 @@ nodejs:
     - &amp;quot;cassandra:cassandra&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;iniciando-as-maquinas:70c19a891c2bb5f982203ccd3712f66e&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
+&lt;h3 id=&#34;iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
 
 &lt;p&gt;Execute o comando abaixo e aguarde a maquina do cassandra subir:&lt;/p&gt;
 
