@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/about/</link>
+    <description>RSS in Abouts on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contato</title>
+      <link>https://jmarcon.github.io/about/contato/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/about/contato/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
+          <hr/>
 
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title type="html"><![CDATA[Abouts on Juliano Marcon]]></title>
-<link href="https://jmarcon.github.io/about/index.xml" rel="self"/>
-<link href="https://jmarcon.github.io/about/"/>
-<updated>2016-03-03T00:19:25-03:00</updated>
-<id>https://jmarcon.github.io/about/</id>
-<author>
-<name><![CDATA[ Juliano Marcon ]]></name>
-<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
-</author>
-<generator uri="http://gohugo.io/">Hugo</generator>
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://jmarcon.github.io/about/julianomarcon/</link>
+      <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
+          <p>Sou um profissional de tecnologia que esteve envolvido em todo o processo de criação de um produto. Desde a concepção até a entrega.</p>
 
-</feed>
+<p>Com esta visão do todo e com a ajuda de muitos entreguei diversos projetos de sucesso. Muitos deles de grande porte.</p>
+
+<p>Mas foram com os projetos mais dificeis, com os que atrasaram ou que foram cancelados que conquistei minha exeperiência atual, aprendendo com os erros. Hoje sou capaz de identificar os riscos e acompanhar as soluções com a visão crítica necessária para me sensibilizar aos prazos mas sem perder o foco na qualidade que o cliente merece.</p>
+
+<p>Sempre fui fascinado sobre a ideia de comprovar as coisas. O processo de iniciar de um conjunto simples de axiomas e alcançar quase todas as verdades. Basicamente é isso que separa os matemáticos dos outros indivíduos. Em contrapartida, a magia não está no método de execução, mas na solução sólida, definitiva e fundada por provas e dados. Ter a visão do todo mas com a consciência de que nada está sendo esquecido ou deixado para trás.</p>
+
+<p>O profissional de tecnologia nunca pode parar de evoluir e, por isso, me mantenho acompanhando o mercado e tentando inspirar pessoas aos mesmos valores de inovação e curiosidade.</p>
+
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>

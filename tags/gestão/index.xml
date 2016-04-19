@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title type="html"><![CDATA[Gestão on Juliano Marcon]]></title>
-<link href="https://jmarcon.github.io/tags/gest%C3%A3o/index.xml" rel="self"/>
-<link href="https://jmarcon.github.io/tags/gest%C3%A3o/"/>
-<updated>2016-04-16T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/tags/gest%C3%A3o/</id>
-<author>
-<name><![CDATA[ Juliano Marcon ]]></name>
-<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
-</author>
-<generator uri="http://gohugo.io/">Hugo</generator>
-
-<entry>
-<title type="html"><![CDATA[É tudo JavaScript]]></title>
-<link href="https://jmarcon.github.io/post/20160416-e-tudo-javascript/"/>
-<updated>2016-04-16T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</id>
-<category term="Software"/><category term="Agilidade"/>
-<content type="html"><![CDATA[ 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestão on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/gest%C3%A3o/</link>
+    <description>RSS in Gestão on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Sat, 16 Apr 2016 15:42:00 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/gest%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>É tudo JavaScript</title>
+      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
+      <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
+          
 
 <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
 tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
@@ -156,16 +157,20 @@ principalmente para profissionais ou empresas que pretendem provar um conceito e
 após um resultado positivo se preparem para mitigar os riscos e construir não apenas
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.</p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[Outsourcing: Riscos e Oportunidades]]></title>
-<link href="https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/"/>
-<updated>2016-03-25T14:26:38-03:00</updated>
-<id>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</id>
-<category term="Sistemas"/><category term="Mercado"/><category term="Gestão"/>
-<content type="html"><![CDATA[ 
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>Outsourcing: Riscos e Oportunidades</title>
+      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
+          
 
 <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.</p>
 
@@ -279,16 +284,20 @@ dentro de seus ambientes.</p>
 <p>Para as empresas de outsourcing, para deixar os custos mais enxutos, a venda ocorre antes de possuir todas as pessoas necessárias para atender aos projetos em que se encontram.</p>
 
 <p>As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.</p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[A Guerra das linguagens]]></title>
-<link href="https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/"/>
-<updated>2016-03-16T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</id>
-<category term="Software"/><category term="Agilidade"/>
-<content type="html"><![CDATA[ 
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>A Guerra das linguagens</title>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
+      <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
+          
 
 <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
@@ -400,7 +409,10 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
- ]]></content>
-</entry>
 
-</feed>
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>

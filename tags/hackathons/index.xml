@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title type="html"><![CDATA[Hackathons on Juliano Marcon]]></title>
-<link href="https://jmarcon.github.io/tags/hackathons/index.xml" rel="self"/>
-<link href="https://jmarcon.github.io/tags/hackathons/"/>
-<updated>2016-03-12T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/tags/hackathons/</id>
-<author>
-<name><![CDATA[ Juliano Marcon ]]></name>
-<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
-</author>
-<generator uri="http://gohugo.io/">Hugo</generator>
-
-<entry>
-<title type="html"><![CDATA[Benefícios de Hackathons e DoJos internos]]></title>
-<link href="https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/"/>
-<updated>2016-03-12T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackathons on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/hackathons/</link>
+    <description>RSS in Hackathons on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Sat, 12 Mar 2016 15:42:00 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/hackathons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Benefícios de Hackathons e DoJos internos</title>
+      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
+          
 
 <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
@@ -80,7 +81,10 @@ programação faz com que o compartilhamento do conhecimento gere a evolução d
 padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.</p>
- ]]></content>
-</entry>
 
-</feed>
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>

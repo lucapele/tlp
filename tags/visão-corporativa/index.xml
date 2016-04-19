@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title type="html"><![CDATA[Visão Corporativa on Juliano Marcon]]></title>
-<link href="https://jmarcon.github.io/tags/vis%C3%A3o-corporativa/index.xml" rel="self"/>
-<link href="https://jmarcon.github.io/tags/vis%C3%A3o-corporativa/"/>
-<updated>2016-04-18T17:53:07-03:00</updated>
-<id>https://jmarcon.github.io/tags/vis%C3%A3o-corporativa/</id>
-<author>
-<name><![CDATA[ Juliano Marcon ]]></name>
-<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
-</author>
-<generator uri="http://gohugo.io/">Hugo</generator>
-
-<entry>
-<title type="html"><![CDATA[Como ser um desenvolvedor melhor]]></title>
-<link href="https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/"/>
-<updated>2016-04-18T17:53:07-03:00</updated>
-<id>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</id>
-<category term="Agilidade"/><category term="Pessoas"/><category term="Programação"/>
-<content type="html"><![CDATA[ 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visão Corporativa on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/vis%C3%A3o-corporativa/</link>
+    <description>RSS in Visão Corporativa on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Mon, 18 Apr 2016 17:53:07 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/vis%C3%A3o-corporativa/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Como ser um desenvolvedor melhor</title>
+      <link>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
+      <pubDate>Mon, 18 Apr 2016 17:53:07 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
+          
 
 <p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
 para definir um ótimo desenvolvedor de softwares nos dias atuais. Os conceitos
@@ -113,16 +114,20 @@ mantém esses comportamentos e os apoie a evoluir.</p>
 <p>Caso não seja seu caso, é um bom momento para revisar seus valores e pensar sobre
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.</p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[Multitarefa e a motivação]]></title>
-<link href="https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/"/>
-<updated>2016-04-17T16:06:25-03:00</updated>
-<id>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ 
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>Multitarefa e a motivação</title>
+      <link>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</link>
+      <pubDate>Sun, 17 Apr 2016 16:06:25 -0400</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
+          
 
 <p>As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
@@ -202,16 +207,20 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 </blockquote>
 
 <p><div style="clear:both"/></p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[TI Bimodal : Uma questão de respeito]]></title>
-<link href="https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/"/>
-<updated>2016-03-19T17:18:14-03:00</updated>
-<id>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>TI Bimodal : Uma questão de respeito</title>
+      <link>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
+      <pubDate>Sat, 19 Mar 2016 17:18:14 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
+          <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
 
 <p>A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.</p>
 
@@ -253,16 +262,20 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 <p>São diversas coisas que não necessariamente impactam a disponibilização dos serviços essenciais da empresa e que podem dar visibilidade e velocidade para as empresas dentro dos cenários digitais do futuro.</p>
 
 <p>E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.</p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[Benefícios de Hackathons e DoJos internos]]></title>
-<link href="https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/"/>
-<updated>2016-03-12T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ 
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>Benefícios de Hackathons e DoJos internos</title>
+      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
+          
 
 <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
@@ -324,7 +337,10 @@ programação faz com que o compartilhamento do conhecimento gere a evolução d
 padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.</p>
- ]]></content>
-</entry>
 
-</feed>
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>

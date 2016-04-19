@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title type="html"><![CDATA[Dojo on Juliano Marcon]]></title>
-<link href="https://jmarcon.github.io/tags/dojo/index.xml" rel="self"/>
-<link href="https://jmarcon.github.io/tags/dojo/"/>
-<updated>2016-03-19T17:18:14-03:00</updated>
-<id>https://jmarcon.github.io/tags/dojo/</id>
-<author>
-<name><![CDATA[ Juliano Marcon ]]></name>
-<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
-</author>
-<generator uri="http://gohugo.io/">Hugo</generator>
-
-<entry>
-<title type="html"><![CDATA[TI Bimodal : Uma questão de respeito]]></title>
-<link href="https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/"/>
-<updated>2016-03-19T17:18:14-03:00</updated>
-<id>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dojo on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/dojo/</link>
+    <description>RSS in Dojo on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Sat, 19 Mar 2016 17:18:14 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/dojo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TI Bimodal : Uma questão de respeito</title>
+      <link>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
+      <pubDate>Sat, 19 Mar 2016 17:18:14 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
+          <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
 
 <p>A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.</p>
 
@@ -60,16 +61,20 @@
 <p>São diversas coisas que não necessariamente impactam a disponibilização dos serviços essenciais da empresa e que podem dar visibilidade e velocidade para as empresas dentro dos cenários digitais do futuro.</p>
 
 <p>E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.</p>
- ]]></content>
-</entry>
 
-<entry>
-<title type="html"><![CDATA[Benefícios de Hackathons e DoJos internos]]></title>
-<link href="https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/"/>
-<updated>2016-03-12T15:42:00-03:00</updated>
-<id>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</id>
-<category term="Agilidade"/><category term="Pessoas"/>
-<content type="html"><![CDATA[ 
+        ]]>
+      </description>
+    </item>
+    
+    <item>
+      <title>Benefícios de Hackathons e DoJos internos</title>
+      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
+          
 
 <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
@@ -131,7 +136,10 @@ programação faz com que o compartilhamento do conhecimento gere a evolução d
 padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.</p>
- ]]></content>
-</entry>
 
-</feed>
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>
