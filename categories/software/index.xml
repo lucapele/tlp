@@ -18,7 +18,7 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           
 
@@ -170,7 +170,7 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
           &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
@@ -339,7 +339,7 @@ endereços:&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
           &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
@@ -430,7 +430,7 @@ que será finalizado no próximo artigo.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           
 
@@ -555,7 +555,7 @@ docker-machine pelo Kitematic.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           
 

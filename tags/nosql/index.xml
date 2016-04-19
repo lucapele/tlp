@@ -18,7 +18,7 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        &lt;![CDATA[
+        <![CDATA[
           <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
           &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
