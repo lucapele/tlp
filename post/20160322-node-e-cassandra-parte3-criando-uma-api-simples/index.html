@@ -188,12 +188,12 @@ router.post('/login', function(req, res) {
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: 'Usuario ou senha invalidos ' });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else if (user.password != pass) {
         //Se tentar executar um WHERE diretamente no Cassandra ele apresentará
         //um erro. Não criamos um índice para a coluna password.
-        res.json({ message: 'Usuario ou senha invalidos ' });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else {
         res.json({ message: user.email });
@@ -239,7 +239,7 @@ app.use('/api', router);
 //Iniciando o servidor
 app.listen(port);
 
-console.log('A Magica acontece na porta ' + port);
+console.log('A Mágica acontece na porta ' + port);
 
 </code></pre>
 
@@ -260,7 +260,7 @@ npm start
 <pre><code class="language-bash">docker-compose up -d nodejs
 </code></pre>
 
-<p>Utilize um utilitario como o <a href="https://www.getpostman.com/">Postman</a> ou o
+<p>Utilize um utilitário como o <a href="https://www.getpostman.com/">Postman</a> ou o
 <a href="http://www.telerik.com/fiddler">Fiddler</a> para fazer chamadas na sua API nos
 endereços:</p>
 

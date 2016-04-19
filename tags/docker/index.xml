@@ -46,7 +46,7 @@ todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
 &lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
 nesse projeto.&lt;/p&gt;
 
-&lt;p&gt;Crie a seguinte extrutura na sua maquina:&lt;/p&gt;
+&lt;p&gt;Crie a seguinte estrutura na sua maquina:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;[cassandra_docker]
   [cassandra]
@@ -123,7 +123,7 @@ nodejs:
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
-cassandra estará rodando e estará acessivel pelo endereço 192.168.99.100:27017 se
+cassandra estará rodando e estará acessível pelo endereço 192.168.99.100:27017 se
 quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 
 &lt;blockquote&gt;

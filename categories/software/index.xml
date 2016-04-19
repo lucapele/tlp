@@ -45,12 +45,12 @@ para apoiar sua escolha.&lt;/p&gt;
 
 &lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
 
-&lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma lingua ajuda que as pessoas
+&lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
 consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
 rotina da melhor forma.&lt;/p&gt;
 
 &lt;p&gt;A análise da qualidade do código pode ser simplificada, programadores podem fazer
-o code-review de outros mais facilmente, mais e mais pessoas terão a capacidade de
+o &lt;strong&gt;code review&lt;/strong&gt; de outros mais facilmente, mais e mais pessoas terão a capacidade de
 avaliar se o que está sendo produzido é feito da melhor forma.&lt;/p&gt;
 
 &lt;h4 id=&#34;curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
@@ -64,7 +64,7 @@ formação.&lt;/p&gt;
 
 &lt;h4 id=&#34;a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
 
-&lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provavel que
+&lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
 momento de montar um time de desenvolvedores.&lt;/p&gt;
 
@@ -84,7 +84,7 @@ módulos nas aplicações.&lt;/p&gt;
 &lt;div class=&#34;row&#34;&gt;
   &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/js_back_front_joke.jpg&#34; alt=&#34;Tudo javascript&#34; 
+    &lt;img src=&#34;../../images/post/js_back_front_joke.jpg&#34; alt=&#34;Tudo javascript&#34;
     class=&#34;img-responsive&#34;
     style=&#34;width:100%; max-width:400px&#34;&gt;
   &lt;/div&gt;
@@ -99,7 +99,7 @@ módulos nas aplicações.&lt;/p&gt;
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
 pode causar um risco para os projetos.&lt;/p&gt;
 
-&lt;p&gt;Afinal, um programador de aplicação &amp;ldquo;front-end&amp;rdquo; tem um foco de pensamento e racioncínio
+&lt;p&gt;Afinal, um programador de aplicação &amp;ldquo;front-end&amp;rdquo; tem um foco de pensamento e raciocínio
 diferente do programador de &amp;ldquo;back-end&amp;rdquo; que tem um foco diferente de como armazenar
 informações e deveria ter apoio de conhecedores do banco de dados escolhido.&lt;/p&gt;
 
@@ -108,7 +108,7 @@ informações e deveria ter apoio de conhecedores do banco de dados escolhido.&l
 &lt;p&gt;Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
 projeto novo.&lt;/p&gt;
 
-&lt;p&gt;A facilidade de encontrar conhecimento e modulos prontos gera o risco de contratar
+&lt;p&gt;A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
 pessoas que apenas sabem utilizar os recursos prontos e não tem conhecimento para
 desenvolver a solução da melhor forma.&lt;/p&gt;
 
@@ -131,7 +131,7 @@ de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express
 
 &lt;p&gt;Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
 de determinados recursos e acabam restringindo o uso da tecnologia como um todo.
-Muitas vezes estas restrições são agravadas quando novas versões do framwork são
+Muitas vezes estas restrições são agravadas quando novas versões do framework são
 lançadas e a aplicação precisa de refactorings para utilizar o que é novo.&lt;/p&gt;
 
 &lt;p&gt;A dependência pode ficar ainda mais evidente quando um framework para de ser
@@ -143,7 +143,7 @@ débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&g
 &lt;div class=&#34;row&#34;&gt;
   &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/MEAN-Stack-Expertise.jpg&#34; alt=&#34;Não é pouca coisa&#34; 
+    &lt;img src=&#34;../../images/post/MEAN-Stack-Expertise.jpg&#34; alt=&#34;Não é pouca coisa&#34;
     class=&#34;img-responsive&#34;
     style=&#34;width:100%; max-width:400px&#34;&gt;
   &lt;/div&gt;
@@ -242,12 +242,12 @@ router.post(&#39;/login&#39;, function(req, res) {
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: &#39;Usuario ou senha invalidos &#39; });
+        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
       }
       else if (user.password != pass) {
         //Se tentar executar um WHERE diretamente no Cassandra ele apresentará
         //um erro. Não criamos um índice para a coluna password.
-        res.json({ message: &#39;Usuario ou senha invalidos &#39; });
+        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
       }
       else {
         res.json({ message: user.email });
@@ -293,7 +293,7 @@ app.use(&#39;/api&#39;, router);
 //Iniciando o servidor
 app.listen(port);
 
-console.log(&#39;A Magica acontece na porta &#39; + port);
+console.log(&#39;A Mágica acontece na porta &#39; + port);
 
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -314,7 +314,7 @@ npm start
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d nodejs
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Utilize um utilitario como o &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; ou o
+&lt;p&gt;Utilize um utilitário como o &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; ou o
 &lt;a href=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; para fazer chamadas na sua API nos
 endereços:&lt;/p&gt;
 
@@ -348,7 +348,7 @@ benchmarks encontrados na internet para que você possa tomar a decisão.&lt;/p&
 &lt;li&gt;&lt;a href=&#34;https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html&#34;&gt;JaxEnter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Neste momento, vamos preparar nossa base para receber os dados de nossa api. Para
+&lt;p&gt;Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
 nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.&lt;/p&gt;
 
@@ -357,7 +357,7 @@ em uma autenticação simples.&lt;/p&gt;
 na base de dados.&lt;/p&gt;
 
 &lt;p&gt;Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
-maquina docker temporaria, execute o comando abaixo:&lt;/p&gt;
+maquina docker temporária, execute o comando abaixo:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c &#39;exec cqlsh &amp;quot;$CASSANDRA_PORT_9042_TCP_ADDR&amp;quot;&#39;
 &lt;/code&gt;&lt;/pre&gt;
@@ -383,7 +383,7 @@ depois.&lt;/p&gt;
    ... };
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Os parametros passados para replicação não serão tratados aqui.&lt;/p&gt;
+&lt;p&gt;Os parâmetros passados para replicação não serão tratados aqui.&lt;/p&gt;
 
 &lt;p&gt;Verifique se o Keyspace foi criado:&lt;/p&gt;
 
@@ -452,7 +452,7 @@ todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
 &lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
 nesse projeto.&lt;/p&gt;
 
-&lt;p&gt;Crie a seguinte extrutura na sua maquina:&lt;/p&gt;
+&lt;p&gt;Crie a seguinte estrutura na sua maquina:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;[cassandra_docker]
   [cassandra]
@@ -529,7 +529,7 @@ nodejs:
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
-cassandra estará rodando e estará acessivel pelo endereço 192.168.99.100:27017 se
+cassandra estará rodando e estará acessível pelo endereço 192.168.99.100:27017 se
 quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -550,7 +550,7 @@ docker-machine pelo Kitematic.&lt;/p&gt;
         <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         
 
-&lt;p&gt;Praticamente todos os dias vejo pessoas se degladiando sobre qual linguagem
+&lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
@@ -612,7 +612,7 @@ não geram um resultado final.&lt;/p&gt;
 nascendo e morrendo em todas as linguagens de programação. Cada uma tentando
 resolver um problema.&lt;/p&gt;
 
-&lt;p&gt;Não é dificil entender que fixar a visão sobre a perspectiva técnica não vai
+&lt;p&gt;Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
 fomentar que as pessoas procurem por novas soluções para resolver os requisitos
 do cliente e da solução.&lt;/p&gt;
 
@@ -630,13 +630,13 @@ suas mentes não conseguem mudar nada.
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
 desenvolvimento vai iniciar já com débitos técnicos referentes à solução e é
 ainda mais crítico quando percebemos que uma escolha equivocada no início vai
-gerar grandes retrabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
+gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
 
-&lt;p&gt;Ter uma opnião sobre uma tecnologia é algo de extrema importância para todo
+&lt;p&gt;Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
 quanto, é entender que os conceitos ágeis também se aplicam nesse momento e que
 ter a mente aberta ao diferente é essencial para entregar software com

@@ -129,7 +129,7 @@ benchmarks encontrados na internet para que você possa tomar a decisão.</p>
 <li><a href="https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html">JaxEnter</a></li>
 </ul>
 
-<p>Neste momento, vamos preparar nossa base para receber os dados de nossa api. Para
+<p>Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
 nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.</p>
 
@@ -138,7 +138,7 @@ em uma autenticação simples.</p>
 na base de dados.</p>
 
 <p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
-maquina docker temporaria, execute o comando abaixo:</p>
+maquina docker temporária, execute o comando abaixo:</p>
 
 <pre><code class="language-bash">docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c 'exec cqlsh &quot;$CASSANDRA_PORT_9042_TCP_ADDR&quot;'
 </code></pre>
@@ -164,7 +164,7 @@ depois.</p>
    ... };
 </code></pre>
 
-<p>Os parametros passados para replicação não serão tratados aqui.</p>
+<p>Os parâmetros passados para replicação não serão tratados aqui.</p>
 
 <p>Verifique se o Keyspace foi criado:</p>
 
