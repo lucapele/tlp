@@ -112,10 +112,10 @@ tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.&lt;/p&gt
 
 &lt;p&gt;&lt;strong&gt;Que a força esteja com você!&lt;/strong&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/sides.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>

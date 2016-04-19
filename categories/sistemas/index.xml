@@ -133,10 +133,10 @@
 
 &lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/gears.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>

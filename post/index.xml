@@ -114,10 +114,10 @@ mantém esses comportamentos e os apoie a evoluir.&lt;/p&gt;
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/soft-skills.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -208,10 +208,10 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 
 &lt;p&gt;&lt;div style=&#34;clear:both&#34;/&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/tasks-min.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -360,10 +360,10 @@ após um resultado positivo se preparem para mitigar os riscos e construir não 
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/meanjs.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -488,10 +488,10 @@ dentro de seus ambientes.&lt;/p&gt;
 
 &lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/gears.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -657,10 +657,10 @@ endereços:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/nodejs.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -748,10 +748,10 @@ demo   system_schema   system_auth   ...
 &lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
 que será finalizado no próximo artigo.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/cassandra.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -873,10 +873,10 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/docker.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -929,10 +929,10 @@ docker-machine pelo Kitematic.&lt;/p&gt;
 
 &lt;p&gt;E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/sync.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -1055,10 +1055,10 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/languages.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -1131,10 +1131,10 @@ padrão de desenvolvimento em conjunto com todos, uma consciência corporativa d
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/hackathon.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -1238,10 +1238,10 @@ tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.&lt;/p&gt
 
 &lt;p&gt;&lt;strong&gt;Que a força esteja com você!&lt;/strong&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/sides.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>

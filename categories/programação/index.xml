@@ -114,10 +114,10 @@ mantém esses comportamentos e os apoie a evoluir.&lt;/p&gt;
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/soft-skills.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>

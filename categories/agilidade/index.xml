@@ -114,10 +114,10 @@ mantém esses comportamentos e os apoie a evoluir.&lt;/p&gt;
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/soft-skills.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -208,10 +208,10 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 
 &lt;p&gt;&lt;div style=&#34;clear:both&#34;/&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/tasks-min.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -360,10 +360,10 @@ após um resultado positivo se preparem para mitigar os riscos e construir não 
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/meanjs.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -416,10 +416,10 @@ dentro de seus ambientes.&lt;/p&gt;
 
 &lt;p&gt;E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/sync.jpg" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -542,10 +542,10 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/languages.png" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -618,10 +618,10 @@ padrão de desenvolvimento em conjunto com todos, uma consciência corporativa d
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/hackathon.png" 
+        type="image/jpeg" />
     </item>
     
   </channel>

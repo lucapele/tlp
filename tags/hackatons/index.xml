@@ -61,10 +61,10 @@
 
 &lt;p&gt;E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/sync.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>

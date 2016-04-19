@@ -20,10 +20,10 @@
       <description>
         &lt;hr/&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -43,10 +43,10 @@
 
 &lt;p&gt;O profissional de tecnologia nunca pode parar de evoluir e, por isso, me mantenho acompanhando o mercado e tentando inspirar pessoas aos mesmos valores de inovação e curiosidade.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/" 
+        type="image/jpeg" />
     </item>
     
   </channel>

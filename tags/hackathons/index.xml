@@ -81,10 +81,10 @@ padrão de desenvolvimento em conjunto com todos, uma consciência corporativa d
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/hackathon.png" 
+        type="image/jpeg" />
     </item>
     
   </channel>

@@ -130,10 +130,10 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/docker.png" 
+        type="image/jpeg" />
     </item>
     
   </channel>

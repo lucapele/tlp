@@ -20,10 +20,10 @@
       <description>
         &lt;p&gt;Curso de aprimoramento de competências de gestão (liderança, adminstração do tempo, delegação, etc.).&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -35,10 +35,10 @@
       <description>
         &lt;p&gt;Preparação de executivos para processos decisórios focados em resultados. Desenvolvimento de competências estratégicas e táticas visando inovação e agregar valor ao negócio da empresa.&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/" 
+        type="image/jpeg" />
     </item>
     
     <item>
@@ -53,10 +53,10 @@
 Atualmente ocupa a quinta posição.
 &lt;strong&gt;&lt;a href=&#34;http://ruf.folha.uol.com.br/2014/rankingdecursos/matematica/&#34;&gt;Ranking 2014&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/" 
+        type="image/jpeg" />
     </item>
     
   </channel>

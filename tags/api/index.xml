@@ -174,10 +174,10 @@ endereços:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
 &lt;/ul&gt;
 
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
-        ]]>
       </description>
+      <media:content
+        url="https://jmarcon.github.io/images/post/nodejs.jpg" 
+        type="image/jpeg" />
     </item>
     
   </channel>
