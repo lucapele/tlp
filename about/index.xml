@@ -18,10 +18,10 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/about/contato/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
         &lt;hr/&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/" alt="" />
         ]]>
       </description>
     </item>
@@ -33,8 +33,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/" alt="" />
         &lt;p&gt;Sou um profissional de tecnologia que esteve envolvido em todo o processo de criação de um produto. Desde a concepção até a entrega.&lt;/p&gt;
 
 &lt;p&gt;Com esta visão do todo e com a ajuda de muitos entreguei diversos projetos de sucesso. Muitos deles de grande porte.&lt;/p&gt;
@@ -45,6 +43,8 @@
 
 &lt;p&gt;O profissional de tecnologia nunca pode parar de evoluir e, por isso, me mantenho acompanhando o mercado e tentando inspirar pessoas aos mesmos valores de inovação e curiosidade.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/" alt="" />
         ]]>
       </description>
     </item>

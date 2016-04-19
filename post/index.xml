@@ -18,8 +18,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
         
 
 &lt;p&gt;Conhecer com maestria uma determinada tecnologia pode não ser suficiente
@@ -116,6 +114,8 @@ mantém esses comportamentos e os apoie a evoluir.&lt;/p&gt;
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
         ]]>
       </description>
     </item>
@@ -127,8 +127,6 @@ mudar com ele.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
         
 
 &lt;p&gt;As exigências da globalização e da redução de custos das empresas estão criando um
@@ -210,6 +208,8 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 
 &lt;p&gt;&lt;div style=&#34;clear:both&#34;/&gt;&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
         ]]>
       </description>
     </item>
@@ -221,8 +221,6 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
         
 
 &lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
@@ -362,6 +360,8 @@ após um resultado positivo se preparem para mitigar os riscos e construir não 
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
         ]]>
       </description>
     </item>
@@ -373,8 +373,6 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
         
 
 &lt;p&gt;O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.&lt;/p&gt;
@@ -490,6 +488,8 @@ dentro de seus ambientes.&lt;/p&gt;
 
 &lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
         ]]>
       </description>
     </item>
@@ -501,8 +501,6 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -659,6 +657,8 @@ endereços:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
 &lt;/ul&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         ]]>
       </description>
     </item>
@@ -670,8 +670,6 @@ endereços:&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -750,6 +748,8 @@ demo   system_schema   system_auth   ...
 &lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
 que será finalizado no próximo artigo.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         ]]>
       </description>
     </item>
@@ -761,8 +761,6 @@ que será finalizado no próximo artigo.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
 
 &lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
@@ -875,6 +873,8 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         ]]>
       </description>
     </item>
@@ -886,8 +886,6 @@ docker-machine pelo Kitematic.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
         &lt;p&gt;Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.&lt;/p&gt;
 
 &lt;p&gt;A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.&lt;/p&gt;
@@ -931,6 +929,8 @@ docker-machine pelo Kitematic.&lt;/p&gt;
 
 &lt;p&gt;E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
         ]]>
       </description>
     </item>
@@ -942,8 +942,6 @@ docker-machine pelo Kitematic.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         
 
 &lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
@@ -1057,6 +1055,8 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         ]]>
       </description>
     </item>
@@ -1068,8 +1068,6 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
         
 
 &lt;p&gt;Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
@@ -1133,6 +1131,8 @@ padrão de desenvolvimento em conjunto com todos, uma consciência corporativa d
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
         ]]>
       </description>
     </item>
@@ -1144,8 +1144,6 @@ aumento da qualidade dos projetos entregues.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
         
 
 &lt;p&gt;A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
@@ -1240,6 +1238,8 @@ tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.&lt;/p&gt
 
 &lt;p&gt;&lt;strong&gt;Que a força esteja com você!&lt;/strong&gt;&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
         ]]>
       </description>
     </item>

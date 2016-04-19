@@ -18,8 +18,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
         
 
 &lt;p&gt;Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
@@ -83,6 +81,8 @@ padrão de desenvolvimento em conjunto com todos, uma consciência corporativa d
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/hackathon.png" alt="hackathon.png" />
         ]]>
       </description>
     </item>

@@ -18,8 +18,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
         
 
 &lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
@@ -159,6 +157,8 @@ após um resultado positivo se preparem para mitigar os riscos e construir não 
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
         ]]>
       </description>
     </item>
@@ -170,8 +170,6 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -328,6 +326,8 @@ endereços:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
 &lt;/ul&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         ]]>
       </description>
     </item>
@@ -339,8 +339,6 @@ endereços:&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -419,6 +417,8 @@ demo   system_schema   system_auth   ...
 &lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
 que será finalizado no próximo artigo.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         ]]>
       </description>
     </item>
@@ -430,8 +430,6 @@ que será finalizado no próximo artigo.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
 
 &lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
@@ -544,6 +542,8 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         ]]>
       </description>
     </item>
@@ -555,8 +555,6 @@ docker-machine pelo Kitematic.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         
 
 &lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
@@ -670,6 +668,8 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
         ]]>
       </description>
     </item>

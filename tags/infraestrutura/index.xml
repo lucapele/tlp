@@ -18,8 +18,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
 
 &lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
@@ -132,6 +130,8 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         ]]>
       </description>
     </item>

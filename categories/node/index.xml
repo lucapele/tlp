@@ -18,8 +18,6 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -176,6 +174,8 @@ endereços:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
 &lt;/ul&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
         ]]>
       </description>
     </item>
@@ -187,8 +187,6 @@ endereços:&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
 
@@ -267,6 +265,8 @@ demo   system_schema   system_auth   ...
 &lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
 que será finalizado no próximo artigo.&lt;/p&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
         ]]>
       </description>
     </item>
@@ -278,8 +278,6 @@ que será finalizado no próximo artigo.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        &lt;![CDATA[
-        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         
 
 &lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
@@ -392,6 +390,8 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+        &lt;![CDATA[
+        <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
         ]]>
       </description>
     </item>
