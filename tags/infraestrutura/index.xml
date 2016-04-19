@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Infraestrutura on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/infraestrutura/</link>
-    <description>RSS in Infraestrutura on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sun, 20 Mar 2016 17:19:02 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/infraestrutura/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
-      <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
-          
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Infraestrutura on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/tags/infraestrutura/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/tags/infraestrutura/"/>
+<updated>2016-03-20T17:19:02-03:00</updated>
+<id>https://jmarcon.github.io/tags/infraestrutura/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[Node e Cassandra - Parte 1 : Ambiente]]></title>
+<link href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/"/>
+<updated>2016-03-20T17:19:02-03:00</updated>
+<id>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</id>
+<category term="Software"/><category term="Node"/><category term="Cassandra"/>
+<content type="html"><![CDATA[ 
 
 <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
@@ -131,10 +129,7 @@ quiser utilizar uma GUI para acessar o banco.</p>
 <p>O IP <strong><em>192.168.99.100</em></strong> é atribuído para a maquina virtual (virtualbox) criada como
 docker-machine pelo Kitematic.</p>
 </blockquote>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Liderança on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/categories/lideran%C3%A7a/</link>
-    <description>RSS in Liderança on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/categories/lideran%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Qual o seu lado da força?</title>
-      <link>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</link>
-      <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
-          
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Liderança on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/categories/lideran%C3%A7a/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/categories/lideran%C3%A7a/"/>
+<updated>2016-03-03T00:19:25-03:00</updated>
+<id>https://jmarcon.github.io/categories/lideran%C3%A7a/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[Qual o seu lado da força?]]></title>
+<link href="https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/"/>
+<updated>2016-03-03T00:19:25-03:00</updated>
+<id>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</id>
+<category term="Liderança"/><category term="Pessoas"/>
+<content type="html"><![CDATA[ 
 
 <p>A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
 qual é o caminho que escolhemos.</p>
@@ -113,10 +111,7 @@ atenção e evolução.</p>
 tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.</p>
 
 <p><strong>Que a força esteja com você!</strong></p>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

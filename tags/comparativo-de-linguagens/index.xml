@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Comparativo De Linguagens on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/comparativo-de-linguagens/</link>
-    <description>RSS in Comparativo De Linguagens on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Wed, 16 Mar 2016 15:42:00 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/comparativo-de-linguagens/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
-      <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-          
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Comparativo De Linguagens on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/tags/comparativo-de-linguagens/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/tags/comparativo-de-linguagens/"/>
+<updated>2016-03-16T15:42:00-03:00</updated>
+<id>https://jmarcon.github.io/tags/comparativo-de-linguagens/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[A Guerra das linguagens]]></title>
+<link href="https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/"/>
+<updated>2016-03-16T15:42:00-03:00</updated>
+<id>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</id>
+<category term="Software"/><category term="Agilidade"/>
+<content type="html"><![CDATA[ 
 
 <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
@@ -132,10 +130,7 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

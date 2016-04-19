@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Api on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/api/</link>
-    <description>RSS in Api on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Tue, 22 Mar 2016 17:19:31 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
-      <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
-          <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Api on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/tags/api/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/tags/api/"/>
+<updated>2016-03-22T17:19:31-03:00</updated>
+<id>https://jmarcon.github.io/tags/api/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[Node e Cassandra - Parte 3 : Criando uma API Simples]]></title>
+<link href="https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/"/>
+<updated>2016-03-22T17:19:31-03:00</updated>
+<id>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</id>
+<category term="Software"/><category term="Node"/><category term="Cassandra"/>
+<content type="html"><![CDATA[ <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
 <p>Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
@@ -175,10 +173,7 @@ endereços:</p>
 <li><a href="http://192.168.99.100:3000/api/register">http://192.168.99.100:3000/api/register</a> (POST)</li>
 <li><a href="http://192.168.99.100:3000/api/login">http://192.168.99.100:3000/api/login</a> (POST)</li>
 </ul>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

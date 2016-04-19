@@ -1,63 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Educations on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/education/</link>
-    <description>RSS in Educations on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Mon, 01 Jun 2015 00:19:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/education/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Gestão e Liderança</title>
-      <link>https://jmarcon.github.io/education/Gestao-Lideranca/</link>
-      <pubDate>Mon, 01 Jun 2015 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/education/Gestao-Lideranca/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          <p>Curso de aprimoramento de competências de gestão (liderança, adminstração do tempo, delegação, etc.).</p>
 
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MBA em Gestão de Negócios</title>
-      <link>https://jmarcon.github.io/education/MBA-Gestao-Negocios/</link>
-      <pubDate>Fri, 01 Jun 2012 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/education/MBA-Gestao-Negocios/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          <p>Preparação de executivos para processos decisórios focados em resultados. Desenvolvimento de competências estratégicas e táticas visando inovação e agregar valor ao negócio da empresa.</p>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Educations on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/education/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/education/"/>
+<updated>2015-06-01T00:19:25-03:00</updated>
+<id>https://jmarcon.github.io/education/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
 
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>Matemática</title>
-      <link>https://jmarcon.github.io/education/Matematica/</link>
-      <pubDate>Thu, 01 Jun 2000 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/education/Matematica/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          <p>Curso rankeado em 2000 como o segundo melhor do Brasil.
-<strong><a href="http://ruf.folha.uol.com.br/2013/rankingdecursos/matematica/">Ranking 2013</a></strong>
-Atualmente ocupa a quinta posição.
-<strong><a href="http://ruf.folha.uol.com.br/2014/rankingdecursos/matematica/">Ranking 2014</a></strong></p>
-
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

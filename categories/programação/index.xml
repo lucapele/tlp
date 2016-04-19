@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Programação on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/</link>
-    <description>RSS in Programação on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Mon, 18 Apr 2016 17:53:07 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Como ser um desenvolvedor melhor</title>
-      <link>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
-      <pubDate>Mon, 18 Apr 2016 17:53:07 -0500</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
-          
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Programação on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/"/>
+<updated>2016-04-18T17:53:07-03:00</updated>
+<id>https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[Como ser um desenvolvedor melhor]]></title>
+<link href="https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/"/>
+<updated>2016-04-18T17:53:07-03:00</updated>
+<id>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</id>
+<category term="Agilidade"/><category term="Pessoas"/><category term="Programação"/>
+<content type="html"><![CDATA[ 
 
 <p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
 para definir um ótimo desenvolvedor de softwares nos dias atuais. Os conceitos
@@ -115,10 +113,7 @@ mantém esses comportamentos e os apoie a evoluir.</p>
 <p>Caso não seja seu caso, é um bom momento para revisar seus valores e pensar sobre
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.</p>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>

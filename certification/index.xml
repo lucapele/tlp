@@ -1,113 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Certifications on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/certification/</link>
-    <description>RSS in Certifications on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Wed, 01 Oct 2014 00:19:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/certification/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Certified ScrumMaster</title>
-      <link>https://jmarcon.github.io/certification/Certified-ScrumMaster/</link>
-      <pubDate>Wed, 01 Oct 2014 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/Certified-ScrumMaster/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MS - Programming in HTML5 with JavaScript and CSS3 Specialist</title>
-      <link>https://jmarcon.github.io/certification/MS-Programming-HTML5-JavaScript-CSS3-Specialist/</link>
-      <pubDate>Sun, 01 Jun 2014 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MS-Programming-HTML5-JavaScript-CSS3-Specialist/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MCPD - ASP.NET Developer 3.5</title>
-      <link>https://jmarcon.github.io/certification/MCPD-AspNet-Developer/</link>
-      <pubDate>Tue, 01 May 2012 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MCPD-AspNet-Developer/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MCTS - ADO.NET Application Developer</title>
-      <link>https://jmarcon.github.io/certification/MCTS-ADO-Application-Developer/</link>
-      <pubDate>Wed, 01 Jun 2011 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MCTS-ADO-Application-Developer/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MCTS - Windows Forms Application Developer</title>
-      <link>https://jmarcon.github.io/certification/MCTS-Windows-Forms-Application-Developer/</link>
-      <pubDate>Wed, 01 Jun 2011 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MCTS-Windows-Forms-Application-Developer/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MCTS - ASP.NET 3.5 Application Developer</title>
-      <link>https://jmarcon.github.io/certification/MCTS-AspNet-Application-Developer/</link>
-      <pubDate>Wed, 01 Dec 2010 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MCTS-AspNet-Application-Developer/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-    <item>
-      <title>MCP - Application Development Foundation</title>
-      <link>https://jmarcon.github.io/certification/MCP-Application-Development-Foundation/</link>
-      <pubDate>Fri, 01 Oct 2010 00:19:25 -1200</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/certification/MCP-Application-Development-Foundation/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/" alt="" />
-          
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Certifications on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/certification/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/certification/"/>
+<updated>2014-10-01T00:19:25-03:00</updated>
+<id>https://jmarcon.github.io/certification/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+</feed>

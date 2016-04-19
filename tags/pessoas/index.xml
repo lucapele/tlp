@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pessoas on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/pessoas/</link>
-    <description>RSS in Pessoas on Juliano Marcon</description>
-    <generator>Juliano Marcon</generator>
-    <language>pt-br</language>
-    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
-    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sun, 17 Apr 2016 16:06:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/pessoas/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Multitarefa e a motivação</title>
-      <link>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</link>
-      <pubDate>Sun, 17 Apr 2016 16:06:25 -0400</pubDate>
-      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
-      <description>
-        <![CDATA[
-          <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
-          
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html"><![CDATA[Pessoas on Juliano Marcon]]></title>
+<link href="https://jmarcon.github.io/tags/pessoas/index.xml" rel="self"/>
+<link href="https://jmarcon.github.io/tags/pessoas/"/>
+<updated>2016-04-17T16:06:25-03:00</updated>
+<id>https://jmarcon.github.io/tags/pessoas/</id>
+<author>
+<name><![CDATA[ Juliano Marcon ]]></name>
+<email><![CDATA[ contato@julianomarcon.com.br ]]></email>
+</author>
+<generator uri="http://gohugo.io/">Hugo</generator>
+
+<entry>
+<title type="html"><![CDATA[Multitarefa e a motivação]]></title>
+<link href="https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/"/>
+<updated>2016-04-17T16:06:25-03:00</updated>
+<id>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</id>
+<category term="Agilidade"/><category term="Pessoas"/>
+<content type="html"><![CDATA[ 
 
 <p>As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
@@ -100,10 +98,7 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 </blockquote>
 
 <p><div style="clear:both"/></p>
+ ]]></content>
+</entry>
 
-        ]]>
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+</feed>
