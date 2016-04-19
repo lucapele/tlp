@@ -22,142 +22,142 @@
           <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           
 
-&lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
+<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
 tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
 se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear
-todo o ambiente em uma única linguagem.&lt;/p&gt;
+todo o ambiente em uma única linguagem.</p>
 
-&lt;p&gt;Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
-&lt;a href=&#34;http://www.mean.io&#34;&gt;MEAN.IO&lt;/a&gt; ou em &lt;a href=&#34;https://www.meanjs.org&#34;&gt;MEAN.JS&lt;/a&gt;. Mas sugiro
-que foque primeiro nas tecnologias em separado:&lt;/p&gt;
+<p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
+<a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
+que foque primeiro nas tecnologias em separado:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mongodb.org&#34;&gt;&lt;strong&gt;M&lt;/strong&gt;ongo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.expressjs.com&#34;&gt;&lt;strong&gt;E&lt;/strong&gt;xpress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.angularjs.org&#34;&gt;&lt;strong&gt;A&lt;/strong&gt;ngular&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nodejs.org&#34;&gt;&lt;strong&gt;N&lt;/strong&gt;ode&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="https://www.mongodb.org"><strong>M</strong>ongo</a></li>
+<li><a href="http://www.expressjs.com"><strong>E</strong>xpress</a></li>
+<li><a href="https://www.angularjs.org"><strong>A</strong>ngular</a></li>
+<li><a href="https://www.nodejs.org"><strong>N</strong>ode</a></li>
+</ul>
 
-&lt;p&gt;Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
+<p>Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
-para apoiar sua escolha.&lt;/p&gt;
+para apoiar sua escolha.</p>
 
-&lt;h3 id=&#34;vantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
+<p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
 consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
-rotina da melhor forma.&lt;/p&gt;
+rotina da melhor forma.</p>
 
-&lt;p&gt;A análise da qualidade do código pode ser simplificada, programadores podem fazer
-o &lt;strong&gt;code review&lt;/strong&gt; de outros mais facilmente, mais e mais pessoas terão a capacidade de
-avaliar se o que está sendo produzido é feito da melhor forma.&lt;/p&gt;
+<p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
+o <strong>code review</strong> de outros mais facilmente, mais e mais pessoas terão a capacidade de
+avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-&lt;h4 id=&#34;curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
+<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
 
-&lt;p&gt;A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
-evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.&lt;/p&gt;
+<p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
+evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
 
-&lt;p&gt;A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
+<p>A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
 de cursos e treinamentos estão disponíveis para apoiar a evolução de um time em
-formação.&lt;/p&gt;
+formação.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
 
-&lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
+<p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
-momento de montar um time de desenvolvedores.&lt;/p&gt;
+momento de montar um time de desenvolvedores.</p>
 
-&lt;p&gt;Contratar novos profissionais quando o produto evoluir e crescer pode ser um
+<p>Contratar novos profissionais quando o produto evoluir e crescer pode ser um
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
-de recrutamento captar pessoas para o time em crescimento.&lt;/p&gt;
+de recrutamento captar pessoas para o time em crescimento.</p>
 
-&lt;h4 id=&#34;existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Existe muita coisa pronta&lt;/h4&gt;
+<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
 
-&lt;p&gt;Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
+<p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
-um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.&lt;/p&gt;
+um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.</p>
 
-&lt;p&gt;O uso de repositórios como o &lt;a href=&#34;https://www.npmjs.com&#34;&gt;NPM&lt;/a&gt; torna simples utilizar novos
-módulos nas aplicações.&lt;/p&gt;
+<p>O uso de repositórios como o <a href="https://www.npmjs.com">NPM</a> torna simples utilizar novos
+módulos nas aplicações.</p>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/js_back_front_joke.jpg&#34; alt=&#34;Tudo javascript&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/js_back_front_joke.jpg" alt="Tudo javascript"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h3 id=&#34;desvantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Você deve estar se perguntando: &amp;ldquo;Mas isso não é uma vantagem?&amp;rdquo;. Nesse caso, existem dois
+<p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
-pode causar um risco para os projetos.&lt;/p&gt;
+pode causar um risco para os projetos.</p>
 
-&lt;p&gt;Afinal, um programador de aplicação &amp;ldquo;front-end&amp;rdquo; tem um foco de pensamento e raciocínio
-diferente do programador de &amp;ldquo;back-end&amp;rdquo; que tem um foco diferente de como armazenar
-informações e deveria ter apoio de conhecedores do banco de dados escolhido.&lt;/p&gt;
+<p>Afinal, um programador de aplicação &ldquo;front-end&rdquo; tem um foco de pensamento e raciocínio
+diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
+informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida e existe muita coisa pronta&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
-&lt;p&gt;Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
-projeto novo.&lt;/p&gt;
+<p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
+projeto novo.</p>
 
-&lt;p&gt;A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
+<p>A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
 pessoas que apenas sabem utilizar os recursos prontos e não tem conhecimento para
-desenvolver a solução da melhor forma.&lt;/p&gt;
+desenvolver a solução da melhor forma.</p>
 
-&lt;p&gt;Alguns profissionais criam aplicações &amp;ldquo;do zero&amp;rdquo; que, sem que eles escrevam realmente
-uma linha de código voltada para o produto, possuem mais de 3500 arquivos.&lt;/p&gt;
+<p>Alguns profissionais criam aplicações &ldquo;do zero&rdquo; que, sem que eles escrevam realmente
+uma linha de código voltada para o produto, possuem mais de 3500 arquivos.</p>
 
-&lt;p&gt;Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
+<p>Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
 é polêmico). Segue duas referências interessantes para estudo que podem exemplificar
-bem como isso pode estar afetando a comunidade.&lt;/p&gt;
+bem como isso pode estar afetando a comunidade.</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/&#34;&gt;NPM : Have we forgotten how to program?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/kA4-b7hvWhg&#34;&gt;Why Code in Node.js often gets Rejected by SoundCloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/">NPM : Have we forgotten how to program?</a></li>
+<li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
+</ul>
 
-&lt;h4 id=&#34;dependência:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Dependência&lt;/h4&gt;
+<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
 
-&lt;p&gt;A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
-de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.&lt;/p&gt;
+<p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
+de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
 
-&lt;p&gt;Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
+<p>Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
 de determinados recursos e acabam restringindo o uso da tecnologia como um todo.
 Muitas vezes estas restrições são agravadas quando novas versões do framework são
-lançadas e a aplicação precisa de refactorings para utilizar o que é novo.&lt;/p&gt;
+lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</p>
 
-&lt;p&gt;A dependência pode ficar ainda mais evidente quando um framework para de ser
+<p>A dependência pode ficar ainda mais evidente quando um framework para de ser
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
-débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&gt;
+débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-&lt;h5 id=&#34;é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;É muita coisa para um único profissional&lt;/h5&gt;
+<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/MEAN-Stack-Expertise.jpg&#34; alt=&#34;Não é pouca coisa&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/MEAN-Stack-Expertise.jpg" alt="Não é pouca coisa"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h2 id=&#34;conclusão:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Conclusão&lt;/h2&gt;
+<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
 
-&lt;p&gt;Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
+<p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito e que
 após um resultado positivo se preparem para mitigar os riscos e construir não apenas
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
-dentro de seus ambientes.&lt;/p&gt;
+dentro de seus ambientes.</p>
 
         ]]>
       </description>
@@ -172,39 +172,39 @@ dentro de seus ambientes.&lt;/p&gt;
       <description>
         <![CDATA[
           <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
-          &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+          <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
-base de dados que usaremos no cassandra.&lt;/p&gt;
+<p>Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
+base de dados que usaremos no cassandra.</p>
 
-&lt;p&gt;Então vamos criar a aplicação dentro da pasta&lt;/p&gt;
+<p>Então vamos criar a aplicação dentro da pasta</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;cassandra_node &amp;gt; node &amp;gt; api&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p><strong>cassandra_node &gt; node &gt; api</strong></p>
+</blockquote>
 
-&lt;p&gt;Vamos criar nosso arquivo &lt;strong&gt;package.json&lt;/strong&gt; que definirá nossa aplicação e suas
-dependências com o seguinte conteúdo.&lt;/p&gt;
+<p>Vamos criar nosso arquivo <strong>package.json</strong> que definirá nossa aplicação e suas
+dependências com o seguinte conteúdo.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;{
-  &amp;quot;name&amp;quot; : &amp;quot;node-api-demo&amp;quot;,
-  &amp;quot;main&amp;quot; : &amp;quot;server.js&amp;quot;,
-  &amp;quot;dependencies&amp;quot; : {
-    &amp;quot;express&amp;quot; : &amp;quot;~4.9.0&amp;quot;,
-    &amp;quot;body-parser&amp;quot; : &amp;quot;~1.8.1&amp;quot;,
-    &amp;quot;async&amp;quot; : &amp;quot;1.5.2&amp;quot;,
-    &amp;quot;cassandra-driver&amp;quot; : &amp;quot;~3.0.1&amp;quot;
+<pre><code class="language-javascript">{
+  &quot;name&quot; : &quot;node-api-demo&quot;,
+  &quot;main&quot; : &quot;server.js&quot;,
+  &quot;dependencies&quot; : {
+    &quot;express&quot; : &quot;~4.9.0&quot;,
+    &quot;body-parser&quot; : &quot;~1.8.1&quot;,
+    &quot;async&quot; : &quot;1.5.2&quot;,
+    &quot;cassandra-driver&quot; : &quot;~3.0.1&quot;
   }
 }
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Inicie um arquivo &lt;strong&gt;server.js&lt;/strong&gt; e insira o conteúdo abaixo:&lt;/p&gt;
+<p>Inicie um arquivo <strong>server.js</strong> e insira o conteúdo abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var cassandra  = require(&#39;cassandra-driver&#39;);
-var express    = require(&#39;express&#39;);
+<pre><code class="language-javascript">var cassandra  = require('cassandra-driver');
+var express    = require('express');
 var app        = express();
-var bodyParser = require(&#39;body-parser&#39;);
+var bodyParser = require('body-parser');
 
 // Configurar o App para usar o body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -215,8 +215,8 @@ var port = process.env.PORT || 3000;
 
 // Criando nosso cliente de conexão.
 var client = new cassandra.Client({
-  contactPoints: [&#39;192.168.99.100&#39;],
-  keyspace: &#39;demo&#39;
+  contactPoints: ['192.168.99.100'],
+  keyspace: 'demo'
 });
 
 // Conectando no banco de dados
@@ -228,29 +228,29 @@ client.connect(function(err) {
 // Definindo a rotas para nossa API
 var router = express.Router();
 
-router.get(&#39;/&#39;, function(req, res) {
-  res.json({ message: &#39;Wohooo!!! Bem vindo a nossa API&#39; });
+router.get('/', function(req, res) {
+  res.json({ message: 'Wohooo!!! Bem vindo a nossa API' });
 });
 
-router.post(&#39;/login&#39;, function(req, res) {
+router.post('/login', function(req, res) {
   var email = req.body.email;
   var pass = req.body.password;
 
   client.execute(
-    &amp;quot;SELECT email, password FROM users &amp;quot; +
-    &amp;quot;WHERE email = &#39;&amp;quot; + email + &amp;quot;&#39;&amp;quot;,
+    &quot;SELECT email, password FROM users &quot; +
+    &quot;WHERE email = '&quot; + email + &quot;'&quot;,
     function(err, result) {
       if (err)
         res.send(err);
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else if (user.password != pass) {
         //Se tentar executar um WHERE diretamente no Cassandra ele apresentará
         //um erro. Não criamos um índice para a coluna password.
-        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else {
         res.json({ message: user.email });
@@ -258,31 +258,31 @@ router.post(&#39;/login&#39;, function(req, res) {
     });
 });
 
-router.post(&#39;/register&#39;, function(req, res) {
+router.post('/register', function(req, res) {
   var email = req.body.email;
   var pass = req.body.password;
   var params = [email, pass];
 
   client.execute(
-    &amp;quot;INSERT INTO users (email, password) values (?, ?)&amp;quot;, params, function(err) {
+    &quot;INSERT INTO users (email, password) values (?, ?)&quot;, params, function(err) {
       if (err)
         res.send(err);
 
-      res.json({ message: &amp;quot;Cadastrado com sucesso!&amp;quot; });
+      res.json({ message: &quot;Cadastrado com sucesso!&quot; });
     }
   );
 });
 
-router.get(&#39;/first&#39;, function(req, res) {
+router.get('/first', function(req, res) {
   client.execute(
-    &amp;quot;SELECT email, password FROM users LIMIT 1&amp;quot;,
+    &quot;SELECT email, password FROM users LIMIT 1&quot;,
     function(err, result) {
       if (err)
         res.send(err);
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: &#39;Nenhum encontrado &#39; });
+        res.json({ message: 'Nenhum encontrado ' });
       } else {
         res.json({ message: user.email });
       }
@@ -290,43 +290,43 @@ router.get(&#39;/first&#39;, function(req, res) {
 });
 
 //Registrar nossas rotas com um prefixo api
-app.use(&#39;/api&#39;, router);
+app.use('/api', router);
 
 
 //Iniciando o servidor
 app.listen(port);
 
-console.log(&#39;A Mágica acontece na porta &#39; + port);
+console.log('A Mágica acontece na porta ' + port);
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Para que a aplicação node seja iniciada, vamos criar o arquivo &lt;strong&gt;start.sh&lt;/strong&gt; na pasta
-api (junto com o &lt;em&gt;server.js&lt;/em&gt;) com o conteúdo abaixo:&lt;/p&gt;
+<p>Para que a aplicação node seja iniciada, vamos criar o arquivo <strong>start.sh</strong> na pasta
+api (junto com o <em>server.js</em>) com o conteúdo abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!\bin\bash
+<pre><code class="language-bash">#!\bin\bash
 
 #Instalar as dependências
 npm install
 
 #Iniciar a aplicação pelo packages.json
 npm start
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Assim, vamos iniciar também nossa maquina docker com o comando:&lt;/p&gt;
+<p>Assim, vamos iniciar também nossa maquina docker com o comando:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d nodejs
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker-compose up -d nodejs
+</code></pre>
 
-&lt;p&gt;Utilize um utilitário como o &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; ou o
-&lt;a href=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; para fazer chamadas na sua API nos
-endereços:&lt;/p&gt;
+<p>Utilize um utilitário como o <a href="https://www.getpostman.com/">Postman</a> ou o
+<a href="http://www.telerik.com/fiddler">Fiddler</a> para fazer chamadas na sua API nos
+endereços:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/&#34;&gt;http://192.168.99.100:3000/api/&lt;/a&gt; (GET)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/first&#34;&gt;http://192.168.99.100:3000/api/first&lt;/a&gt; (GET)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/register&#34;&gt;http://192.168.99.100:3000/api/register&lt;/a&gt; (POST)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://192.168.99.100:3000/api/">http://192.168.99.100:3000/api/</a> (GET)</li>
+<li><a href="http://192.168.99.100:3000/api/first">http://192.168.99.100:3000/api/first</a> (GET)</li>
+<li><a href="http://192.168.99.100:3000/api/register">http://192.168.99.100:3000/api/register</a> (POST)</li>
+<li><a href="http://192.168.99.100:3000/api/login">http://192.168.99.100:3000/api/login</a> (POST)</li>
+</ul>
 
         ]]>
       </description>
@@ -341,83 +341,83 @@ endereços:&lt;/p&gt;
       <description>
         <![CDATA[
           <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
-          &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+          <p>Este é o segundo de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
-benchmarks encontrados na internet para que você possa tomar a decisão.&lt;/p&gt;
+<p>Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
+benchmarks encontrados na internet para que você possa tomar a decisão.</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.planetcassandra.org/nosql-performance-benchmarks/&#34;&gt;Planet Cassandra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems&#34;&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html&#34;&gt;JaxEnter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://www.planetcassandra.org/nosql-performance-benchmarks/">Planet Cassandra</a></li>
+<li><a href="https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems">MongoDB</a></li>
+<li><a href="https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html">JaxEnter</a></li>
+</ul>
 
-&lt;p&gt;Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
+<p>Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
 nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
-em uma autenticação simples.&lt;/p&gt;
+em uma autenticação simples.</p>
 
-&lt;p&gt;Com o Docker do Cassandra rodando como descrito no
-&lt;a href=&#34;../Node-e-Cassandra-Parte1-Ambiente&#34;&gt;artigo anterior&lt;/a&gt;, vamos agora nos conectar
-na base de dados.&lt;/p&gt;
+<p>Com o Docker do Cassandra rodando como descrito no
+<a href="../Node-e-Cassandra-Parte1-Ambiente">artigo anterior</a>, vamos agora nos conectar
+na base de dados.</p>
 
-&lt;p&gt;Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
-maquina docker temporária, execute o comando abaixo:&lt;/p&gt;
+<p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
+maquina docker temporária, execute o comando abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c &#39;exec cqlsh &amp;quot;$CASSANDRA_PORT_9042_TCP_ADDR&amp;quot;&#39;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c 'exec cqlsh &quot;$CASSANDRA_PORT_9042_TCP_ADDR&quot;'
+</code></pre>
 
-&lt;p&gt;O termo  &lt;strong&gt;cassandranode_cassandra_1&lt;/strong&gt; encontrado no comando acima se refere
-ao nome do Docker que esta rodando o cassandra no Kitematic.&lt;/p&gt;
+<p>O termo  <strong>cassandranode_cassandra_1</strong> encontrado no comando acima se refere
+ao nome do Docker que esta rodando o cassandra no Kitematic.</p>
 
-&lt;p&gt;Desta forma, deve ver o prompt do cassandra rodando no terminal:&lt;/p&gt;
+<p>Desta forma, deve ver o prompt do cassandra rodando no terminal:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh&gt;
+</code></pre>
 
-&lt;p&gt;A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
+<p>A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
 se fosse o Schema do banco de dados. É nesse espaço que criaremos nossa tabela
-depois.&lt;/p&gt;
+depois.</p>
 
-&lt;p&gt;Vamos criar o Keyspace:&lt;/p&gt;
+<p>Vamos criar o Keyspace:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; CREATE KEYSPACE demo
+<pre><code class="language-bash">cqlsh&gt; CREATE KEYSPACE demo
    ... WITH REPLICATION = {
-   ... &#39;class&#39; : &#39;SimpleStrategy&#39;,
-   ... &#39;replication_factor&#39; : 1
+   ... 'class' : 'SimpleStrategy',
+   ... 'replication_factor' : 1
    ... };
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Os parâmetros passados para replicação não serão tratados aqui.&lt;/p&gt;
+<p>Os parâmetros passados para replicação não serão tratados aqui.</p>
 
-&lt;p&gt;Verifique se o Keyspace foi criado:&lt;/p&gt;
+<p>Verifique se o Keyspace foi criado:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; DESC KEYSPACES;
+<pre><code class="language-bash">cqlsh&gt; DESC KEYSPACES;
 
 demo   system_schema   system_auth   ...
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Defina o Keyspace que vamos trabalhar agora.&lt;/p&gt;
+<p>Defina o Keyspace que vamos trabalhar agora.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; USE demo;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh&gt; USE demo;
+</code></pre>
 
-&lt;p&gt;E crie nossa tabela&lt;/p&gt;
+<p>E crie nossa tabela</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; CREATE TABLE users (
+<pre><code class="language-bash">cqlsh:demo&gt; CREATE TABLE users (
         ... email text,
         ... password text,
         ... PRIMARY KEY (email)
         ... );
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Criamos nossa tabela, para ver que tudo esta no banco execute o comando:&lt;/p&gt;
+<p>Criamos nossa tabela, para ver que tudo esta no banco execute o comando:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; DESC SCHEMA;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh:demo&gt; DESC SCHEMA;
+</code></pre>
 
-&lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
-que será finalizado no próximo artigo.&lt;/p&gt;
+<p>Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
+que será finalizado no próximo artigo.</p>
 
         ]]>
       </description>
@@ -434,56 +434,56 @@ que será finalizado no próximo artigo.&lt;/p&gt;
           <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           
 
-&lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+<p>Este é o primeiro de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
-&lt;a href=&#34;https://www.mongodb.org&#34;&gt;MongoDB&lt;/a&gt;. Mas o Cassandra pode ser uma alternativa para
+<p>Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
+<a href="https://www.mongodb.org">MongoDB</a>. Mas o Cassandra pode ser uma alternativa para
 alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
-leitura.&lt;/p&gt;
+leitura.</p>
 
-&lt;h3 id=&#34;instalando-o-ambiente:2d07405689eed99118c9470fa868ed61&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
+<h3 id="instalando-o-ambiente:2d07405689eed99118c9470fa868ed61">Instalando o ambiente.</h3>
 
-&lt;p&gt;Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
-para adaptar o que vamos ter aqui para outros sistemas.&lt;/p&gt;
+<p>Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
+para adaptar o que vamos ter aqui para outros sistemas.</p>
 
-&lt;p&gt;Para abstrair um pouco vamos utilizar o &lt;a href=&#34;http://www.docker.com&#34;&gt;Docker&lt;/a&gt; e deixar
-um pouco mais automático com o recurso &amp;ldquo;docker-compose&amp;rdquo;.&lt;/p&gt;
+<p>Para abstrair um pouco vamos utilizar o <a href="http://www.docker.com">Docker</a> e deixar
+um pouco mais automático com o recurso &ldquo;docker-compose&rdquo;.</p>
 
-&lt;p&gt;No OSX e no Windows, o pessoal do Docker adquiriu o
-&lt;a href=&#34;https://www.kitematic.com&#34;&gt;Kitematic&lt;/a&gt; que após instalado vai lhe fornecer
-todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
+<p>No OSX e no Windows, o pessoal do Docker adquiriu o
+<a href="https://www.kitematic.com">Kitematic</a> que após instalado vai lhe fornecer
+todos os requisitos necessários para criar nosso ambiente.</p>
 
-&lt;h4 id=&#34;preparando-os-arquivos:2d07405689eed99118c9470fa868ed61&#34;&gt;Preparando os arquivos&lt;/h4&gt;
+<h4 id="preparando-os-arquivos:2d07405689eed99118c9470fa868ed61">Preparando os arquivos</h4>
 
-&lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
-nesse projeto.&lt;/p&gt;
+<p>Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
+nesse projeto.</p>
 
-&lt;p&gt;Crie a seguinte estrutura na sua maquina:&lt;/p&gt;
+<p>Crie a seguinte estrutura na sua maquina:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;[cassandra_docker]
+<pre><code class="language-javascript">[cassandra_docker]
   [cassandra]
   [node]
     [api]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h4 id=&#34;criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
+<h4 id="criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61">Criando a maquina do Cassandra</h4>
 
-&lt;p&gt;Dentro da pasta do cassandra vamos criar o arquivo de nome &lt;strong&gt;Dockerfile&lt;/strong&gt; que vai
-informar ao docker como criar a maquina.&lt;/p&gt;
+<p>Dentro da pasta do cassandra vamos criar o arquivo de nome <strong>Dockerfile</strong> que vai
+informar ao docker como criar a maquina.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do cassandra no DockerHub
+<pre><code class="language-ruby"># Partir do docker inicial do cassandra no DockerHub
 FROM cassandra:latest
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Bem simples!&lt;/p&gt;
+<p>Bem simples!</p>
 
-&lt;h4 id=&#34;criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
+<h4 id="criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61">Criando a maquina do NodeJS</h4>
 
-&lt;p&gt;Dentro da pasta node crie mais um arquivo com o node de &lt;strong&gt;Dockerfile&lt;/strong&gt; para
-configurar o docker que vai rodar o node.&lt;/p&gt;
+<p>Dentro da pasta node crie mais um arquivo com o node de <strong>Dockerfile</strong> para
+configurar o docker que vai rodar o node.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do node do DockerHub
+<pre><code class="language-ruby"># Partir do docker inicial do node do DockerHub
 FROM node:latest
 
 # Criar a pasta onde a aplicação vai rodar
@@ -493,56 +493,56 @@ RUN mkdir /api
 WORKDIR /api
 
 # Executar a instalação das dependecias
-ENTRYPOINT [&amp;quot;/bin/bash&amp;quot;, &amp;quot;start.sh&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
+ENTRYPOINT [&quot;/bin/bash&quot;, &quot;start.sh&quot;]
+</code></pre>
 
-&lt;p&gt;Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
-deixar algo preparado aqui.&lt;/p&gt;
+<p>Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
+deixar algo preparado aqui.</p>
 
-&lt;h4 id=&#34;configurando-a-composição:2d07405689eed99118c9470fa868ed61&#34;&gt;Configurando a composição&lt;/h4&gt;
+<h4 id="configurando-a-composição:2d07405689eed99118c9470fa868ed61">Configurando a composição</h4>
 
-&lt;p&gt;Crie na pasta raiz (cassandra_docker) um arquivo com o nome &amp;ldquo;docker-compose.yml&amp;rdquo;
+<p>Crie na pasta raiz (cassandra_docker) um arquivo com o nome &ldquo;docker-compose.yml&rdquo;
 que vai receber a configuração detalhada de como o dockers vão ser criados e
-como eles vão se conectar.&lt;/p&gt;
+como eles vão se conectar.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;cassandra:
+<pre><code class="language-ruby">cassandra:
   build: ./cassandra
   expose:
-    - &amp;quot;27017&amp;quot;
+    - &quot;27017&quot;
   ports:
-  - &amp;quot;7199:7199&amp;quot;
-  - &amp;quot;7000:7000&amp;quot;
-  - &amp;quot;7001:7001&amp;quot;
-  - &amp;quot;9160:9160&amp;quot;
-  - &amp;quot;9042:9042&amp;quot;
+  - &quot;7199:7199&quot;
+  - &quot;7000:7000&quot;
+  - &quot;7001:7001&quot;
+  - &quot;9160:9160&quot;
+  - &quot;9042:9042&quot;
 
 nodejs:
   build: ./node
   volumes:
-    - &amp;quot;./node/api:/api&amp;quot;
+    - &quot;./node/api:/api&quot;
   expose:
-    - &amp;quot;3000&amp;quot;
+    - &quot;3000&quot;
   ports:
-    - &amp;quot;3000:3000&amp;quot;
+    - &quot;3000:3000&quot;
   links:
-    - &amp;quot;cassandra:cassandra&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+    - &quot;cassandra:cassandra&quot;
+</code></pre>
 
-&lt;h3 id=&#34;iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
+<h3 id="iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61">Iniciando as maquinas</h3>
 
-&lt;p&gt;Execute o comando abaixo e aguarde a maquina do cassandra subir:&lt;/p&gt;
+<p>Execute o comando abaixo e aguarde a maquina do cassandra subir:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d cassandra
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker-compose up -d cassandra
+</code></pre>
 
-&lt;p&gt;É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
+<p>É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
 cassandra estará rodando e estará acessível pelo endereço 192.168.99.100:27017 se
-quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
+quiser utilizar uma GUI para acessar o banco.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;O IP &lt;strong&gt;&lt;em&gt;192.168.99.100&lt;/em&gt;&lt;/strong&gt; é atribuído para a maquina virtual (virtualbox) criada como
-docker-machine pelo Kitematic.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p>O IP <strong><em>192.168.99.100</em></strong> é atribuído para a maquina virtual (virtualbox) criada como
+docker-machine pelo Kitematic.</p>
+</blockquote>
 
         ]]>
       </description>
@@ -559,116 +559,116 @@ docker-machine pelo Kitematic.&lt;/p&gt;
           <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           
 
-&lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.&lt;/p&gt;
+quando se trata de um time de desenvolvimento.</p>
 
-&lt;h3 id=&#34;vantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
 
-&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
-&lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
+<p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
-comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
+comparativo detalhado baseado em dados e benchmarks.</p>
 
-&lt;p&gt;Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.&lt;/p&gt;
+<p>Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;Falar é uma necessidade, escutar é uma arte
-&lt;div class=&#34;reference&#34;&gt;Johann Goethe&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p>Falar é uma necessidade, escutar é uma arte
+<div class="reference">Johann Goethe</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;desvantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
 
-&lt;h4 id=&#34;solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
 
-&lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
+<p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
-que está sendo avaliada.&lt;/p&gt;
+que está sendo avaliada.</p>
 
-&lt;p&gt;O time sempre tem que ter o foco de entregar um
+<p>O time sempre tem que ter o foco de entregar um
 software com qualidade, ou seja, a solução é mais importante que os gostos
-pessoais envolvidos na solução.&lt;/p&gt;
+pessoais envolvidos na solução.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
 
-&lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
+<p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
 ânimos se exaltam quando alguém percebe que, por algum motivo, o outro está
 vencendo a disputa ou que seus argumentos não serão suficientes para convencer
-a maior parte da equipe.&lt;/p&gt;
+a maior parte da equipe.</p>
 
-&lt;p&gt;O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
+<p>O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
 das hipóteses, o lado mais fraco ficará inibido em argumentar em um outro
-momento ou ficará desestimulado em participar ativamente de definições futuras.&lt;/p&gt;
+momento ou ficará desestimulado em participar ativamente de definições futuras.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
 
-&lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
+<p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
 adquiriram adeptos fortes. Isso só corrobora com a visão de que estas discussões
-não geram um resultado final.&lt;/p&gt;
+não geram um resultado final.</p>
 
-&lt;p&gt;O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
+<p>O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
 nascendo e morrendo em todas as linguagens de programação. Cada uma tentando
-resolver um problema.&lt;/p&gt;
+resolver um problema.</p>
 
-&lt;p&gt;Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
+<p>Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
 fomentar que as pessoas procurem por novas soluções para resolver os requisitos
-do cliente e da solução.&lt;/p&gt;
+do cliente e da solução.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
+<blockquote>
+<p>O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
 suas mentes não conseguem mudar nada.
-&lt;div class=&#34;reference&#34;&gt;George Bernard Shaw&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<div class="reference">George Bernard Shaw</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
 
-&lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
+<p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
 desenvolvimento vai iniciar já com débitos técnicos referentes à solução e é
 ainda mais crítico quando percebemos que uma escolha equivocada no início vai
-gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
+gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
+<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
 
-&lt;p&gt;Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
+<p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
 quanto, é entender que os conceitos ágeis também se aplicam nesse momento e que
 ter a mente aberta ao diferente é essencial para entregar software com
-qualidade.&lt;/p&gt;
+qualidade.</p>
 
-&lt;p&gt;Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
-com a mesma &amp;ldquo;base&amp;rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
+<p>Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
+com a mesma &ldquo;base&rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
 time vai existir muito mais trabalho para implantar uma cultura ágil do que o
 contrário (contratar um pensamento ágil e permitir que os bons técnicos evoluam
-em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
+em novas tecnologias). Mas isso é assunto para outro post.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
 
-&lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
+<p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
+<p><br/>
+<br/></p>
 
-&lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
+<p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
 
         ]]>
       </description>

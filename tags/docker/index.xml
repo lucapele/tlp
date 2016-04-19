@@ -22,56 +22,56 @@
           <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           
 
-&lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+<p>Este é o primeiro de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
-&lt;a href=&#34;https://www.mongodb.org&#34;&gt;MongoDB&lt;/a&gt;. Mas o Cassandra pode ser uma alternativa para
+<p>Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
+<a href="https://www.mongodb.org">MongoDB</a>. Mas o Cassandra pode ser uma alternativa para
 alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
-leitura.&lt;/p&gt;
+leitura.</p>
 
-&lt;h3 id=&#34;instalando-o-ambiente:2d07405689eed99118c9470fa868ed61&#34;&gt;Instalando o ambiente.&lt;/h3&gt;
+<h3 id="instalando-o-ambiente:2d07405689eed99118c9470fa868ed61">Instalando o ambiente.</h3>
 
-&lt;p&gt;Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
-para adaptar o que vamos ter aqui para outros sistemas.&lt;/p&gt;
+<p>Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
+para adaptar o que vamos ter aqui para outros sistemas.</p>
 
-&lt;p&gt;Para abstrair um pouco vamos utilizar o &lt;a href=&#34;http://www.docker.com&#34;&gt;Docker&lt;/a&gt; e deixar
-um pouco mais automático com o recurso &amp;ldquo;docker-compose&amp;rdquo;.&lt;/p&gt;
+<p>Para abstrair um pouco vamos utilizar o <a href="http://www.docker.com">Docker</a> e deixar
+um pouco mais automático com o recurso &ldquo;docker-compose&rdquo;.</p>
 
-&lt;p&gt;No OSX e no Windows, o pessoal do Docker adquiriu o
-&lt;a href=&#34;https://www.kitematic.com&#34;&gt;Kitematic&lt;/a&gt; que após instalado vai lhe fornecer
-todos os requisitos necessários para criar nosso ambiente.&lt;/p&gt;
+<p>No OSX e no Windows, o pessoal do Docker adquiriu o
+<a href="https://www.kitematic.com">Kitematic</a> que após instalado vai lhe fornecer
+todos os requisitos necessários para criar nosso ambiente.</p>
 
-&lt;h4 id=&#34;preparando-os-arquivos:2d07405689eed99118c9470fa868ed61&#34;&gt;Preparando os arquivos&lt;/h4&gt;
+<h4 id="preparando-os-arquivos:2d07405689eed99118c9470fa868ed61">Preparando os arquivos</h4>
 
-&lt;p&gt;Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
-nesse projeto.&lt;/p&gt;
+<p>Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
+nesse projeto.</p>
 
-&lt;p&gt;Crie a seguinte estrutura na sua maquina:&lt;/p&gt;
+<p>Crie a seguinte estrutura na sua maquina:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;[cassandra_docker]
+<pre><code class="language-javascript">[cassandra_docker]
   [cassandra]
   [node]
     [api]
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;h4 id=&#34;criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do Cassandra&lt;/h4&gt;
+<h4 id="criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61">Criando a maquina do Cassandra</h4>
 
-&lt;p&gt;Dentro da pasta do cassandra vamos criar o arquivo de nome &lt;strong&gt;Dockerfile&lt;/strong&gt; que vai
-informar ao docker como criar a maquina.&lt;/p&gt;
+<p>Dentro da pasta do cassandra vamos criar o arquivo de nome <strong>Dockerfile</strong> que vai
+informar ao docker como criar a maquina.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do cassandra no DockerHub
+<pre><code class="language-ruby"># Partir do docker inicial do cassandra no DockerHub
 FROM cassandra:latest
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Bem simples!&lt;/p&gt;
+<p>Bem simples!</p>
 
-&lt;h4 id=&#34;criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61&#34;&gt;Criando a maquina do NodeJS&lt;/h4&gt;
+<h4 id="criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61">Criando a maquina do NodeJS</h4>
 
-&lt;p&gt;Dentro da pasta node crie mais um arquivo com o node de &lt;strong&gt;Dockerfile&lt;/strong&gt; para
-configurar o docker que vai rodar o node.&lt;/p&gt;
+<p>Dentro da pasta node crie mais um arquivo com o node de <strong>Dockerfile</strong> para
+configurar o docker que vai rodar o node.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Partir do docker inicial do node do DockerHub
+<pre><code class="language-ruby"># Partir do docker inicial do node do DockerHub
 FROM node:latest
 
 # Criar a pasta onde a aplicação vai rodar
@@ -81,56 +81,56 @@ RUN mkdir /api
 WORKDIR /api
 
 # Executar a instalação das dependecias
-ENTRYPOINT [&amp;quot;/bin/bash&amp;quot;, &amp;quot;start.sh&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
+ENTRYPOINT [&quot;/bin/bash&quot;, &quot;start.sh&quot;]
+</code></pre>
 
-&lt;p&gt;Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
-deixar algo preparado aqui.&lt;/p&gt;
+<p>Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
+deixar algo preparado aqui.</p>
 
-&lt;h4 id=&#34;configurando-a-composição:2d07405689eed99118c9470fa868ed61&#34;&gt;Configurando a composição&lt;/h4&gt;
+<h4 id="configurando-a-composição:2d07405689eed99118c9470fa868ed61">Configurando a composição</h4>
 
-&lt;p&gt;Crie na pasta raiz (cassandra_docker) um arquivo com o nome &amp;ldquo;docker-compose.yml&amp;rdquo;
+<p>Crie na pasta raiz (cassandra_docker) um arquivo com o nome &ldquo;docker-compose.yml&rdquo;
 que vai receber a configuração detalhada de como o dockers vão ser criados e
-como eles vão se conectar.&lt;/p&gt;
+como eles vão se conectar.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;cassandra:
+<pre><code class="language-ruby">cassandra:
   build: ./cassandra
   expose:
-    - &amp;quot;27017&amp;quot;
+    - &quot;27017&quot;
   ports:
-  - &amp;quot;7199:7199&amp;quot;
-  - &amp;quot;7000:7000&amp;quot;
-  - &amp;quot;7001:7001&amp;quot;
-  - &amp;quot;9160:9160&amp;quot;
-  - &amp;quot;9042:9042&amp;quot;
+  - &quot;7199:7199&quot;
+  - &quot;7000:7000&quot;
+  - &quot;7001:7001&quot;
+  - &quot;9160:9160&quot;
+  - &quot;9042:9042&quot;
 
 nodejs:
   build: ./node
   volumes:
-    - &amp;quot;./node/api:/api&amp;quot;
+    - &quot;./node/api:/api&quot;
   expose:
-    - &amp;quot;3000&amp;quot;
+    - &quot;3000&quot;
   ports:
-    - &amp;quot;3000:3000&amp;quot;
+    - &quot;3000:3000&quot;
   links:
-    - &amp;quot;cassandra:cassandra&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+    - &quot;cassandra:cassandra&quot;
+</code></pre>
 
-&lt;h3 id=&#34;iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61&#34;&gt;Iniciando as maquinas&lt;/h3&gt;
+<h3 id="iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61">Iniciando as maquinas</h3>
 
-&lt;p&gt;Execute o comando abaixo e aguarde a maquina do cassandra subir:&lt;/p&gt;
+<p>Execute o comando abaixo e aguarde a maquina do cassandra subir:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d cassandra
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker-compose up -d cassandra
+</code></pre>
 
-&lt;p&gt;É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
+<p>É possível iniciar o Kitematic e ver as maquinas criadas. Apenas a maquina do
 cassandra estará rodando e estará acessível pelo endereço 192.168.99.100:27017 se
-quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
+quiser utilizar uma GUI para acessar o banco.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;O IP &lt;strong&gt;&lt;em&gt;192.168.99.100&lt;/em&gt;&lt;/strong&gt; é atribuído para a maquina virtual (virtualbox) criada como
-docker-machine pelo Kitematic.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p>O IP <strong><em>192.168.99.100</em></strong> é atribuído para a maquina virtual (virtualbox) criada como
+docker-machine pelo Kitematic.</p>
+</blockquote>
 
         ]]>
       </description>

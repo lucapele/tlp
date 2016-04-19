@@ -22,142 +22,142 @@
           <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           
 
-&lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
+<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
 tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
 se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear
-todo o ambiente em uma única linguagem.&lt;/p&gt;
+todo o ambiente em uma única linguagem.</p>
 
-&lt;p&gt;Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
-&lt;a href=&#34;http://www.mean.io&#34;&gt;MEAN.IO&lt;/a&gt; ou em &lt;a href=&#34;https://www.meanjs.org&#34;&gt;MEAN.JS&lt;/a&gt;. Mas sugiro
-que foque primeiro nas tecnologias em separado:&lt;/p&gt;
+<p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
+<a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
+que foque primeiro nas tecnologias em separado:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mongodb.org&#34;&gt;&lt;strong&gt;M&lt;/strong&gt;ongo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.expressjs.com&#34;&gt;&lt;strong&gt;E&lt;/strong&gt;xpress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.angularjs.org&#34;&gt;&lt;strong&gt;A&lt;/strong&gt;ngular&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nodejs.org&#34;&gt;&lt;strong&gt;N&lt;/strong&gt;ode&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="https://www.mongodb.org"><strong>M</strong>ongo</a></li>
+<li><a href="http://www.expressjs.com"><strong>E</strong>xpress</a></li>
+<li><a href="https://www.angularjs.org"><strong>A</strong>ngular</a></li>
+<li><a href="https://www.nodejs.org"><strong>N</strong>ode</a></li>
+</ul>
 
-&lt;p&gt;Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
+<p>Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
-para apoiar sua escolha.&lt;/p&gt;
+para apoiar sua escolha.</p>
 
-&lt;h3 id=&#34;vantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
+<p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
 consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
-rotina da melhor forma.&lt;/p&gt;
+rotina da melhor forma.</p>
 
-&lt;p&gt;A análise da qualidade do código pode ser simplificada, programadores podem fazer
-o &lt;strong&gt;code review&lt;/strong&gt; de outros mais facilmente, mais e mais pessoas terão a capacidade de
-avaliar se o que está sendo produzido é feito da melhor forma.&lt;/p&gt;
+<p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
+o <strong>code review</strong> de outros mais facilmente, mais e mais pessoas terão a capacidade de
+avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-&lt;h4 id=&#34;curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
+<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
 
-&lt;p&gt;A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
-evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.&lt;/p&gt;
+<p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
+evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
 
-&lt;p&gt;A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
+<p>A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
 de cursos e treinamentos estão disponíveis para apoiar a evolução de um time em
-formação.&lt;/p&gt;
+formação.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
 
-&lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
+<p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
-momento de montar um time de desenvolvedores.&lt;/p&gt;
+momento de montar um time de desenvolvedores.</p>
 
-&lt;p&gt;Contratar novos profissionais quando o produto evoluir e crescer pode ser um
+<p>Contratar novos profissionais quando o produto evoluir e crescer pode ser um
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
-de recrutamento captar pessoas para o time em crescimento.&lt;/p&gt;
+de recrutamento captar pessoas para o time em crescimento.</p>
 
-&lt;h4 id=&#34;existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Existe muita coisa pronta&lt;/h4&gt;
+<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
 
-&lt;p&gt;Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
+<p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
-um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.&lt;/p&gt;
+um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.</p>
 
-&lt;p&gt;O uso de repositórios como o &lt;a href=&#34;https://www.npmjs.com&#34;&gt;NPM&lt;/a&gt; torna simples utilizar novos
-módulos nas aplicações.&lt;/p&gt;
+<p>O uso de repositórios como o <a href="https://www.npmjs.com">NPM</a> torna simples utilizar novos
+módulos nas aplicações.</p>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/js_back_front_joke.jpg&#34; alt=&#34;Tudo javascript&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/js_back_front_joke.jpg" alt="Tudo javascript"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h3 id=&#34;desvantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Você deve estar se perguntando: &amp;ldquo;Mas isso não é uma vantagem?&amp;rdquo;. Nesse caso, existem dois
+<p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
-pode causar um risco para os projetos.&lt;/p&gt;
+pode causar um risco para os projetos.</p>
 
-&lt;p&gt;Afinal, um programador de aplicação &amp;ldquo;front-end&amp;rdquo; tem um foco de pensamento e raciocínio
-diferente do programador de &amp;ldquo;back-end&amp;rdquo; que tem um foco diferente de como armazenar
-informações e deveria ter apoio de conhecedores do banco de dados escolhido.&lt;/p&gt;
+<p>Afinal, um programador de aplicação &ldquo;front-end&rdquo; tem um foco de pensamento e raciocínio
+diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
+informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida e existe muita coisa pronta&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
-&lt;p&gt;Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
-projeto novo.&lt;/p&gt;
+<p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
+projeto novo.</p>
 
-&lt;p&gt;A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
+<p>A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
 pessoas que apenas sabem utilizar os recursos prontos e não tem conhecimento para
-desenvolver a solução da melhor forma.&lt;/p&gt;
+desenvolver a solução da melhor forma.</p>
 
-&lt;p&gt;Alguns profissionais criam aplicações &amp;ldquo;do zero&amp;rdquo; que, sem que eles escrevam realmente
-uma linha de código voltada para o produto, possuem mais de 3500 arquivos.&lt;/p&gt;
+<p>Alguns profissionais criam aplicações &ldquo;do zero&rdquo; que, sem que eles escrevam realmente
+uma linha de código voltada para o produto, possuem mais de 3500 arquivos.</p>
 
-&lt;p&gt;Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
+<p>Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
 é polêmico). Segue duas referências interessantes para estudo que podem exemplificar
-bem como isso pode estar afetando a comunidade.&lt;/p&gt;
+bem como isso pode estar afetando a comunidade.</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/&#34;&gt;NPM : Have we forgotten how to program?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/kA4-b7hvWhg&#34;&gt;Why Code in Node.js often gets Rejected by SoundCloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/">NPM : Have we forgotten how to program?</a></li>
+<li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
+</ul>
 
-&lt;h4 id=&#34;dependência:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Dependência&lt;/h4&gt;
+<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
 
-&lt;p&gt;A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
-de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.&lt;/p&gt;
+<p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
+de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
 
-&lt;p&gt;Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
+<p>Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
 de determinados recursos e acabam restringindo o uso da tecnologia como um todo.
 Muitas vezes estas restrições são agravadas quando novas versões do framework são
-lançadas e a aplicação precisa de refactorings para utilizar o que é novo.&lt;/p&gt;
+lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</p>
 
-&lt;p&gt;A dependência pode ficar ainda mais evidente quando um framework para de ser
+<p>A dependência pode ficar ainda mais evidente quando um framework para de ser
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
-débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&gt;
+débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-&lt;h5 id=&#34;é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;É muita coisa para um único profissional&lt;/h5&gt;
+<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/MEAN-Stack-Expertise.jpg&#34; alt=&#34;Não é pouca coisa&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/MEAN-Stack-Expertise.jpg" alt="Não é pouca coisa"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h2 id=&#34;conclusão:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Conclusão&lt;/h2&gt;
+<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
 
-&lt;p&gt;Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
+<p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito e que
 após um resultado positivo se preparem para mitigar os riscos e construir não apenas
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
-dentro de seus ambientes.&lt;/p&gt;
+dentro de seus ambientes.</p>
 
         ]]>
       </description>
@@ -174,118 +174,118 @@ dentro de seus ambientes.&lt;/p&gt;
           <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
           
 
-&lt;p&gt;O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.&lt;/p&gt;
+<p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.</p>
 
-&lt;h3 id=&#34;vantagens:481c1976cafc46cc10d8c82887287de8&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:481c1976cafc46cc10d8c82887287de8">Vantagens</h3>
 
-&lt;p&gt;Terceirizar parcialmente ou totalmente uma área de tecnologia pode trazer alguns benefícios evidentes e, muitas vezes, de curto prazo em relação ao serviço prestado antes da contratação.&lt;/p&gt;
+<p>Terceirizar parcialmente ou totalmente uma área de tecnologia pode trazer alguns benefícios evidentes e, muitas vezes, de curto prazo em relação ao serviço prestado antes da contratação.</p>
 
-&lt;h4 id=&#34;foco:481c1976cafc46cc10d8c82887287de8&#34;&gt;Foco&lt;/h4&gt;
+<h4 id="foco:481c1976cafc46cc10d8c82887287de8">Foco</h4>
 
-&lt;p&gt;A abstração das diversas dificuldades de gestão causados por uma equipe interna pode permitir os profissionais da alta gestão ter maior foco no direcionamento da empresa e ter um pensamento mais estratégico do que ações de &lt;strong&gt;como&lt;/strong&gt; resolver os problemas.&lt;/p&gt;
+<p>A abstração das diversas dificuldades de gestão causados por uma equipe interna pode permitir os profissionais da alta gestão ter maior foco no direcionamento da empresa e ter um pensamento mais estratégico do que ações de <strong>como</strong> resolver os problemas.</p>
 
-&lt;h4 id=&#34;redução-de-custos:481c1976cafc46cc10d8c82887287de8&#34;&gt;Redução de Custos&lt;/h4&gt;
+<h4 id="redução-de-custos:481c1976cafc46cc10d8c82887287de8">Redução de Custos</h4>
 
-&lt;p&gt;Manter um funcionário é mais caro do que contratar uma empresa de outsourcing. Os custos operacionais de contratação, treinamento, espaço, ferias e tantos outros benefícios aplicados pela &lt;a href=&#34;http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm&#34;&gt;CLT&lt;/a&gt; encarecem significativamente manter um funcionário contratado para um serviço.&lt;/p&gt;
+<p>Manter um funcionário é mais caro do que contratar uma empresa de outsourcing. Os custos operacionais de contratação, treinamento, espaço, ferias e tantos outros benefícios aplicados pela <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm">CLT</a> encarecem significativamente manter um funcionário contratado para um serviço.</p>
 
-&lt;p&gt;Para as empresas contratantes é vantajoso não possuir esse vínculo direto com as pessoas e permite que, caso seja necessário, substituir as pessoas que não estão atendendo as necessidades de forma mais rápida.&lt;/p&gt;
+<p>Para as empresas contratantes é vantajoso não possuir esse vínculo direto com as pessoas e permite que, caso seja necessário, substituir as pessoas que não estão atendendo as necessidades de forma mais rápida.</p>
 
-&lt;h4 id=&#34;escalabilidade:481c1976cafc46cc10d8c82887287de8&#34;&gt;Escalabilidade&lt;/h4&gt;
+<h4 id="escalabilidade:481c1976cafc46cc10d8c82887287de8">Escalabilidade</h4>
 
-&lt;p&gt;Todo o processo de recrutamento e seleção é caro e demorado. Dependendo da velocidade de crescimento do produto, a necessidade de possuir mais pessoas para apoiar o desenvolvimento em um curto prazo é um grande desafio para empresas em expansão.&lt;/p&gt;
+<p>Todo o processo de recrutamento e seleção é caro e demorado. Dependendo da velocidade de crescimento do produto, a necessidade de possuir mais pessoas para apoiar o desenvolvimento em um curto prazo é um grande desafio para empresas em expansão.</p>
 
-&lt;p&gt;As empresas de outsourcing podem facilitar esse processo pois em alguns casos possuem um ritmo diferente de alocação de recursos. A contratação de um novo funcionário para uma empresa terceirizada ocorre de forma muito mais rápida do que na maioria de seus clientes.&lt;/p&gt;
+<p>As empresas de outsourcing podem facilitar esse processo pois em alguns casos possuem um ritmo diferente de alocação de recursos. A contratação de um novo funcionário para uma empresa terceirizada ocorre de forma muito mais rápida do que na maioria de seus clientes.</p>
 
-&lt;h4 id=&#34;simplificação:481c1976cafc46cc10d8c82887287de8&#34;&gt;Simplificação&lt;/h4&gt;
+<h4 id="simplificação:481c1976cafc46cc10d8c82887287de8">Simplificação</h4>
 
-&lt;p&gt;Em muitas empresas os processos estabelecidos podem causar uma certa morosidade no atendimento das necessidades principais de manutenção de produtos de tecnologia.&lt;/p&gt;
+<p>Em muitas empresas os processos estabelecidos podem causar uma certa morosidade no atendimento das necessidades principais de manutenção de produtos de tecnologia.</p>
 
-&lt;p&gt;Empresas terceirizadas possuem um fluxo de atendimento mais enxuto que pode simplificar o processo de atendimento em situações de emergência. Por não estar incluída diretamente nas restrições das empresas que contratam seus serviços, as empresas de outsourcing conseguem atender aos requisitos através de processos mais simples.&lt;/p&gt;
+<p>Empresas terceirizadas possuem um fluxo de atendimento mais enxuto que pode simplificar o processo de atendimento em situações de emergência. Por não estar incluída diretamente nas restrições das empresas que contratam seus serviços, as empresas de outsourcing conseguem atender aos requisitos através de processos mais simples.</p>
 
-&lt;h4 id=&#34;velocidade:481c1976cafc46cc10d8c82887287de8&#34;&gt;Velocidade&lt;/h4&gt;
+<h4 id="velocidade:481c1976cafc46cc10d8c82887287de8">Velocidade</h4>
 
-&lt;p&gt;Normalmente, ao inicio de uma contratação de outsourcing, as entregas passam a se tornar mais rápidas pois a ação acaba por movimentar um conjunto de pessoas para atender as defasagens e oportunidades mais necessárias em um curto espaço de tempo. Ao serem contratadas as empresas identificam oportunidades de melhoria que podem ser utilizadas para a evolução do processo como todo.&lt;/p&gt;
+<p>Normalmente, ao inicio de uma contratação de outsourcing, as entregas passam a se tornar mais rápidas pois a ação acaba por movimentar um conjunto de pessoas para atender as defasagens e oportunidades mais necessárias em um curto espaço de tempo. Ao serem contratadas as empresas identificam oportunidades de melhoria que podem ser utilizadas para a evolução do processo como todo.</p>
 
-&lt;h3 id=&#34;desvantagens:481c1976cafc46cc10d8c82887287de8&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:481c1976cafc46cc10d8c82887287de8">Desvantagens</h3>
 
-&lt;p&gt;Nem tudo são flores em um procedimento de terceirização de trabalhos. Muitas dificuldades começam a aparecer depois de alguns meses trabalhando nesse modelo.&lt;/p&gt;
+<p>Nem tudo são flores em um procedimento de terceirização de trabalhos. Muitas dificuldades começam a aparecer depois de alguns meses trabalhando nesse modelo.</p>
 
-&lt;h4 id=&#34;conhecimento-perdido:481c1976cafc46cc10d8c82887287de8&#34;&gt;Conhecimento perdido&lt;/h4&gt;
+<h4 id="conhecimento-perdido:481c1976cafc46cc10d8c82887287de8">Conhecimento perdido</h4>
 
-&lt;p&gt;A contratação de uma equipe em outsourcing pode trazer ganhos rápidos, mas normalmente os contratos tem tempo definido e, em momento de renegociação, acordos são quebrados.&lt;/p&gt;
+<p>A contratação de uma equipe em outsourcing pode trazer ganhos rápidos, mas normalmente os contratos tem tempo definido e, em momento de renegociação, acordos são quebrados.</p>
 
-&lt;p&gt;O conhecimento gerado nas pessoas envolvidas nas entregas e projetos ficam vinculadas com as empresas de outsourcing e a empresa contratante perde um bem valioso: O conhecimento.&lt;/p&gt;
+<p>O conhecimento gerado nas pessoas envolvidas nas entregas e projetos ficam vinculadas com as empresas de outsourcing e a empresa contratante perde um bem valioso: O conhecimento.</p>
 
-&lt;p&gt;O risco ocorre da mesma forma com profissionais da empresa? Sim; Mas é fato que as ações necessárias para reduzir este &lt;a href=&#34;https://pt.wikipedia.org/wiki/Rotatividade_de_pessoal&#34;&gt;turnover&lt;/a&gt; ficam na própria empresa.&lt;/p&gt;
+<p>O risco ocorre da mesma forma com profissionais da empresa? Sim; Mas é fato que as ações necessárias para reduzir este <a href="https://pt.wikipedia.org/wiki/Rotatividade_de_pessoal">turnover</a> ficam na própria empresa.</p>
 
-&lt;h4 id=&#34;gestão-impessoal:481c1976cafc46cc10d8c82887287de8&#34;&gt;Gestão impessoal&lt;/h4&gt;
+<h4 id="gestão-impessoal:481c1976cafc46cc10d8c82887287de8">Gestão impessoal</h4>
 
-&lt;p&gt;Durante um contrato de outsourcing a gestão deve sempre ficar com um funcionário da empresa de outsourcing. Responder diretamente a um funcionário da empresa contratante pode gerar vínculos empregatícios independente do contrato firmado com a empresa.&lt;/p&gt;
+<p>Durante um contrato de outsourcing a gestão deve sempre ficar com um funcionário da empresa de outsourcing. Responder diretamente a um funcionário da empresa contratante pode gerar vínculos empregatícios independente do contrato firmado com a empresa.</p>
 
-&lt;p&gt;Isso acaba tornando o processo de gestão das pessoas e tarefas algo extremamente burocrático e impessoal. Todo feedback sobre a evolução de um funcionário terceirizado deve ser feito ao seu gestor direto na empresa.&lt;/p&gt;
+<p>Isso acaba tornando o processo de gestão das pessoas e tarefas algo extremamente burocrático e impessoal. Todo feedback sobre a evolução de um funcionário terceirizado deve ser feito ao seu gestor direto na empresa.</p>
 
-&lt;h4 id=&#34;comunicação-mais-lenta:481c1976cafc46cc10d8c82887287de8&#34;&gt;Comunicação mais lenta&lt;/h4&gt;
+<h4 id="comunicação-mais-lenta:481c1976cafc46cc10d8c82887287de8">Comunicação mais lenta</h4>
 
-&lt;p&gt;Normalmente ações de outsourcing ocorrem em ambientes físicos separados e toda comunicação deve ser muito bem documentada para evitar mudanças inesperadas.&lt;/p&gt;
+<p>Normalmente ações de outsourcing ocorrem em ambientes físicos separados e toda comunicação deve ser muito bem documentada para evitar mudanças inesperadas.</p>
 
-&lt;p&gt;Uma ligação provavelmente não será atendida sem um email documentando o processo, uma reunião não será considerada sem uma ata revisada pelos dois lados, pedir de informações do especialista demanda um processo de alocação de horas.&lt;/p&gt;
+<p>Uma ligação provavelmente não será atendida sem um email documentando o processo, uma reunião não será considerada sem uma ata revisada pelos dois lados, pedir de informações do especialista demanda um processo de alocação de horas.</p>
 
-&lt;h4 id=&#34;resistência-a-mudanças:481c1976cafc46cc10d8c82887287de8&#34;&gt;Resistência a mudanças&lt;/h4&gt;
+<h4 id="resistência-a-mudanças:481c1976cafc46cc10d8c82887287de8">Resistência a mudanças</h4>
 
-&lt;p&gt;Com a desculpa de garantir a entrega do que foi contratado, as empresas de outsourcing se tornam resistentes a mudanças das necessidades dos clientes após o inicio dos trabalhos.&lt;/p&gt;
+<p>Com a desculpa de garantir a entrega do que foi contratado, as empresas de outsourcing se tornam resistentes a mudanças das necessidades dos clientes após o inicio dos trabalhos.</p>
 
-&lt;p&gt;Precisa dar um direcionamento para uma área terceirizada ou mudar parcialmente o escopo do produto que esta criando? Bom, acho melhor começar a trabalhar nos aditivos de contrato e revalidação financeira.&lt;/p&gt;
+<p>Precisa dar um direcionamento para uma área terceirizada ou mudar parcialmente o escopo do produto que esta criando? Bom, acho melhor começar a trabalhar nos aditivos de contrato e revalidação financeira.</p>
 
-&lt;p&gt;As empresas de outsourcing precisam garantir que o escopo mude muito pouco para garantir que os valores e recursos investidos gerem o lucro esperado. Mudanças durante o projeto, podem causar impactos na entrega e custos maiores mesmo que todos os envolvidos estejam de acordo da necessidade daquela implementação.&lt;/p&gt;
+<p>As empresas de outsourcing precisam garantir que o escopo mude muito pouco para garantir que os valores e recursos investidos gerem o lucro esperado. Mudanças durante o projeto, podem causar impactos na entrega e custos maiores mesmo que todos os envolvidos estejam de acordo da necessidade daquela implementação.</p>
 
-&lt;h4 id=&#34;segurança:481c1976cafc46cc10d8c82887287de8&#34;&gt;Segurança&lt;/h4&gt;
+<h4 id="segurança:481c1976cafc46cc10d8c82887287de8">Segurança</h4>
 
-&lt;p&gt;Por mais que a empresa contratada seja reconhecida e tenha ótima reputação de mercado, a segurança é um dos fatores críticos a ser considerado ao contratar serviços terceirizados de tecnologia.&lt;/p&gt;
+<p>Por mais que a empresa contratada seja reconhecida e tenha ótima reputação de mercado, a segurança é um dos fatores críticos a ser considerado ao contratar serviços terceirizados de tecnologia.</p>
 
-&lt;p&gt;Os processos envolvidos em garantir que um terceiro possa fazer parte do grupo de desenvolvimento de novas tecnologias, acessar servidores produtivos, corrigir uma falha de forma urgente, etc. Podem tornar as novas contratações demoradas.&lt;/p&gt;
+<p>Os processos envolvidos em garantir que um terceiro possa fazer parte do grupo de desenvolvimento de novas tecnologias, acessar servidores produtivos, corrigir uma falha de forma urgente, etc. Podem tornar as novas contratações demoradas.</p>
 
-&lt;h4 id=&#34;a-escolha-por-preço:481c1976cafc46cc10d8c82887287de8&#34;&gt;A escolha por preço&lt;/h4&gt;
+<h4 id="a-escolha-por-preço:481c1976cafc46cc10d8c82887287de8">A escolha por preço</h4>
 
-&lt;p&gt;A forma de escolher uma empresa para atender uma demanda em outsourcing pode ser um grande risco para o projeto. Um profissional deve receber a atenção necessária para atender os principais custos implícitos motivacionais como:&lt;/p&gt;
+<p>A forma de escolher uma empresa para atender uma demanda em outsourcing pode ser um grande risco para o projeto. Um profissional deve receber a atenção necessária para atender os principais custos implícitos motivacionais como:</p>
 
-&lt;ul&gt;
-&lt;li&gt;Evolução e Aposentadoria&lt;/li&gt;
-&lt;li&gt;Horas Extras&lt;/li&gt;
-&lt;li&gt;Desenvolvimento pessoal&lt;/li&gt;
-&lt;li&gt;Treinamentos e Qualificações&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>Evolução e Aposentadoria</li>
+<li>Horas Extras</li>
+<li>Desenvolvimento pessoal</li>
+<li>Treinamentos e Qualificações</li>
+</ul>
 
-&lt;p&gt;Não possuir alguns desses itens são fatores desmotivadores para os profissionais envolvidos e, no caso do outsourcing, muitas vezes esses mesmos fatores são deixados de lado.&lt;/p&gt;
+<p>Não possuir alguns desses itens são fatores desmotivadores para os profissionais envolvidos e, no caso do outsourcing, muitas vezes esses mesmos fatores são deixados de lado.</p>
 
-&lt;p&gt;Não é difícil compreender como a &lt;a href=&#34;https://pt.wikipedia.org/wiki/Hierarquia_de_necessidades_de_Maslow&#34;&gt;pirâmide de Maslow&lt;/a&gt; impacta significativamente a qualidade das entregas e com a terceirização a gestão do impacto pela empresa contratante é de um teor altamente complexo.&lt;/p&gt;
+<p>Não é difícil compreender como a <a href="https://pt.wikipedia.org/wiki/Hierarquia_de_necessidades_de_Maslow">pirâmide de Maslow</a> impacta significativamente a qualidade das entregas e com a terceirização a gestão do impacto pela empresa contratante é de um teor altamente complexo.</p>
 
-&lt;p&gt;Quem você quer que faça o seu trabalho fundamental, patriotas ou mercenários?&lt;/p&gt;
+<p>Quem você quer que faça o seu trabalho fundamental, patriotas ou mercenários?</p>
 
-&lt;h4 id=&#34;nem-tudo-encaixa:481c1976cafc46cc10d8c82887287de8&#34;&gt;Nem tudo encaixa&lt;/h4&gt;
+<h4 id="nem-tudo-encaixa:481c1976cafc46cc10d8c82887287de8">Nem tudo encaixa</h4>
 
-&lt;p&gt;Em grandes projetos ou processos que demandam a contratação de mais de uma empresa de outsourcing a conexão entre as entregas e procedimentos de todos é algo de extrema complexidade.&lt;/p&gt;
+<p>Em grandes projetos ou processos que demandam a contratação de mais de uma empresa de outsourcing a conexão entre as entregas e procedimentos de todos é algo de extrema complexidade.</p>
 
-&lt;p&gt;Em alguns casos, a concorrência entre as empresas impede que informações sejam transmitidas diretamente e o cliente passa a ser um centralizador de informações desnecessárias entre as etapas.&lt;/p&gt;
+<p>Em alguns casos, a concorrência entre as empresas impede que informações sejam transmitidas diretamente e o cliente passa a ser um centralizador de informações desnecessárias entre as etapas.</p>
 
-&lt;p&gt;O conhecimento descentralizado e espalhado torna mais complexo a visão de evolução dos produtos atuais.&lt;/p&gt;
+<p>O conhecimento descentralizado e espalhado torna mais complexo a visão de evolução dos produtos atuais.</p>
 
-&lt;h3 id=&#34;praticas-comuns-no-brasil:481c1976cafc46cc10d8c82887287de8&#34;&gt;Praticas comuns no Brasil&lt;/h3&gt;
+<h3 id="praticas-comuns-no-brasil:481c1976cafc46cc10d8c82887287de8">Praticas comuns no Brasil</h3>
 
-&lt;p&gt;É possível ver no nosso País cenários de outsourcing que acabam tornando a pratica um grande risco para o negócio. É obvio que as empresas que prestam os serviços visam o lucro próprio e o bem comum dos produtos e serviços prestados pela sua contratante é secundário.&lt;/p&gt;
+<p>É possível ver no nosso País cenários de outsourcing que acabam tornando a pratica um grande risco para o negócio. É obvio que as empresas que prestam os serviços visam o lucro próprio e o bem comum dos produtos e serviços prestados pela sua contratante é secundário.</p>
 
-&lt;h4 id=&#34;evolução-despreparada:481c1976cafc46cc10d8c82887287de8&#34;&gt;Evolução despreparada&lt;/h4&gt;
+<h4 id="evolução-despreparada:481c1976cafc46cc10d8c82887287de8">Evolução despreparada</h4>
 
-&lt;p&gt;Diante da necessidade de vender o serviço, mesmo não tendo o recurso com o nível necessário para as atividades. Alguns funcionários são promovidos para se enquadrar nas necessidades do cliente.&lt;/p&gt;
+<p>Diante da necessidade de vender o serviço, mesmo não tendo o recurso com o nível necessário para as atividades. Alguns funcionários são promovidos para se enquadrar nas necessidades do cliente.</p>
 
-&lt;p&gt;Em diversas situações esses profissionais não estão preparados para assumir uma nova responsabilidade e não possui o conhecimento e experiência necessária para atender as expectativas do cliente.&lt;/p&gt;
+<p>Em diversas situações esses profissionais não estão preparados para assumir uma nova responsabilidade e não possui o conhecimento e experiência necessária para atender as expectativas do cliente.</p>
 
-&lt;p&gt;Isso causa um atraso significativo nas entregas. Dependendo do contrato, o valor ganho no processo vale o risco. Mas é fácil identificar que quem sai perdendo é o cliente final.&lt;/p&gt;
+<p>Isso causa um atraso significativo nas entregas. Dependendo do contrato, o valor ganho no processo vale o risco. Mas é fácil identificar que quem sai perdendo é o cliente final.</p>
 
-&lt;h4 id=&#34;vende-primeiro-pensa-depois:481c1976cafc46cc10d8c82887287de8&#34;&gt;Vende primeiro, pensa depois&lt;/h4&gt;
+<h4 id="vende-primeiro-pensa-depois:481c1976cafc46cc10d8c82887287de8">Vende primeiro, pensa depois</h4>
 
-&lt;p&gt;Para as empresas de outsourcing, para deixar os custos mais enxutos, a venda ocorre antes de possuir todas as pessoas necessárias para atender aos projetos em que se encontram.&lt;/p&gt;
+<p>Para as empresas de outsourcing, para deixar os custos mais enxutos, a venda ocorre antes de possuir todas as pessoas necessárias para atender aos projetos em que se encontram.</p>
 
-&lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
+<p>As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.</p>
 
         ]]>
       </description>
@@ -302,116 +302,116 @@ dentro de seus ambientes.&lt;/p&gt;
           <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           
 
-&lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.&lt;/p&gt;
+quando se trata de um time de desenvolvimento.</p>
 
-&lt;h3 id=&#34;vantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
 
-&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
-&lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
+<p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
-comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
+comparativo detalhado baseado em dados e benchmarks.</p>
 
-&lt;p&gt;Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.&lt;/p&gt;
+<p>Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;Falar é uma necessidade, escutar é uma arte
-&lt;div class=&#34;reference&#34;&gt;Johann Goethe&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p>Falar é uma necessidade, escutar é uma arte
+<div class="reference">Johann Goethe</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;desvantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
 
-&lt;h4 id=&#34;solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
 
-&lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
+<p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
-que está sendo avaliada.&lt;/p&gt;
+que está sendo avaliada.</p>
 
-&lt;p&gt;O time sempre tem que ter o foco de entregar um
+<p>O time sempre tem que ter o foco de entregar um
 software com qualidade, ou seja, a solução é mais importante que os gostos
-pessoais envolvidos na solução.&lt;/p&gt;
+pessoais envolvidos na solução.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
 
-&lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
+<p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
 ânimos se exaltam quando alguém percebe que, por algum motivo, o outro está
 vencendo a disputa ou que seus argumentos não serão suficientes para convencer
-a maior parte da equipe.&lt;/p&gt;
+a maior parte da equipe.</p>
 
-&lt;p&gt;O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
+<p>O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
 das hipóteses, o lado mais fraco ficará inibido em argumentar em um outro
-momento ou ficará desestimulado em participar ativamente de definições futuras.&lt;/p&gt;
+momento ou ficará desestimulado em participar ativamente de definições futuras.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
 
-&lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
+<p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
 adquiriram adeptos fortes. Isso só corrobora com a visão de que estas discussões
-não geram um resultado final.&lt;/p&gt;
+não geram um resultado final.</p>
 
-&lt;p&gt;O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
+<p>O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
 nascendo e morrendo em todas as linguagens de programação. Cada uma tentando
-resolver um problema.&lt;/p&gt;
+resolver um problema.</p>
 
-&lt;p&gt;Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
+<p>Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
 fomentar que as pessoas procurem por novas soluções para resolver os requisitos
-do cliente e da solução.&lt;/p&gt;
+do cliente e da solução.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
+<blockquote>
+<p>O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
 suas mentes não conseguem mudar nada.
-&lt;div class=&#34;reference&#34;&gt;George Bernard Shaw&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<div class="reference">George Bernard Shaw</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
 
-&lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
+<p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
 desenvolvimento vai iniciar já com débitos técnicos referentes à solução e é
 ainda mais crítico quando percebemos que uma escolha equivocada no início vai
-gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
+gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
+<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
 
-&lt;p&gt;Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
+<p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
 quanto, é entender que os conceitos ágeis também se aplicam nesse momento e que
 ter a mente aberta ao diferente é essencial para entregar software com
-qualidade.&lt;/p&gt;
+qualidade.</p>
 
-&lt;p&gt;Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
-com a mesma &amp;ldquo;base&amp;rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
+<p>Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
+com a mesma &ldquo;base&rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
 time vai existir muito mais trabalho para implantar uma cultura ágil do que o
 contrário (contratar um pensamento ágil e permitir que os bons técnicos evoluam
-em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
+em novas tecnologias). Mas isso é assunto para outro post.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
 
-&lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
+<p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
+<p><br/>
+<br/></p>
 
-&lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
+<p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
 
         ]]>
       </description>

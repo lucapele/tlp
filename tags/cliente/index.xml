@@ -22,142 +22,142 @@
           <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           
 
-&lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
+<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
 tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
 se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear
-todo o ambiente em uma única linguagem.&lt;/p&gt;
+todo o ambiente em uma única linguagem.</p>
 
-&lt;p&gt;Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
-&lt;a href=&#34;http://www.mean.io&#34;&gt;MEAN.IO&lt;/a&gt; ou em &lt;a href=&#34;https://www.meanjs.org&#34;&gt;MEAN.JS&lt;/a&gt;. Mas sugiro
-que foque primeiro nas tecnologias em separado:&lt;/p&gt;
+<p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
+<a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
+que foque primeiro nas tecnologias em separado:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mongodb.org&#34;&gt;&lt;strong&gt;M&lt;/strong&gt;ongo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.expressjs.com&#34;&gt;&lt;strong&gt;E&lt;/strong&gt;xpress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.angularjs.org&#34;&gt;&lt;strong&gt;A&lt;/strong&gt;ngular&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nodejs.org&#34;&gt;&lt;strong&gt;N&lt;/strong&gt;ode&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="https://www.mongodb.org"><strong>M</strong>ongo</a></li>
+<li><a href="http://www.expressjs.com"><strong>E</strong>xpress</a></li>
+<li><a href="https://www.angularjs.org"><strong>A</strong>ngular</a></li>
+<li><a href="https://www.nodejs.org"><strong>N</strong>ode</a></li>
+</ul>
 
-&lt;p&gt;Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
+<p>Se sua situação atual está um passo antes, ou seja, decidindo SE vai utilizar
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
-para apoiar sua escolha.&lt;/p&gt;
+para apoiar sua escolha.</p>
 
-&lt;h3 id=&#34;vantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
+<p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda que as pessoas
 consigam discutir livremente sobre o que pode estar ocorrendo ou como criar uma
-rotina da melhor forma.&lt;/p&gt;
+rotina da melhor forma.</p>
 
-&lt;p&gt;A análise da qualidade do código pode ser simplificada, programadores podem fazer
-o &lt;strong&gt;code review&lt;/strong&gt; de outros mais facilmente, mais e mais pessoas terão a capacidade de
-avaliar se o que está sendo produzido é feito da melhor forma.&lt;/p&gt;
+<p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
+o <strong>code review</strong> de outros mais facilmente, mais e mais pessoas terão a capacidade de
+avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-&lt;h4 id=&#34;curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Curva de aprendizagem&lt;/h4&gt;
+<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
 
-&lt;p&gt;A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
-evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.&lt;/p&gt;
+<p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
+evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
 
-&lt;p&gt;A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
+<p>A comunidade pode apoiar facilmente os novos profissionais e uma maior quantidade
 de cursos e treinamentos estão disponíveis para apoiar a evolução de um time em
-formação.&lt;/p&gt;
+formação.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
 
-&lt;p&gt;Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
+<p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
-momento de montar um time de desenvolvedores.&lt;/p&gt;
+momento de montar um time de desenvolvedores.</p>
 
-&lt;p&gt;Contratar novos profissionais quando o produto evoluir e crescer pode ser um
+<p>Contratar novos profissionais quando o produto evoluir e crescer pode ser um
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
-de recrutamento captar pessoas para o time em crescimento.&lt;/p&gt;
+de recrutamento captar pessoas para o time em crescimento.</p>
 
-&lt;h4 id=&#34;existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Existe muita coisa pronta&lt;/h4&gt;
+<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
 
-&lt;p&gt;Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
+<p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
-um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.&lt;/p&gt;
+um aumento de produtividade para iniciar seu projeto e mais velocidade nas entregas.</p>
 
-&lt;p&gt;O uso de repositórios como o &lt;a href=&#34;https://www.npmjs.com&#34;&gt;NPM&lt;/a&gt; torna simples utilizar novos
-módulos nas aplicações.&lt;/p&gt;
+<p>O uso de repositórios como o <a href="https://www.npmjs.com">NPM</a> torna simples utilizar novos
+módulos nas aplicações.</p>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/js_back_front_joke.jpg&#34; alt=&#34;Tudo javascript&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/js_back_front_joke.jpg" alt="Tudo javascript"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h3 id=&#34;desvantagens:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
 
-&lt;h4 id=&#34;a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é sempre a mesma&lt;/h4&gt;
+<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
 
-&lt;p&gt;Você deve estar se perguntando: &amp;ldquo;Mas isso não é uma vantagem?&amp;rdquo;. Nesse caso, existem dois
+<p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
-pode causar um risco para os projetos.&lt;/p&gt;
+pode causar um risco para os projetos.</p>
 
-&lt;p&gt;Afinal, um programador de aplicação &amp;ldquo;front-end&amp;rdquo; tem um foco de pensamento e raciocínio
-diferente do programador de &amp;ldquo;back-end&amp;rdquo; que tem um foco diferente de como armazenar
-informações e deveria ter apoio de conhecedores do banco de dados escolhido.&lt;/p&gt;
+<p>Afinal, um programador de aplicação &ldquo;front-end&rdquo; tem um foco de pensamento e raciocínio
+diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
+informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-&lt;h4 id=&#34;a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;A linguagem é bem difundida e existe muita coisa pronta&lt;/h4&gt;
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
-&lt;p&gt;Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
-projeto novo.&lt;/p&gt;
+<p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
+projeto novo.</p>
 
-&lt;p&gt;A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
+<p>A facilidade de encontrar conhecimento e módulos prontos gera o risco de contratar
 pessoas que apenas sabem utilizar os recursos prontos e não tem conhecimento para
-desenvolver a solução da melhor forma.&lt;/p&gt;
+desenvolver a solução da melhor forma.</p>
 
-&lt;p&gt;Alguns profissionais criam aplicações &amp;ldquo;do zero&amp;rdquo; que, sem que eles escrevam realmente
-uma linha de código voltada para o produto, possuem mais de 3500 arquivos.&lt;/p&gt;
+<p>Alguns profissionais criam aplicações &ldquo;do zero&rdquo; que, sem que eles escrevam realmente
+uma linha de código voltada para o produto, possuem mais de 3500 arquivos.</p>
 
-&lt;p&gt;Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
+<p>Ao invés de discorrer sobre o tema de forma aprofundada (pois sei que esse assunto
 é polêmico). Segue duas referências interessantes para estudo que podem exemplificar
-bem como isso pode estar afetando a comunidade.&lt;/p&gt;
+bem como isso pode estar afetando a comunidade.</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/&#34;&gt;NPM : Have we forgotten how to program?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/kA4-b7hvWhg&#34;&gt;Why Code in Node.js often gets Rejected by SoundCloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/">NPM : Have we forgotten how to program?</a></li>
+<li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
+</ul>
 
-&lt;h4 id=&#34;dependência:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Dependência&lt;/h4&gt;
+<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
 
-&lt;p&gt;A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
-de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.&lt;/p&gt;
+<p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
+de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
 
-&lt;p&gt;Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
+<p>Os envolvidos no desenvolvimento do projeto acabam por ficar dependentes do uso
 de determinados recursos e acabam restringindo o uso da tecnologia como um todo.
 Muitas vezes estas restrições são agravadas quando novas versões do framework são
-lançadas e a aplicação precisa de refactorings para utilizar o que é novo.&lt;/p&gt;
+lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</p>
 
-&lt;p&gt;A dependência pode ficar ainda mais evidente quando um framework para de ser
+<p>A dependência pode ficar ainda mais evidente quando um framework para de ser
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
-débito técnico que nunca poderão pagar sem reescrever todo o código.&lt;/p&gt;
+débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-&lt;h5 id=&#34;é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;É muita coisa para um único profissional&lt;/h5&gt;
+<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;col-xs-8 text-center&#34;&gt;
-    &lt;img src=&#34;../../images/post/MEAN-Stack-Expertise.jpg&#34; alt=&#34;Não é pouca coisa&#34;
-    class=&#34;img-responsive&#34;
-    style=&#34;width:100%; max-width:400px&#34;&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-2&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="row">
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8 text-center">
+    <img src="../../images/post/MEAN-Stack-Expertise.jpg" alt="Não é pouca coisa"
+    class="img-responsive"
+    style="width:100%; max-width:400px">
+  </div>
+  <div class="col-xs-2"></div>
+</div>
 
-&lt;h2 id=&#34;conclusão:dcbb73ac5f26f3360a06acfd8695c880&#34;&gt;Conclusão&lt;/h2&gt;
+<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
 
-&lt;p&gt;Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
+<p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito e que
 após um resultado positivo se preparem para mitigar os riscos e construir não apenas
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
-dentro de seus ambientes.&lt;/p&gt;
+dentro de seus ambientes.</p>
 
         ]]>
       </description>
@@ -174,116 +174,116 @@ dentro de seus ambientes.&lt;/p&gt;
           <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           
 
-&lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.&lt;/p&gt;
+quando se trata de um time de desenvolvimento.</p>
 
-&lt;h3 id=&#34;vantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Vantagens&lt;/h3&gt;
+<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
 
-&lt;h4 id=&#34;avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d&#34;&gt;Avaliação de pontos fortes e fracos de cada linguagem&lt;/h4&gt;
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
-&lt;p&gt;É evidente que estas discussões podem e vão evidenciar os diferenciais que
+<p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
-comparativo detalhado baseado em dados e benchmarks.&lt;/p&gt;
+comparativo detalhado baseado em dados e benchmarks.</p>
 
-&lt;p&gt;Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.&lt;/p&gt;
+<p>Isso permite ao time como um todo adquirir conhecimento extra sobre os temas.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;Falar é uma necessidade, escutar é uma arte
-&lt;div class=&#34;reference&#34;&gt;Johann Goethe&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p>Falar é uma necessidade, escutar é uma arte
+<div class="reference">Johann Goethe</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;desvantagens:b111f52da7a87d8d81eee532336c896d&#34;&gt;Desvantagens&lt;/h3&gt;
+<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
 
-&lt;h4 id=&#34;solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d&#34;&gt;Solução em segundo plano.&lt;/h4&gt;
+<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
 
-&lt;p&gt;Normalmente a explanação dos evangelistas não está direcionada a solucionar um
+<p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
-que está sendo avaliada.&lt;/p&gt;
+que está sendo avaliada.</p>
 
-&lt;p&gt;O time sempre tem que ter o foco de entregar um
+<p>O time sempre tem que ter o foco de entregar um
 software com qualidade, ou seja, a solução é mais importante que os gostos
-pessoais envolvidos na solução.&lt;/p&gt;
+pessoais envolvidos na solução.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d&#34;&gt;Impactos no relacionamento do time.&lt;/h4&gt;
+<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
 
-&lt;p&gt;É fato que quando existe uma discussão entre dois evangelistas de tecnologias
+<p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
 ânimos se exaltam quando alguém percebe que, por algum motivo, o outro está
 vencendo a disputa ou que seus argumentos não serão suficientes para convencer
-a maior parte da equipe.&lt;/p&gt;
+a maior parte da equipe.</p>
 
-&lt;p&gt;O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
+<p>O time fica dividido e o relacionamento entre as pessoas fica abalado. Na melhor
 das hipóteses, o lado mais fraco ficará inibido em argumentar em um outro
-momento ou ficará desestimulado em participar ativamente de definições futuras.&lt;/p&gt;
+momento ou ficará desestimulado em participar ativamente de definições futuras.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Olhos fechados para o novo.&lt;/h4&gt;
+<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
 
-&lt;p&gt;Nem sempre as discussões são sobre &lt;strong&gt;novas&lt;/strong&gt; tecnologias, na verdade, diversas
+<p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
 adquiriram adeptos fortes. Isso só corrobora com a visão de que estas discussões
-não geram um resultado final.&lt;/p&gt;
+não geram um resultado final.</p>
 
-&lt;p&gt;O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
+<p>O mundo de tecnologia possui cada vez mais novas tecnologias e frameworks
 nascendo e morrendo em todas as linguagens de programação. Cada uma tentando
-resolver um problema.&lt;/p&gt;
+resolver um problema.</p>
 
-&lt;p&gt;Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
+<p>Não é difícil entender que fixar a visão sobre a perspectiva técnica não vai
 fomentar que as pessoas procurem por novas soluções para resolver os requisitos
-do cliente e da solução.&lt;/p&gt;
+do cliente e da solução.</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
+<blockquote>
+<p>O progresso é impossível sem mudança; e aqueles que não conseguem mudar as
 suas mentes não conseguem mudar nada.
-&lt;div class=&#34;reference&#34;&gt;George Bernard Shaw&lt;/div&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<div class="reference">George Bernard Shaw</div></p>
+</blockquote>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h4 id=&#34;débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d&#34;&gt;Débito técnico antes do começo.&lt;/h4&gt;
+<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
 
-&lt;p&gt;Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
+<p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
 desenvolvimento vai iniciar já com débitos técnicos referentes à solução e é
 ainda mais crítico quando percebemos que uma escolha equivocada no início vai
-gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.&lt;/p&gt;
+gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;conclusão:b111f52da7a87d8d81eee532336c896d&#34;&gt;Conclusão&lt;/h3&gt;
+<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
 
-&lt;p&gt;Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
+<p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
 quanto, é entender que os conceitos ágeis também se aplicam nesse momento e que
 ter a mente aberta ao diferente é essencial para entregar software com
-qualidade.&lt;/p&gt;
+qualidade.</p>
 
-&lt;p&gt;Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
-com a mesma &amp;ldquo;base&amp;rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
+<p>Alguns líderes escolhem o caminho mais fácil tentando contratar um time inteiro
+com a mesma &ldquo;base&rdquo; técnica. Se esse for o único ponto de apoio para a seleção do
 time vai existir muito mais trabalho para implantar uma cultura ágil do que o
 contrário (contratar um pensamento ágil e permitir que os bons técnicos evoluam
-em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
+em novas tecnologias). Mas isso é assunto para outro post.</p>
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+<p><br/></p>
 
-&lt;h3 id=&#34;quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d&#34;&gt;Quem ganha a guerra?&lt;/h3&gt;
+<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
 
-&lt;p&gt;Como sempre…  &lt;strong&gt;NINGUÉM&lt;/strong&gt;. Mas tenho certeza que existe um maior perdedor:&lt;/p&gt;
+<p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-&lt;h1 id=&#34;span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &lt;strong&gt;O cliente!&lt;/strong&gt;&lt;/h1&gt;
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
+<p><br/>
+<br/></p>
 
-&lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
+<p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
 
         ]]>
       </description>

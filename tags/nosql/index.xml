@@ -20,83 +20,83 @@
       <description>
         <![CDATA[
           <img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
-          &lt;p&gt;Este é o segundo de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+          <p>Este é o segundo de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
-benchmarks encontrados na internet para que você possa tomar a decisão.&lt;/p&gt;
+<p>Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
+benchmarks encontrados na internet para que você possa tomar a decisão.</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.planetcassandra.org/nosql-performance-benchmarks/&#34;&gt;Planet Cassandra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems&#34;&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html&#34;&gt;JaxEnter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://www.planetcassandra.org/nosql-performance-benchmarks/">Planet Cassandra</a></li>
+<li><a href="https://www.mongodb.com/blog/post/high-performance-benchmarking-mongodb-and-nosql-systems">MongoDB</a></li>
+<li><a href="https://jaxenter.com/evaluating-nosql-performance-which-database-is-right-for-your-data-107481.html">JaxEnter</a></li>
+</ul>
 
-&lt;p&gt;Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
+<p>Neste momento, vamos preparar nossa base para receber os dados de nossa API. Para
 nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
-em uma autenticação simples.&lt;/p&gt;
+em uma autenticação simples.</p>
 
-&lt;p&gt;Com o Docker do Cassandra rodando como descrito no
-&lt;a href=&#34;../Node-e-Cassandra-Parte1-Ambiente&#34;&gt;artigo anterior&lt;/a&gt;, vamos agora nos conectar
-na base de dados.&lt;/p&gt;
+<p>Com o Docker do Cassandra rodando como descrito no
+<a href="../Node-e-Cassandra-Parte1-Ambiente">artigo anterior</a>, vamos agora nos conectar
+na base de dados.</p>
 
-&lt;p&gt;Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
-maquina docker temporária, execute o comando abaixo:&lt;/p&gt;
+<p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
+maquina docker temporária, execute o comando abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c &#39;exec cqlsh &amp;quot;$CASSANDRA_PORT_9042_TCP_ADDR&amp;quot;&#39;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker run -it --link cassandranode_cassandra_1:cassandra --rm cassandra sh -c 'exec cqlsh &quot;$CASSANDRA_PORT_9042_TCP_ADDR&quot;'
+</code></pre>
 
-&lt;p&gt;O termo  &lt;strong&gt;cassandranode_cassandra_1&lt;/strong&gt; encontrado no comando acima se refere
-ao nome do Docker que esta rodando o cassandra no Kitematic.&lt;/p&gt;
+<p>O termo  <strong>cassandranode_cassandra_1</strong> encontrado no comando acima se refere
+ao nome do Docker que esta rodando o cassandra no Kitematic.</p>
 
-&lt;p&gt;Desta forma, deve ver o prompt do cassandra rodando no terminal:&lt;/p&gt;
+<p>Desta forma, deve ver o prompt do cassandra rodando no terminal:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh&gt;
+</code></pre>
 
-&lt;p&gt;A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
+<p>A primeira coisa que faremos é criar o Keyspace. O Keyspace do cassandra é como
 se fosse o Schema do banco de dados. É nesse espaço que criaremos nossa tabela
-depois.&lt;/p&gt;
+depois.</p>
 
-&lt;p&gt;Vamos criar o Keyspace:&lt;/p&gt;
+<p>Vamos criar o Keyspace:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; CREATE KEYSPACE demo
+<pre><code class="language-bash">cqlsh&gt; CREATE KEYSPACE demo
    ... WITH REPLICATION = {
-   ... &#39;class&#39; : &#39;SimpleStrategy&#39;,
-   ... &#39;replication_factor&#39; : 1
+   ... 'class' : 'SimpleStrategy',
+   ... 'replication_factor' : 1
    ... };
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Os parâmetros passados para replicação não serão tratados aqui.&lt;/p&gt;
+<p>Os parâmetros passados para replicação não serão tratados aqui.</p>
 
-&lt;p&gt;Verifique se o Keyspace foi criado:&lt;/p&gt;
+<p>Verifique se o Keyspace foi criado:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; DESC KEYSPACES;
+<pre><code class="language-bash">cqlsh&gt; DESC KEYSPACES;
 
 demo   system_schema   system_auth   ...
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Defina o Keyspace que vamos trabalhar agora.&lt;/p&gt;
+<p>Defina o Keyspace que vamos trabalhar agora.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh&amp;gt; USE demo;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh&gt; USE demo;
+</code></pre>
 
-&lt;p&gt;E crie nossa tabela&lt;/p&gt;
+<p>E crie nossa tabela</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; CREATE TABLE users (
+<pre><code class="language-bash">cqlsh:demo&gt; CREATE TABLE users (
         ... email text,
         ... password text,
         ... PRIMARY KEY (email)
         ... );
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Criamos nossa tabela, para ver que tudo esta no banco execute o comando:&lt;/p&gt;
+<p>Criamos nossa tabela, para ver que tudo esta no banco execute o comando:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cqlsh:demo&amp;gt; DESC SCHEMA;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">cqlsh:demo&gt; DESC SCHEMA;
+</code></pre>
 
-&lt;p&gt;Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
-que será finalizado no próximo artigo.&lt;/p&gt;
+<p>Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
+que será finalizado no próximo artigo.</p>
 
         ]]>
       </description>

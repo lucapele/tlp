@@ -20,39 +20,39 @@
       <description>
         <![CDATA[
           <img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
-          &lt;p&gt;Este é o terceiro e último de três posts sobre como criar uma API utilizando o
-&lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
+          <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
+<a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
-&lt;p&gt;Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
-base de dados que usaremos no cassandra.&lt;/p&gt;
+<p>Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
+base de dados que usaremos no cassandra.</p>
 
-&lt;p&gt;Então vamos criar a aplicação dentro da pasta&lt;/p&gt;
+<p>Então vamos criar a aplicação dentro da pasta</p>
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;cassandra_node &amp;gt; node &amp;gt; api&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+<p><strong>cassandra_node &gt; node &gt; api</strong></p>
+</blockquote>
 
-&lt;p&gt;Vamos criar nosso arquivo &lt;strong&gt;package.json&lt;/strong&gt; que definirá nossa aplicação e suas
-dependências com o seguinte conteúdo.&lt;/p&gt;
+<p>Vamos criar nosso arquivo <strong>package.json</strong> que definirá nossa aplicação e suas
+dependências com o seguinte conteúdo.</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;{
-  &amp;quot;name&amp;quot; : &amp;quot;node-api-demo&amp;quot;,
-  &amp;quot;main&amp;quot; : &amp;quot;server.js&amp;quot;,
-  &amp;quot;dependencies&amp;quot; : {
-    &amp;quot;express&amp;quot; : &amp;quot;~4.9.0&amp;quot;,
-    &amp;quot;body-parser&amp;quot; : &amp;quot;~1.8.1&amp;quot;,
-    &amp;quot;async&amp;quot; : &amp;quot;1.5.2&amp;quot;,
-    &amp;quot;cassandra-driver&amp;quot; : &amp;quot;~3.0.1&amp;quot;
+<pre><code class="language-javascript">{
+  &quot;name&quot; : &quot;node-api-demo&quot;,
+  &quot;main&quot; : &quot;server.js&quot;,
+  &quot;dependencies&quot; : {
+    &quot;express&quot; : &quot;~4.9.0&quot;,
+    &quot;body-parser&quot; : &quot;~1.8.1&quot;,
+    &quot;async&quot; : &quot;1.5.2&quot;,
+    &quot;cassandra-driver&quot; : &quot;~3.0.1&quot;
   }
 }
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Inicie um arquivo &lt;strong&gt;server.js&lt;/strong&gt; e insira o conteúdo abaixo:&lt;/p&gt;
+<p>Inicie um arquivo <strong>server.js</strong> e insira o conteúdo abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var cassandra  = require(&#39;cassandra-driver&#39;);
-var express    = require(&#39;express&#39;);
+<pre><code class="language-javascript">var cassandra  = require('cassandra-driver');
+var express    = require('express');
 var app        = express();
-var bodyParser = require(&#39;body-parser&#39;);
+var bodyParser = require('body-parser');
 
 // Configurar o App para usar o body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -63,8 +63,8 @@ var port = process.env.PORT || 3000;
 
 // Criando nosso cliente de conexão.
 var client = new cassandra.Client({
-  contactPoints: [&#39;192.168.99.100&#39;],
-  keyspace: &#39;demo&#39;
+  contactPoints: ['192.168.99.100'],
+  keyspace: 'demo'
 });
 
 // Conectando no banco de dados
@@ -76,29 +76,29 @@ client.connect(function(err) {
 // Definindo a rotas para nossa API
 var router = express.Router();
 
-router.get(&#39;/&#39;, function(req, res) {
-  res.json({ message: &#39;Wohooo!!! Bem vindo a nossa API&#39; });
+router.get('/', function(req, res) {
+  res.json({ message: 'Wohooo!!! Bem vindo a nossa API' });
 });
 
-router.post(&#39;/login&#39;, function(req, res) {
+router.post('/login', function(req, res) {
   var email = req.body.email;
   var pass = req.body.password;
 
   client.execute(
-    &amp;quot;SELECT email, password FROM users &amp;quot; +
-    &amp;quot;WHERE email = &#39;&amp;quot; + email + &amp;quot;&#39;&amp;quot;,
+    &quot;SELECT email, password FROM users &quot; +
+    &quot;WHERE email = '&quot; + email + &quot;'&quot;,
     function(err, result) {
       if (err)
         res.send(err);
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else if (user.password != pass) {
         //Se tentar executar um WHERE diretamente no Cassandra ele apresentará
         //um erro. Não criamos um índice para a coluna password.
-        res.json({ message: &#39;Usuário ou senha inválidos &#39; });
+        res.json({ message: 'Usuário ou senha inválidos ' });
       }
       else {
         res.json({ message: user.email });
@@ -106,31 +106,31 @@ router.post(&#39;/login&#39;, function(req, res) {
     });
 });
 
-router.post(&#39;/register&#39;, function(req, res) {
+router.post('/register', function(req, res) {
   var email = req.body.email;
   var pass = req.body.password;
   var params = [email, pass];
 
   client.execute(
-    &amp;quot;INSERT INTO users (email, password) values (?, ?)&amp;quot;, params, function(err) {
+    &quot;INSERT INTO users (email, password) values (?, ?)&quot;, params, function(err) {
       if (err)
         res.send(err);
 
-      res.json({ message: &amp;quot;Cadastrado com sucesso!&amp;quot; });
+      res.json({ message: &quot;Cadastrado com sucesso!&quot; });
     }
   );
 });
 
-router.get(&#39;/first&#39;, function(req, res) {
+router.get('/first', function(req, res) {
   client.execute(
-    &amp;quot;SELECT email, password FROM users LIMIT 1&amp;quot;,
+    &quot;SELECT email, password FROM users LIMIT 1&quot;,
     function(err, result) {
       if (err)
         res.send(err);
 
       var user = result.rows[0];
       if (user == null) {
-        res.json({ message: &#39;Nenhum encontrado &#39; });
+        res.json({ message: 'Nenhum encontrado ' });
       } else {
         res.json({ message: user.email });
       }
@@ -138,43 +138,43 @@ router.get(&#39;/first&#39;, function(req, res) {
 });
 
 //Registrar nossas rotas com um prefixo api
-app.use(&#39;/api&#39;, router);
+app.use('/api', router);
 
 
 //Iniciando o servidor
 app.listen(port);
 
-console.log(&#39;A Mágica acontece na porta &#39; + port);
+console.log('A Mágica acontece na porta ' + port);
 
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Para que a aplicação node seja iniciada, vamos criar o arquivo &lt;strong&gt;start.sh&lt;/strong&gt; na pasta
-api (junto com o &lt;em&gt;server.js&lt;/em&gt;) com o conteúdo abaixo:&lt;/p&gt;
+<p>Para que a aplicação node seja iniciada, vamos criar o arquivo <strong>start.sh</strong> na pasta
+api (junto com o <em>server.js</em>) com o conteúdo abaixo:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!\bin\bash
+<pre><code class="language-bash">#!\bin\bash
 
 #Instalar as dependências
 npm install
 
 #Iniciar a aplicação pelo packages.json
 npm start
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;Assim, vamos iniciar também nossa maquina docker com o comando:&lt;/p&gt;
+<p>Assim, vamos iniciar também nossa maquina docker com o comando:</p>
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker-compose up -d nodejs
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-bash">docker-compose up -d nodejs
+</code></pre>
 
-&lt;p&gt;Utilize um utilitário como o &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; ou o
-&lt;a href=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; para fazer chamadas na sua API nos
-endereços:&lt;/p&gt;
+<p>Utilize um utilitário como o <a href="https://www.getpostman.com/">Postman</a> ou o
+<a href="http://www.telerik.com/fiddler">Fiddler</a> para fazer chamadas na sua API nos
+endereços:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/&#34;&gt;http://192.168.99.100:3000/api/&lt;/a&gt; (GET)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/first&#34;&gt;http://192.168.99.100:3000/api/first&lt;/a&gt; (GET)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/register&#34;&gt;http://192.168.99.100:3000/api/register&lt;/a&gt; (POST)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://192.168.99.100:3000/api/login&#34;&gt;http://192.168.99.100:3000/api/login&lt;/a&gt; (POST)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="http://192.168.99.100:3000/api/">http://192.168.99.100:3000/api/</a> (GET)</li>
+<li><a href="http://192.168.99.100:3000/api/first">http://192.168.99.100:3000/api/first</a> (GET)</li>
+<li><a href="http://192.168.99.100:3000/api/register">http://192.168.99.100:3000/api/register</a> (POST)</li>
+<li><a href="http://192.168.99.100:3000/api/login">http://192.168.99.100:3000/api/login</a> (POST)</li>
+</ul>
 
         ]]>
       </description>
