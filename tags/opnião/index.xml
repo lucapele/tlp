@@ -18,7 +18,9 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
+          
 
 &lt;p&gt;O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.&lt;/p&gt;
 
@@ -133,10 +135,8 @@
 
 &lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/gears.jpg" 
-        type="image/jpeg" />
     </item>
     
   </channel>

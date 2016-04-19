@@ -18,7 +18,9 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
+          
 
 &lt;p&gt;As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
@@ -99,10 +101,8 @@ boas idéias que existem. Você precisa selecionar cuidadosamente.
 
 &lt;p&gt;&lt;div style=&#34;clear:both&#34;/&gt;&lt;/p&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/tasks-min.jpg" 
-        type="image/jpeg" />
     </item>
     
   </channel>

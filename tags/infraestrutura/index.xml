@@ -18,7 +18,9 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
+          
 
 &lt;p&gt;Este é o primeiro de três posts sobre como criar uma API utilizando o
 &lt;a href=&#34;https://nodejs.org&#34;&gt;NodeJS&lt;/a&gt; e o &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;.&lt;/p&gt;
@@ -130,10 +132,8 @@ quiser utilizar uma GUI para acessar o banco.&lt;/p&gt;
 docker-machine pelo Kitematic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/docker.png" 
-        type="image/jpeg" />
     </item>
     
   </channel>

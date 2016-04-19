@@ -18,7 +18,9 @@
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
+          
 
 &lt;p&gt;Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de
 tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir
@@ -157,10 +159,8 @@ após um resultado positivo se preparem para mitigar os riscos e construir não 
 uma aplicação escalável mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.&lt;/p&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/meanjs.png" 
-        type="image/jpeg" />
     </item>
     
     <item>
@@ -170,7 +170,9 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
+          
 
 &lt;p&gt;O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.&lt;/p&gt;
 
@@ -285,10 +287,8 @@ dentro de seus ambientes.&lt;/p&gt;
 
 &lt;p&gt;As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.&lt;/p&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/gears.jpg" 
-        type="image/jpeg" />
     </item>
     
     <item>
@@ -298,7 +298,9 @@ dentro de seus ambientes.&lt;/p&gt;
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        
+        &lt;![CDATA[
+          <img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
+          
 
 &lt;p&gt;Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
@@ -411,10 +413,8 @@ em novas tecnologias). Mas isso é assunto para outro post.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Lembre-se que:&lt;/em&gt;  &lt;strong&gt;Não existe panacéia tecnológica.&lt;/strong&gt;&lt;/p&gt;
 
+        ]]>
       </description>
-      <media:content
-        url="https://jmarcon.github.io/images/post/languages.png" 
-        type="image/jpeg" />
     </item>
     
   </channel>
