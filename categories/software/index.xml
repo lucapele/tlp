@@ -43,8 +43,7 @@
 
 <p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
 
-<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="No page found with path or logical name "post/20160424-o-debito-tecnico-das-empresas-projetizadas.md".
-">outro artigo</a>.</p>
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
 
 <p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
 
