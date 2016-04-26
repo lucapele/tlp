@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brasil on Juliano Marcon</title>
+    <link>https://jmarcon.github.io/tags/brasil/</link>
+    <description>RSS in Brasil on Juliano Marcon</description>
+    <generator>Juliano Marcon</generator>
+    <language>pt-br</language>
+    <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
+    <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
+    <lastBuildDate>Sun, 24 Apr 2016 17:48:35 -0300</lastBuildDate>
+    <atom:link href="https://jmarcon.github.io/tags/brasil/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sobre TDD e Refactoring</title>
+      <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
+      <pubDate>Sun, 24 Apr 2016 17:48:35 -0500</pubDate>
+      <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
+      <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
+      <description>
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tdd.jpg" alt="tdd.jpg" />
+          
+
+<p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
+
+<p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
+
+<h3 id="o-que-é-tdd:c4ad02df1cdf47bd76798d9b4f65673e">O que é TDD?</h3>
+
+<p><a href="https://pt.wikipedia.org/wiki/Test_Driven_Development">Test Driven Development (TDD)</a>, ou em tradução livre, Desenvolvimento Orientado a Testes é uma metodologia com foco em converter as necessidades de negócios em testes computacionais para, em seguida, escrever um trecho de código que passe no teste e, finalmente, executar o Refactoring dos programas.</p>
+
+<p>Busca-se um código de qualidade, funcionando e testado, através da repetição contínua do ciclo apresentado acima.</p>
+
+<h3 id="o-que-é-refactoring:c4ad02df1cdf47bd76798d9b4f65673e">O que é Refactoring?</h3>
+
+<p>É a prática de reescrever códigos sem alterar sua funcionalidade evoluindo suas características não funcionais. Executar de forma contínua pequenos procedimentos de refactoring produz uma reestruturação significativa no projeto.</p>
+
+<p><img src="/images/post/qualidade.png" alt="Qualidade" style="max-width:200px; float:left; margin:10px;" /></p>
+
+<p>O passo de Refactoring é o que garante a qualidade e performance do código escrito e, portanto, o procedimento mais impactado pelo triângulo da qualidade.</p>
+
+<p>Durante o levantamento de projetos e seu planejamento, as principais informações que são avaliadas pelos stakeholders são os lados desse triângulo, e tentam ao máximo reduzir o custo e o tempo sempre tentando incluir o máximo de escopo.</p>
+
+<p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
+
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="No page found with path or logical name "post/20160424-o-debito-tecnico-das-empresas-projetizadas.md".
+">outro artigo</a>.</p>
+
+<p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
+
+<h3 id="como-manter-a-qualidade:c4ad02df1cdf47bd76798d9b4f65673e">Como manter a qualidade?</h3>
+
+<p>A janela da situação do projeto continuará sendo um cronograma, mas não apenas é possível apresentar as necessidades e os benefícios de investir na qualidade durante o desenvolvimento, como é simples demonstrar o valor agregado nessas ações.</p>
+
+<h5 id="qualidade-faz-parte-do-escopo:c4ad02df1cdf47bd76798d9b4f65673e">Qualidade faz parte do escopo:</h5>
+
+<p>Apesar de improvável, o levantamento inicial deveria considerar os requisitos não funcionais como parte do escopo e o tempo de refactoring necessário para garantir a qualidade do código.</p>
+
+<p>Esses tempo deve ser defendido no projeto como risco operacional futuro e dependências para a continuidade do negócio.</p>
+
+<p>Em times ágeis, a participação de um arquiteto e o auto aprendizado do time causa um senso de responsabilidade pelo produto que força as pessoas a considerar o refactoring no momento da definição do escopo das atividades.</p>
+
+<h5 id="equipes-de-qualidade-que-entendem-do-código:c4ad02df1cdf47bd76798d9b4f65673e">Equipes de qualidade que entendem do código:</h5>
+
+<p>Definir uma equipe de revisão de código constante e responsável pela arquitetura e requisitos não funcionais de cada projeto.</p>
+
+<p>Essas equipes poderiam ser divididas por linha de negócios ou produto e deveriam não apenas fomentar os refactorings antes da entrega das funcionaldiades mas também acompanhar o desenvolvimento de perto.</p>
+
+<p>É uma prática comum para escalar os times ágeis ter um time de arquitetura responsável por um conjunto de produtos e funcionalidades apoiando os times de desenvolvimento.</p>
+
+<h5 id="definir-o-que-testar:c4ad02df1cdf47bd76798d9b4f65673e">Definir o que testar:</h5>
+
+<p>Ter absolutamente tudo com testes é algo muito caro e, provavelmente, o custo envolvido supera os benefícios.</p>
+
+<p>Um código 100% testado pode parecer um sonho para muitos desenvolvedores e entusiastas do TDD, mas é fato que para ter esse nível de qualidade, muito tempo e dinheiro devem ser investidos.</p>
+
+<p>É preciso ponderar se os testes estão realmente agregando valor para a empresa, pois pode ocorrer que o custo de manutenção do teste supere os custos de manutenção do código.</p>
+
+<p>Definir uma porcentagem de cobertura dos testes pode ajudar flexibilizar o esforço, mas isso pode impactar como as pessoas escrevem os testes e os desenvolvedores podem acabar focando em escrever os testes mais simples e deixar as rotinas mais complexas descobertas. Isso é o oposto de agregar valor.</p>
+
+<p>Portanto, neste caso, o time deve ser guiado e evoluir para conseguir criar uma consciência comum sobre a relevância do teste, a visão da equipe de negócios sobre a funcionalidade e a percepção dos programas que possuem dependências de outros trechos de código e que podem ser impactados facilmente por alterações futuras.</p>
+
+<h5 id="acompanhe:c4ad02df1cdf47bd76798d9b4f65673e">Acompanhe:</h5>
+
+<p>Use algumas métricas para acompanhar a evolução da qualidade de seu código, como a quantidade de defeitos encontrados após a entrega, a melhora da velocidade da aplicação ou a diminuição das reclamações dos clientes.</p>
+
+        ]]>
+      </description>
+    </item>
+    
+  </channel>
+</rss>

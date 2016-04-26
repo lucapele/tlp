@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    
+    <script type="text/javascript">
+      var enforce = "jmarcon.github.io";
+      if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Sobre TDD e Refactoring">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content=" 2016-04-24">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://jmarcon.github.io/post/20160420-sobre-refactoring/">
+    <meta property="og:site_name" content="Juliano Marcon">
+    
+    <meta property="og:tags" content="Tecnologia">
+    
+    <meta property="og:tags" content="Projetos">
+    
+    <meta property="og:tags" content="Brasil">
+    
+    <meta property="og:tags" content="Débito Técnico">
+    
+    <meta property="og:tags" content="Visão Corporativa">
+    
+    <meta name="generator" content="Hugo 0.15" />
+    <title>Sobre TDD e Refactoring
+      &middot;
+      Juliano Marcon</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://jmarcon.github.io/css/style.css">
+
+    
+
+    
+    
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://jmarcon.github.io/">JULIANO MARCON</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a></li>
+				
+					<li><a href="https://jmarcon.github.io/post/">Blog</a></li>
+				
+					<li><a href="https://jmarcon.github.io/about/contato">Contato</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://jmarcon.github.io/">JULIANO MARCON</a></h1>
+		
+
+		
+			<small class="text-center center-block">SOLUÇÕES EM PRIMEIRO LUGAR</small>
+		
+
+		
+			
+      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANFAAAAJDVkYWU4ZjhkLTQzNmItNDNhMS1hMjEzLTA5YmUzNzgyMzAyOQ.jpg" alt="My Picture" class="img-circle center-block">
+		
+		
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a>
+			
+				<a href="https://jmarcon.github.io/post/">Blog</a>
+			
+				<a href="https://jmarcon.github.io/about/contato">Contato</a>
+			
+		</div>
+    <div class="addthis_horizontal_follow_toolbox text-center"></div>
+    
+
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+
+<main>
+	<header>
+      <h1>Sobre TDD e Refactoring</h1>
+	</header>
+
+	<article>
+        <img src="https://jmarcon.github.io//images/post/tdd.jpg" alt=""
+        class="img-responsive"
+        style="width: 100%; padding-bottom:20px; "/>
+
+    
+
+<p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
+
+<p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
+
+<h3 id="o-que-é-tdd:c4ad02df1cdf47bd76798d9b4f65673e">O que é TDD?</h3>
+
+<p><a href="https://pt.wikipedia.org/wiki/Test_Driven_Development">Test Driven Development (TDD)</a>, ou em tradução livre, Desenvolvimento Orientado a Testes é uma metodologia com foco em converter as necessidades de negócios em testes computacionais para, em seguida, escrever um trecho de código que passe no teste e, finalmente, executar o Refactoring dos programas.</p>
+
+<p>Busca-se um código de qualidade, funcionando e testado, através da repetição contínua do ciclo apresentado acima.</p>
+
+<h3 id="o-que-é-refactoring:c4ad02df1cdf47bd76798d9b4f65673e">O que é Refactoring?</h3>
+
+<p>É a prática de reescrever códigos sem alterar sua funcionalidade evoluindo suas características não funcionais. Executar de forma contínua pequenos procedimentos de refactoring produz uma reestruturação significativa no projeto.</p>
+
+<p><img src="../../images/post/qualidade.png" alt="Qualidade" style="max-width:200px; float:left; margin:10px;" /></p>
+
+<p>O passo de Refactoring é o que garante a qualidade e performance do código escrito e, portanto, o procedimento mais impactado pelo triângulo da qualidade.</p>
+
+<p>Durante o levantamento de projetos e seu planejamento, as principais informações que são avaliadas pelos stakeholders são os lados desse triângulo, e tentam ao máximo reduzir o custo e o tempo sempre tentando incluir o máximo de escopo.</p>
+
+<p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
+
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="No page found with path or logical name "post/20160424-o-debito-tecnico-das-empresas-projetizadas.md".
+">outro artigo</a>.</p>
+
+<p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
+
+<h3 id="como-manter-a-qualidade:c4ad02df1cdf47bd76798d9b4f65673e">Como manter a qualidade?</h3>
+
+<p>A janela da situação do projeto continuará sendo um cronograma, mas não apenas é possível apresentar as necessidades e os benefícios de investir na qualidade durante o desenvolvimento, como é simples demonstrar o valor agregado nessas ações.</p>
+
+<h5 id="qualidade-faz-parte-do-escopo:c4ad02df1cdf47bd76798d9b4f65673e">Qualidade faz parte do escopo:</h5>
+
+<p>Apesar de improvável, o levantamento inicial deveria considerar os requisitos não funcionais como parte do escopo e o tempo de refactoring necessário para garantir a qualidade do código.</p>
+
+<p>Esses tempo deve ser defendido no projeto como risco operacional futuro e dependências para a continuidade do negócio.</p>
+
+<p>Em times ágeis, a participação de um arquiteto e o auto aprendizado do time causa um senso de responsabilidade pelo produto que força as pessoas a considerar o refactoring no momento da definição do escopo das atividades.</p>
+
+<h5 id="equipes-de-qualidade-que-entendem-do-código:c4ad02df1cdf47bd76798d9b4f65673e">Equipes de qualidade que entendem do código:</h5>
+
+<p>Definir uma equipe de revisão de código constante e responsável pela arquitetura e requisitos não funcionais de cada projeto.</p>
+
+<p>Essas equipes poderiam ser divididas por linha de negócios ou produto e deveriam não apenas fomentar os refactorings antes da entrega das funcionaldiades mas também acompanhar o desenvolvimento de perto.</p>
+
+<p>É uma prática comum para escalar os times ágeis ter um time de arquitetura responsável por um conjunto de produtos e funcionalidades apoiando os times de desenvolvimento.</p>
+
+<h5 id="definir-o-que-testar:c4ad02df1cdf47bd76798d9b4f65673e">Definir o que testar:</h5>
+
+<p>Ter absolutamente tudo com testes é algo muito caro e, provavelmente, o custo envolvido supera os benefícios.</p>
+
+<p>Um código 100% testado pode parecer um sonho para muitos desenvolvedores e entusiastas do TDD, mas é fato que para ter esse nível de qualidade, muito tempo e dinheiro devem ser investidos.</p>
+
+<p>É preciso ponderar se os testes estão realmente agregando valor para a empresa, pois pode ocorrer que o custo de manutenção do teste supere os custos de manutenção do código.</p>
+
+<p>Definir uma porcentagem de cobertura dos testes pode ajudar flexibilizar o esforço, mas isso pode impactar como as pessoas escrevem os testes e os desenvolvedores podem acabar focando em escrever os testes mais simples e deixar as rotinas mais complexas descobertas. Isso é o oposto de agregar valor.</p>
+
+<p>Portanto, neste caso, o time deve ser guiado e evoluir para conseguir criar uma consciência comum sobre a relevância do teste, a visão da equipe de negócios sobre a funcionalidade e a percepção dos programas que possuem dependências de outros trechos de código e que podem ser impactados facilmente por alterações futuras.</p>
+
+<h5 id="acompanhe:c4ad02df1cdf47bd76798d9b4f65673e">Acompanhe:</h5>
+
+<p>Use algumas métricas para acompanhar a evolução da qualidade de seu código, como a quantidade de defeitos encontrados após a entrega, a melhora da velocidade da aplicação ou a diminuição das reclamações dos clientes.</p>
+
+	</article>
+  <br/>
+  <footer>
+    <small>
+          Publicado em: 24 de Abril de 2016
+          por <b>Juliano Marcon</b>
+    </small>
+    <br/>
+    <div class="addthis_sharing_toolbox"></div>
+  </footer>
+</main>
+
+
+
+      <hr/>
+      <div id="disqus_thread"></div>
+      <script>
+          var disqus_config = function () {
+              this.page.url = "https://jmarcon.github.io/post/20160420-sobre-refactoring/";  
+              this.page.identifier = "sobre-tdd-e-refactoring"; 
+          };
+          (function() {  
+              var d = document, s = d.createElement('script');
+              s.src = '//juliano-marcon.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+<hr/>
+<div class="text-center">
+  mais
+</div>
+<div class="row">
+  <div class="col-md-6 text-right ">
+    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/"> Como ser um desenvolvedor melhor <i class="fa fa-backward"></i> </a>
+  </div>
+  <div class="col-md-6">
+    <a class="btn cc-btn-default disabled" href=""> </a>
+  </div>
+</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63413033-3', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/jmarcon.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="https://jmarcon.github.io//js/App.js"></script>
+  <script id="dsq-count-scr" src="//jmarcon.disqus.com/count.js" async></script>
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f54ac57e5950e1"></script>
+</body>
+</html>
+
