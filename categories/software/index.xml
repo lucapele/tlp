@@ -8,13 +8,13 @@
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sun, 24 Apr 2016 17:48:35 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 17:48:35 -0300</lastBuildDate>
     <atom:link href="https://jmarcon.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sobre TDD e Refactoring</title>
       <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
-      <pubDate>Sun, 24 Apr 2016 17:48:35 -0500</pubDate>
+      <pubDate>Wed, 20 Apr 2016 17:48:35 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
       <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
       <description>
