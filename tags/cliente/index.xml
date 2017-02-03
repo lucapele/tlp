@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cliente on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/cliente/index.xml</link>
+    <link>https://jmarcon.github.io/tags/cliente/index.xml</link>
     <description>RSS in Cliente on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
+      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
+      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
 </p>
 
@@ -155,12 +155,12 @@ dentro de seus ambientes.</p>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais

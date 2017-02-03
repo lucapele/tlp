@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programação on JULIANO MARCON</title>
-    <link>http://localhost:1313/categories/programa%C3%A7%C3%A3o/index.xml</link>
+    <link>https://jmarcon.github.io/categories/programa%C3%A7%C3%A3o/index.xml</link>
     <description>RSS in Programação on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Como ser um desenvolvedor melhor</title>
-      <link>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
+      <link>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
       <pubDate>Mon, 18 Apr 2016 17:53:07 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
+      <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
           <p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
 para definir um ótimo desenvolvedor de softwares nos dias atuais. Os conceitos
 de <a href="http://www.manifestoagil.com.br/">agilidade</a> acabam por determinar comportamentos
@@ -55,7 +55,7 @@ erradas, mais confiantes elas serão.</p>
 
 <p>Compartilhe o que sabe e o que aprendeu com as pessoas ao seu redor e sempre peça para que elas façam o mesmo com você. Lembre-se: o método mais eficiente de transmitir informações é através de uma conversa cara a cara.</p>
 
-<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="http://localhost:1313/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
+<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
 
 <h3 id="criatividade">Criatividade</h3>
 

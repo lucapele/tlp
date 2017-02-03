@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mercado on JULIANO MARCON</title>
-    <link>http://localhost:1313/categories/mercado/index.xml</link>
+    <link>https://jmarcon.github.io/categories/mercado/index.xml</link>
     <description>RSS in Mercado on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>O Débito Técnico das Empresas Projetizadas</title>
-      <link>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
+      <link>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
       <pubDate>Sun, 24 Apr 2016 11:36:41 -1100</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
+      <guid>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
           <p>Durante o desenvolvimento de qualquer projeto, atalhos são tomados. O motivo? Vamos fazê-lo para entregar mais rápido. Só dessa vez.</p>
 
 <p>O débito técnico se acumula e, pouco a pouco, o código do produto é corrompido. Ninguém vai se importar com isso por muito tempo, mas, eventualmente alguém terá que se lidar com isso e, provavelmente, será você.</p>
@@ -72,19 +72,19 @@
 
 <p>Utilize os dados de monitoração com antes e depois de cada evento importante para o produto, como o lançamento de novas funcionalidades, uma ação de marketing ou a implantação de suas melhorias de qualidade.</p>
 
-<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="http://localhost:1313/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
+<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="https://jmarcon.github.io/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
         ]]>
       </description>
     </item>
     
     <item>
       <title>Outsourcing: Riscos e Oportunidades</title>
-      <link>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
       <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/gears.jpg" alt="gears.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
           <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.
 </p>
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/docker/index.xml</link>
+    <link>https://jmarcon.github.io/tags/docker/index.xml</link>
     <description>RSS in Docker on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/docker.png" alt="docker.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on JULIANO MARCON</title>
-    <link>http://localhost:1313/categories/software/index.xml</link>
+    <link>https://jmarcon.github.io/categories/software/index.xml</link>
     <description>RSS in Software on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Sobre TDD e Refactoring</title>
-      <link>http://localhost:1313/post/20160420-sobre-refactoring/</link>
+      <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
       <pubDate>Wed, 20 Apr 2016 17:48:35 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160420-sobre-refactoring/</guid>
+      <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/tdd.jpg" alt="tdd.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tdd.jpg" alt="tdd.jpg" />
           <p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
 
 <p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
@@ -42,7 +42,7 @@
 
 <p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
 
-<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
 
 <p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
 
@@ -87,12 +87,12 @@
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
+      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
+      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
 </p>
 
@@ -230,12 +230,12 @@ dentro de seus ambientes.</p>
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
+      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
+      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/nodejs.jpg" alt="nodejs.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
           <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -398,12 +398,12 @@ endereços:</p>
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
+      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
+      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/cassandra.png" alt="cassandra.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
           <p>Este é o segundo de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -422,7 +422,7 @@ nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.</p>
 
 <p>Com o Docker do Cassandra rodando como descrito no
-<a href="http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
+<a href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
 na base de dados.</p>
 
 <p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
@@ -488,12 +488,12 @@ que será finalizado no próximo artigo.</p>
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/docker.png" alt="docker.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -610,12 +610,12 @@ docker-machine pelo Kitematic.</p>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais

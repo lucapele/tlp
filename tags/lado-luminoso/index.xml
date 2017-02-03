@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lado Luminoso on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/lado-luminoso/index.xml</link>
+    <link>https://jmarcon.github.io/tags/lado-luminoso/index.xml</link>
     <description>RSS in Lado Luminoso on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Qual o seu lado da força?</title>
-      <link>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</link>
+      <link>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</guid>
+      <guid>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/sides.jpg" alt="sides.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
           <p>A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
 qual é o caminho que escolhemos.
 </p>

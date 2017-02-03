@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tecnologia on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/tecnologia/index.xml</link>
+    <link>https://jmarcon.github.io/tags/tecnologia/index.xml</link>
     <description>RSS in Tecnologia on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>O Débito Técnico das Empresas Projetizadas</title>
-      <link>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
+      <link>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
       <pubDate>Sun, 24 Apr 2016 11:36:41 -1100</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
+      <guid>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
           <p>Durante o desenvolvimento de qualquer projeto, atalhos são tomados. O motivo? Vamos fazê-lo para entregar mais rápido. Só dessa vez.</p>
 
 <p>O débito técnico se acumula e, pouco a pouco, o código do produto é corrompido. Ninguém vai se importar com isso por muito tempo, mas, eventualmente alguém terá que se lidar com isso e, provavelmente, será você.</p>
@@ -72,19 +72,19 @@
 
 <p>Utilize os dados de monitoração com antes e depois de cada evento importante para o produto, como o lançamento de novas funcionalidades, uma ação de marketing ou a implantação de suas melhorias de qualidade.</p>
 
-<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="http://localhost:1313/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
+<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="https://jmarcon.github.io/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
         ]]>
       </description>
     </item>
     
     <item>
       <title>Sobre TDD e Refactoring</title>
-      <link>http://localhost:1313/post/20160420-sobre-refactoring/</link>
+      <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
       <pubDate>Wed, 20 Apr 2016 17:48:35 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160420-sobre-refactoring/</guid>
+      <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/tdd.jpg" alt="tdd.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tdd.jpg" alt="tdd.jpg" />
           <p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
 
 <p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
@@ -109,7 +109,7 @@
 
 <p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
 
-<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
 
 <p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
 

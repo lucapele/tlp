@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pessoas on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/pessoas/index.xml</link>
+    <link>https://jmarcon.github.io/tags/pessoas/index.xml</link>
     <description>RSS in Pessoas on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Multitarefa e a motivação</title>
-      <link>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</link>
+      <link>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</link>
       <pubDate>Sun, 17 Apr 2016 16:06:25 -0400</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</guid>
+      <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
           <p>As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
 pessoas com a capacidade de fazer várias coisas ao mesmo tempo, o que é um desafio para as equipes de recursos humanos. Entretanto, será que isso está tornando as pessoas realmente mais produtivas?

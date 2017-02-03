@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/node/index.xml</link>
+    <link>https://jmarcon.github.io/tags/node/index.xml</link>
     <description>RSS in Node on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
+      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
+      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/nodejs.jpg" alt="nodejs.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
           <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -180,12 +180,12 @@ endereços:</p>
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
+      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
+      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/cassandra.png" alt="cassandra.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
           <p>Este é o segundo de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -204,7 +204,7 @@ nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.</p>
 
 <p>Com o Docker do Cassandra rodando como descrito no
-<a href="http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
+<a href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
 na base de dados.</p>
 
 <p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
@@ -270,12 +270,12 @@ que será finalizado no próximo artigo.</p>
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/docker.png" alt="docker.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 

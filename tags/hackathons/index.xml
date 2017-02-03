@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hackathons on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/hackathons/index.xml</link>
+    <link>https://jmarcon.github.io/tags/hackathons/index.xml</link>
     <description>RSS in Hackathons on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Benefícios de Hackathons e DoJos internos</title>
-      <link>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
       <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/hackathon2.png" alt="hackathon2.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon2.png" alt="hackathon2.png" />
           <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
 oportunidade de participar de algo maior. Muitas vezes, a mesma empresa ignora

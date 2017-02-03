@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opnião on JULIANO MARCON</title>
-    <link>http://localhost:1313/tags/opni%C3%A3o/index.xml</link>
+    <link>https://jmarcon.github.io/tags/opni%C3%A3o/index.xml</link>
     <description>RSS in Opnião on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -12,12 +12,12 @@
     
     <item>
       <title>Outsourcing: Riscos e Oportunidades</title>
-      <link>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
       <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/gears.jpg" alt="gears.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
           <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.
 </p>
 

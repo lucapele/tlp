@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on JULIANO MARCON</title>
-    <link>http://localhost:1313/about/index.xml</link>
+    <link>https://jmarcon.github.io/about/index.xml</link>
     <description>RSS in Abouts on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -13,12 +13,12 @@
     
     <item>
       <title>Contato</title>
-      <link>http://localhost:1313/about/contato/</link>
+      <link>https://jmarcon.github.io/about/contato/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/about/contato/</guid>
+      <guid>https://jmarcon.github.io/about/contato/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
           <hr/>
 
         ]]>
@@ -27,12 +27,12 @@
     
     <item>
       <title>Sobre</title>
-      <link>http://localhost:1313/about/julianomarcon/</link>
+      <link>https://jmarcon.github.io/about/julianomarcon/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/about/julianomarcon/</guid>
+      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
           <p>Sou um profissional de tecnologia que esteve envolvido em todo o processo de criação de um produto. Desde a concepção até a entrega.</p>
 
 <p>Com esta visão do todo e com a ajuda de muitos entreguei diversos projetos de sucesso. Muitos deles de grande porte.</p>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JULIANO MARCON on JULIANO MARCON</title>
-    <link>http://localhost:1313/index.xml</link>
+    <link>https://jmarcon.github.io/index.xml</link>
     <description>RSS in JULIANO MARCON on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
@@ -13,12 +13,12 @@
     
     <item>
       <title>O Débito Técnico das Empresas Projetizadas</title>
-      <link>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
+      <link>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</link>
       <pubDate>Sun, 24 Apr 2016 11:36:41 -1100</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
+      <guid>https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/debito_tecnico.jpg" alt="debito_tecnico.jpg" />
           <p>Durante o desenvolvimento de qualquer projeto, atalhos são tomados. O motivo? Vamos fazê-lo para entregar mais rápido. Só dessa vez.</p>
 
 <p>O débito técnico se acumula e, pouco a pouco, o código do produto é corrompido. Ninguém vai se importar com isso por muito tempo, mas, eventualmente alguém terá que se lidar com isso e, provavelmente, será você.</p>
@@ -73,19 +73,19 @@
 
 <p>Utilize os dados de monitoração com antes e depois de cada evento importante para o produto, como o lançamento de novas funcionalidades, uma ação de marketing ou a implantação de suas melhorias de qualidade.</p>
 
-<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="http://localhost:1313/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
+<p>Compartilhe com todos as vitórias e tente fomentar ações de <a href="https://jmarcon.github.io/post/20160420-sobre-refactoring/">refactoring</a> durante o desenvolvimento do software. Os projetos específicos de qualidade não vão desaparecer, mas vão diminuir com o tempo.</p>
         ]]>
       </description>
     </item>
     
     <item>
       <title>Sobre TDD e Refactoring</title>
-      <link>http://localhost:1313/post/20160420-sobre-refactoring/</link>
+      <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
       <pubDate>Wed, 20 Apr 2016 17:48:35 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160420-sobre-refactoring/</guid>
+      <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/tdd.jpg" alt="tdd.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tdd.jpg" alt="tdd.jpg" />
           <p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
 
 <p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
@@ -110,7 +110,7 @@
 
 <p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
 
-<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
 
 <p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
 
@@ -155,12 +155,12 @@
     
     <item>
       <title>Como ser um desenvolvedor melhor</title>
-      <link>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
+      <link>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
       <pubDate>Mon, 18 Apr 2016 17:53:07 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
+      <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
           <p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
 para definir um ótimo desenvolvedor de softwares nos dias atuais. Os conceitos
 de <a href="http://www.manifestoagil.com.br/">agilidade</a> acabam por determinar comportamentos
@@ -198,7 +198,7 @@ erradas, mais confiantes elas serão.</p>
 
 <p>Compartilhe o que sabe e o que aprendeu com as pessoas ao seu redor e sempre peça para que elas façam o mesmo com você. Lembre-se: o método mais eficiente de transmitir informações é através de uma conversa cara a cara.</p>
 
-<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="http://localhost:1313/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
+<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
 
 <h3 id="criatividade">Criatividade</h3>
 
@@ -244,12 +244,12 @@ mudar com ele.</p>
     
     <item>
       <title>Multitarefa e a motivação</title>
-      <link>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</link>
+      <link>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</link>
       <pubDate>Sun, 17 Apr 2016 16:06:25 -0400</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</guid>
+      <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
           <p>As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
 pessoas com a capacidade de fazer várias coisas ao mesmo tempo, o que é um desafio para as equipes de recursos humanos. Entretanto, será que isso está tornando as pessoas realmente mais produtivas?
@@ -323,12 +323,12 @@ boas ideias que existem. Você precisa selecionar cuidadosamente.
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
+      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
+      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
           <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
 </p>
 
@@ -466,12 +466,12 @@ dentro de seus ambientes.</p>
     
     <item>
       <title>Outsourcing: Riscos e Oportunidades</title>
-      <link>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
       <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/gears.jpg" alt="gears.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
           <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.
 </p>
 
@@ -591,12 +591,12 @@ dentro de seus ambientes.</p>
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
+      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
+      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/nodejs.jpg" alt="nodejs.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
           <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -759,12 +759,12 @@ endereços:</p>
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
+      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
+      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/cassandra.png" alt="cassandra.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
           <p>Este é o segundo de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -783,7 +783,7 @@ nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.</p>
 
 <p>Com o Docker do Cassandra rodando como descrito no
-<a href="http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
+<a href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
 na base de dados.</p>
 
 <p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
@@ -849,12 +849,12 @@ que será finalizado no próximo artigo.</p>
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</link>
+      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
+      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/docker.png" alt="docker.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
           <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
@@ -971,12 +971,12 @@ docker-machine pelo Kitematic.</p>
     
     <item>
       <title>TI Bimodal : Uma questão de respeito</title>
-      <link>http://localhost:1313/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
+      <link>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
       <pubDate>Sat, 19 Mar 2016 17:18:14 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
+      <guid>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/sync.jpg" alt="sync.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
           <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
 
 <p>A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.
@@ -1026,12 +1026,12 @@ docker-machine pelo Kitematic.</p>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
+      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
           <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
@@ -1149,12 +1149,12 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
     
     <item>
       <title>Benefícios de Hackathons e DoJos internos</title>
-      <link>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
       <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/hackathon2.png" alt="hackathon2.png" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon2.png" alt="hackathon2.png" />
           <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
 oportunidade de participar de algo maior. Muitas vezes, a mesma empresa ignora
@@ -1222,12 +1222,12 @@ aumento da qualidade dos projetos entregues.</p>
     
     <item>
       <title>Contato</title>
-      <link>http://localhost:1313/about/contato/</link>
+      <link>https://jmarcon.github.io/about/contato/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/about/contato/</guid>
+      <guid>https://jmarcon.github.io/about/contato/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
           <hr/>
 
         ]]>
@@ -1236,12 +1236,12 @@ aumento da qualidade dos projetos entregues.</p>
     
     <item>
       <title>Qual o seu lado da força?</title>
-      <link>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</link>
+      <link>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</guid>
+      <guid>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/sides.jpg" alt="sides.jpg" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
           <p>A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
 qual é o caminho que escolhemos.
 </p>
@@ -1340,12 +1340,12 @@ tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.</p>
     
     <item>
       <title>Sobre</title>
-      <link>http://localhost:1313/about/julianomarcon/</link>
+      <link>https://jmarcon.github.io/about/julianomarcon/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>http://localhost:1313/about/julianomarcon/</guid>
+      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
       <description>
-        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
+        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
           <p>Sou um profissional de tecnologia que esteve envolvido em todo o processo de criação de um produto. Desde a concepção até a entrega.</p>
 
 <p>Com esta visão do todo e com a ajuda de muitos entreguei diversos projetos de sucesso. Muitos deles de grande porte.</p>
