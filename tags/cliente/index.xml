@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cliente on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/cliente/</link>
-    <description>RSS in Cliente on Juliano Marcon</description>
+    <title>Cliente on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/cliente/index.xml</link>
+    <description>RSS in Cliente on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sat, 16 Apr 2016 15:42:00 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/cliente/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/cliente/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
+      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
+      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
-          
-
-<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.</p>
+        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+          <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
+</p>
 
 <p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
 <a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
@@ -38,9 +36,9 @@ que foque primeiro nas tecnologias em separado:</p>
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
 para apoiar sua escolha.</p>
 
-<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma">A linguagem é sempre a mesma</h4>
 
 <p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda as pessoas
 a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar um programa da melhor forma possível.</p>
@@ -48,7 +46,7 @@ a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar
 <p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
 o <strong>code review</strong> de outros mais facilmente. Dessa forma, mais e mais pessoas terão a capacidade de avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
+<h4 id="curva-de-aprendizagem">Curva de aprendizagem</h4>
 
 <p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
 evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
@@ -57,7 +55,7 @@ evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtiv
 de cursos e treinamentos estarão disponíveis para apoiar a evolução de um time em
 formação.</p>
 
-<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
+<h4 id="a-linguagem-é-bem-difundida">A linguagem é bem difundida</h4>
 
 <p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
@@ -67,7 +65,7 @@ momento de montar um time de desenvolvedores.</p>
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
 de recrutamento captar pessoas para o time em crescimento.</p>
 
-<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
+<h4 id="existe-muita-coisa-pronta">Existe muita coisa pronta</h4>
 
 <p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
@@ -86,9 +84,9 @@ módulos nas aplicações.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma-1">A linguagem é sempre a mesma</h4>
 
 <p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
@@ -98,7 +96,7 @@ pode causar um risco aos projetos.</p>
 diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
 informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
 <p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
 projeto novo.</p>
@@ -119,7 +117,7 @@ bem como isso pode estar afetando a comunidade.</p>
 <li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
 </ul>
 
-<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
+<h4 id="dependência">Dependência</h4>
 
 <p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
 de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
@@ -133,7 +131,7 @@ lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
 débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
+<h5 id="é-muita-coisa-para-um-único-profissional">É muita coisa para um único profissional</h5>
 
 <div class="row">
   <div class="col-xs-2"></div>
@@ -145,36 +143,34 @@ débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
+<h2 id="conclusão">Conclusão</h2>
 
 <p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito, e que, após um resultado positivo, se preparem para mitigar os riscos e construir, não apenas
 uma aplicação escalável, mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
+      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-          
-
-<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+          <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.</p>
+quando se trata de um time de desenvolvimento.
+</p>
 
-<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
 <p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -189,9 +185,9 @@ comparativo detalhado baseado em dados e benchmarks.</p>
 
 <p><br/></p>
 
-<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
+<h4 id="solução-em-segundo-plano">Solução em segundo plano.</h4>
 
 <p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -203,7 +199,7 @@ pessoais envolvidos na solução.</p>
 
 <p><br/></p>
 
-<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
+<h4 id="impactos-no-relacionamento-do-time">Impactos no relacionamento do time.</h4>
 
 <p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -217,7 +213,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 <p><br/></p>
 
-<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
+<h4 id="olhos-fechados-para-o-novo">Olhos fechados para o novo.</h4>
 
 <p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -240,7 +236,7 @@ suas mentes não conseguem mudar nada.
 
 <p><br/></p>
 
-<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
+<h4 id="débito-técnico-antes-do-começo">Débito técnico antes do começo.</h4>
 
 <p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -250,7 +246,7 @@ gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
 <p><br/></p>
 
-<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
+<h3 id="conclusão">Conclusão</h3>
 
 <p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -266,17 +262,16 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 
 <p><br/></p>
 
-<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
+<h3 id="quem-ganha-a-guerra">Quem ganha a guerra?</h3>
 
 <p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
 <p><br/>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
-
         ]]>
       </description>
     </item>

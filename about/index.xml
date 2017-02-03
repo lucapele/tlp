@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/about/</link>
-    <description>RSS in Abouts on Juliano Marcon</description>
+    <title>Abouts on JULIANO MARCON</title>
+    <link>http://localhost:1313/about/index.xml</link>
+    <description>RSS in Abouts on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
     <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contato</title>
-      <link>https://jmarcon.github.io/about/contato/</link>
+      <link>http://localhost:1313/about/contato/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/about/contato/</guid>
+      <guid>http://localhost:1313/about/contato/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
+        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
           <hr/>
 
         ]]>
@@ -27,12 +27,12 @@
     
     <item>
       <title>Sobre</title>
-      <link>https://jmarcon.github.io/about/julianomarcon/</link>
+      <link>http://localhost:1313/about/julianomarcon/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/about/julianomarcon/</guid>
+      <guid>http://localhost:1313/about/julianomarcon/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/" alt="" />
+        <![CDATA[<img src="http://localhost:1313/images/post/" alt="" />
           <p>Sou um profissional de tecnologia que esteve envolvido em todo o processo de criação de um produto. Desde a concepção até a entrega.</p>
 
 <p>Com esta visão do todo e com a ajuda de muitos entreguei diversos projetos de sucesso. Muitos deles de grande porte.</p>

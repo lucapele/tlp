@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hackathons on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/hackathons/</link>
-    <description>RSS in Hackathons on Juliano Marcon</description>
+    <title>Hackathons on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/hackathons/index.xml</link>
+    <description>RSS in Hackathons on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sat, 12 Mar 2016 15:42:00 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/hackathons/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/hackathons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Benefícios de Hackathons e DoJos internos</title>
-      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <link>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
       <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <guid>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon2.png" alt="hackathon2.png" />
-          
-
-<p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
+        <![CDATA[<img src="http://localhost:1313/images/post/hackathon2.png" alt="hackathon2.png" />
+          <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
 oportunidade de participar de algo maior. Muitas vezes, a mesma empresa ignora
-os benefícios de manter eventos como esse dentro da corporação.</p>
+os benefícios de manter eventos como esse dentro da corporação.
+</p>
 
-<h3 id="pagar-as-promessas-de-eleição:11907174e38579cadf1803c32f3009f7">Pagar as promessas de eleição</h3>
+<h3 id="pagar-as-promessas-de-eleição">Pagar as promessas de eleição</h3>
 
 <p>Quando o objetivo dos eventos externos é alcançado, a empresa consegue contratar
 ótimos profissionais e agregar valor com novas tecnologias. No entanto, quando
@@ -37,7 +35,7 @@ uma promessa de eleição.</p>
 <p>Executar eventos internamente demonstra consistência e continuidade nos valores
 e que a empresa não quer apenas <strong>parecer</strong> cool, como isso é parte integrante da cultura organizacional.</p>
 
-<h3 id="reconhecimento-do-conhecimento:11907174e38579cadf1803c32f3009f7">Reconhecimento do conhecimento</h3>
+<h3 id="reconhecimento-do-conhecimento">Reconhecimento do conhecimento</h3>
 
 <p>Colocar as melhores mentes técnicas para liderar reuniões como essa é parte do
 reconhecimento por sua evolução e conhecimento. As premiações de Hackathons,
@@ -45,7 +43,7 @@ apesar de serem muitas vezes simbólicas, demonstram o quanto a empresa dá valo
 ao conhecimento técnico e que a instituição entende o setor de desenvolvimento
 de software como algo importante para o futuro e não apenas um commodity.</p>
 
-<h3 id="motivação-para-inovação:11907174e38579cadf1803c32f3009f7">Motivação para inovação</h3>
+<h3 id="motivação-para-inovação">Motivação para inovação</h3>
 
 <p>O cotidiano das pessoas dentro das empresas é algo cheio de responsabilidades e
 dificilmente sobra tempo para inovar.</p>
@@ -57,14 +55,14 @@ a empresa.</p>
 
 <p>O evento se torna um investimento em soluções mais rápidas no futuro.</p>
 
-<h3 id="diversão-produtiva:11907174e38579cadf1803c32f3009f7">Diversão produtiva</h3>
+<h3 id="diversão-produtiva">Diversão produtiva</h3>
 
 <p>Lógico que estes eventos tem como um dos pilares o divertimento. Mas ao final,
 algo de concreto é apresentado e possivelmente poderá ser aproveitado como o
 início de um novo produto ou, com poucas adaptações, um novo recurso pronto para
 ser disponibilizado para seus clientes.</p>
 
-<h3 id="juntos-somos-mais:11907174e38579cadf1803c32f3009f7">Juntos somos mais</h3>
+<h3 id="juntos-somos-mais">Juntos somos mais</h3>
 
 <p>Compartilhar um tempo divertido com pessoas com objetivos parecidos vai trazer
 uma integração maior entre times e melhorar o clima organizacional. Não será
@@ -74,14 +72,13 @@ ocorrer após estes eventos.</p>
 <p>Eventos devem, inclusive, promover a integração entre pessoas de times
 diferentes.</p>
 
-<h3 id="a-prática-leva-a-perfeição:11907174e38579cadf1803c32f3009f7">A prática leva a perfeição</h3>
+<h3 id="a-prática-leva-a-perfeição">A prática leva a perfeição</h3>
 
 <p>Por último e não menos importante, a manutenção de eventos como DoJos de
 programação faz com que o compartilhamento do conhecimento gere a evolução do
 padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.</p>
-
         ]]>
       </description>
     </item>

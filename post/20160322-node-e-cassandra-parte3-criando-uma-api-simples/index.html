@@ -16,23 +16,23 @@
     <meta property="article:published_time" content=" 2016-03-22">
     
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/">
-    <meta property="og:site_name" content="Juliano Marcon">
+    <meta property="og:url" content="http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/">
+    <meta property="og:site_name" content="JULIANO MARCON">
     
     <meta property="og:tags" content="Node">
     
     <meta property="og:tags" content="API">
     
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.18" />
     <title>Node e Cassandra - Parte 3 : Criando uma API Simples
       &middot;
-      Juliano Marcon</title>
+      JULIANO MARCON</title>
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/hybrid.min.css">
     
-    <link rel="stylesheet" href="https://jmarcon.github.io/css/style.css">
+    <link rel="stylesheet" href="http://localhost:1313/css/style.css">
 
     
 
@@ -50,18 +50,18 @@
 				<span class="icon-bar"></span>
 			</button>
 			
-				<a class="navbar-brand" href="https://jmarcon.github.io/">JULIANO MARCON</a>
+				<a class="navbar-brand" href="http://localhost:1313/">JULIANO MARCON</a>
 			
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				
 				
-					<li><a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a></li>
+					<li><a href="http://localhost:1313/about/julianomarcon">Sobre</a></li>
 				
-					<li><a href="https://jmarcon.github.io/post/">Blog</a></li>
+					<li><a href="http://localhost:1313/post/">Blog</a></li>
 				
-					<li><a href="https://jmarcon.github.io/about/contato">Contato</a></li>
+					<li><a href="http://localhost:1313/about/contato">Contato</a></li>
 				
 			</ul>
 		</div>
@@ -72,7 +72,7 @@
 		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
 	<div id="menu-content" class="vertical-align">
 		
-			<h1 class="text-center"><a href="https://jmarcon.github.io/">JULIANO MARCON</a></h1>
+			<h1 class="text-center"><a href="http://localhost:1313/">JULIANO MARCON</a></h1>
 		
 
 		
@@ -81,17 +81,17 @@
 
 		
 			
-      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANFAAAAJDVkYWU4ZjhkLTQzNmItNDNhMS1hMjEzLTA5YmUzNzgyMzAyOQ.jpg" alt="My Picture" class="img-circle center-block">
+      <img id="profile-pic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi2AAAAJDY0M2QwNGU1LWRhOGItNDAwNi05MzAxLWQ3Yzg5M2NjOWM0Yw.jpg" alt="My Picture" class="img-circle center-block">
 		
 		
 		<div id="links" class="text-center">
 			
 			
-				<a href="https://jmarcon.github.io/about/julianomarcon">Sobre</a>
+				<a href="http://localhost:1313/about/julianomarcon">Sobre</a>
 			
-				<a href="https://jmarcon.github.io/post/">Blog</a>
+				<a href="http://localhost:1313/post/">Blog</a>
 			
-				<a href="https://jmarcon.github.io/about/contato">Contato</a>
+				<a href="http://localhost:1313/about/contato">Contato</a>
 			
 		</div>
     <div class="addthis_horizontal_follow_toolbox text-center"></div>
@@ -111,7 +111,7 @@
 	</header>
 
 	<article>
-        <img src="https://jmarcon.github.io//images/post/nodejs.jpg" alt=""
+        <img src="http://localhost:1313//images/post/nodejs.jpg" alt=""
         class="img-responsive"
         style="width: 100%; padding-bottom:20px; "/>
 
@@ -119,7 +119,8 @@
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
 <p>Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
-base de dados que usaremos no cassandra.</p>
+base de dados que usaremos no cassandra.
+</p>
 
 <p>Então vamos criar a aplicação dentro da pasta</p>
 
@@ -270,7 +271,6 @@ endereços:</p>
 <li><a href="http://192.168.99.100:3000/api/register">http://192.168.99.100:3000/api/register</a> (POST)</li>
 <li><a href="http://192.168.99.100:3000/api/login">http://192.168.99.100:3000/api/login</a> (POST)</li>
 </ul>
-
 	</article>
   <br/>
   <footer>
@@ -289,7 +289,7 @@ endereços:</p>
       <div id="disqus_thread"></div>
       <script>
           var disqus_config = function () {
-              this.page.url = "https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/";  
+              this.page.url = "http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/";  
               this.page.identifier = "node-e-cassandra---parte-3--criando-uma-api-simples"; 
           };
           (function() {  
@@ -308,10 +308,10 @@ endereços:</p>
 </div>
 <div class="row">
   <div class="col-md-6 text-right ">
-    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/"> Node e Cassandra - Parte 2 : O mínimo do cassandra <i class="fa fa-backward"></i> </a>
+    <a class="btn cc-btn-default" href="http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/"> Node e Cassandra - Parte 2 : O mínimo do cassandra <i class="fa fa-backward"></i> </a>
   </div>
   <div class="col-md-6">
-    <a class="btn cc-btn-default" href="https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/"> <i class="fa fa-forward"></i> Outsourcing: Riscos e Oportunidades </a>
+    <a class="btn cc-btn-default" href="http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/"> <i class="fa fa-forward"></i> Outsourcing: Riscos e Oportunidades </a>
   </div>
 </div>
 
@@ -331,7 +331,7 @@ endereços:</p>
 
     ga('create', 'UA-63413033-3', 'auto');
     ga('send', 'pageview');
-    window.baseURL = "https:\/\/jmarcon.github.io\/";
+    window.baseURL = "http:\/\/localhost:1313\/";
   </script>
   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -343,10 +343,10 @@ endereços:</p>
   
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
   
-  <script src="https://jmarcon.github.io//js/App.js"></script>
+  <script src="http://localhost:1313//js/App.js"></script>
   <script id="dsq-count-scr" src="//jmarcon.disqus.com/count.js" async></script>
   
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f54ac57e5950e1"></script>
-</body>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
 </html>
 

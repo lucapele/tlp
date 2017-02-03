@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lado Negro on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/lado-negro/</link>
-    <description>RSS in Lado Negro on Juliano Marcon</description>
+    <title>Lado Negro on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/lado-negro/index.xml</link>
+    <description>RSS in Lado Negro on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Thu, 03 Mar 2016 00:19:25 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/lado-negro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/lado-negro/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Qual o seu lado da força?</title>
-      <link>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</link>
+      <link>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</link>
       <pubDate>Thu, 03 Mar 2016 00:19:25 -1200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160303-qual-seu-lado-da-forca/</guid>
+      <guid>http://localhost:1313/post/20160303-qual-seu-lado-da-forca/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/sides.jpg" alt="sides.jpg" />
-          
-
-<p>A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
-qual é o caminho que escolhemos.</p>
+        <![CDATA[<img src="http://localhost:1313/images/post/sides.jpg" alt="sides.jpg" />
+          <p>A força existe em todos nós. Mas são nossos sentimentos e atitudes que mostram
+qual é o caminho que escolhemos.
+</p>
 
 <p>Os pilares são:</p>
 
@@ -39,7 +37,7 @@ qual é o caminho que escolhemos.</p>
   </tbody>
 </table>
 
-<h2 id="serenidade-x-ira:f073bb14e9865eb46619f8c5b4f9eb96">Serenidade x Ira</h2>
+<h2 id="serenidade-x-ira">Serenidade x Ira</h2>
 
 <p>Um funcionário que se rende a Ira em um momento de negociação,  apesar de em
 alguns momentos alcançar o objetivo a que se propôs, gera a sua  volta e com
@@ -50,7 +48,7 @@ seus companheiros de trabalho a aversão a novas negociações.  Deixar a raiva 
 <p>Conseguir exercer a serenidade em momentos de crise  demonstra o autocontrole e
 ajuda a ter o pensamento claro dos riscos e possíveis  ações a seguir.</p>
 
-<h2 id="humildade-x-arrogância:f073bb14e9865eb46619f8c5b4f9eb96">Humildade x Arrogância</h2>
+<h2 id="humildade-x-arrogância">Humildade x Arrogância</h2>
 
 <p>Reconhecer que outros podem ser melhores que você é o  primeiro passo a um
 caminho de aprendizado e colaboração. O conhecimento deve  ser usado para o
@@ -64,7 +62,7 @@ característica das pessoas que escolheram o lado negro. Seu  envolvimento não
 será bem visto nos projetos e, apesar de seu conhecimento, os  projetos não vão
 entender que se beneficiarão do que tem a agregar.</p>
 
-<h2 id="generosidade-x-ganância:f073bb14e9865eb46619f8c5b4f9eb96">Generosidade x Ganância</h2>
+<h2 id="generosidade-x-ganância">Generosidade x Ganância</h2>
 
 <p>O conhecimento não ocupa espaço e compartilhar somente faz  com que as pessoas
 cresçam juntas.  Permitir que pessoas se tornem melhores  diminui a carga de
@@ -76,7 +74,7 @@ empresa, não é possível dar uma promoção a ela pois ninguém  conseguirá e
 seu trabalho. A pessoa se torna boa demais para ser  promovida. A lado negro é
 um caminho solitário.</p>
 
-<h2 id="união-x-vingança:f073bb14e9865eb46619f8c5b4f9eb96">União x Vingança</h2>
+<h2 id="união-x-vingança">União x Vingança</h2>
 
 <p>Em diversos momentos no mundo corporativo, seremos voto  vencido, aceitar que a
 decisão foi tomada e que, mesmo não sendo a sua opinião,  essa é a vontade do
@@ -87,7 +85,7 @@ grupo no futuro. Dizer que aceitou mas falar pelos corredores  que acha a
 solução errada, faz com que o grupo se torne desunido e que as  pessoas se
 tornem atores solitários de sua própria força.</p>
 
-<h2 id="coragem-x-medo:f073bb14e9865eb46619f8c5b4f9eb96">Coragem x Medo</h2>
+<h2 id="coragem-x-medo">Coragem x Medo</h2>
 
 <p>O medo é o principal motivador que nos leva ao lado negro. O  medo de perder o
 emprego, de não corresponder a expectativa, de errar. Esses  medos são o motivo
@@ -100,7 +98,7 @@ não colaborar quando vencidas (vingança).</p>
 <p>Ter a coragem de se reinventar, de escutar outras pessoas,  de fazer diferente e
 aceitar riscos para promover a evolução é parte do caminho  luminoso da força.</p>
 
-<h2 id="área-cinzenta:f073bb14e9865eb46619f8c5b4f9eb96">Área cinzenta</h2>
+<h2 id="área-cinzenta">Área cinzenta</h2>
 
 <p>A maioria das pessoas não está no lado luminoso  e nem no lado negro. Quase
 todas ficam em uma  área cinza. Poucas pessoas estão totalmente no lado negro e
@@ -112,7 +110,6 @@ atenção e evolução.</p>
 tentador.  Mas não  se engane, ele só leva a solidão e a discórdia.</p>
 
 <p><strong>Que a força esteja com você!</strong></p>
-
         ]]>
       </description>
     </item>

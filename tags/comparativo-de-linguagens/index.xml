@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comparativo De Linguagens on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/comparativo-de-linguagens/</link>
-    <description>RSS in Comparativo De Linguagens on Juliano Marcon</description>
+    <title>Comparativo De Linguagens on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/comparativo-de-linguagens/index.xml</link>
+    <description>RSS in Comparativo De Linguagens on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Wed, 16 Mar 2016 15:42:00 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/comparativo-de-linguagens/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/comparativo-de-linguagens/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
+      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-          
-
-<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+          <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.</p>
+quando se trata de um time de desenvolvimento.
+</p>
 
-<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
 <p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -44,9 +42,9 @@ comparativo detalhado baseado em dados e benchmarks.</p>
 
 <p><br/></p>
 
-<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
+<h4 id="solução-em-segundo-plano">Solução em segundo plano.</h4>
 
 <p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -58,7 +56,7 @@ pessoais envolvidos na solução.</p>
 
 <p><br/></p>
 
-<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
+<h4 id="impactos-no-relacionamento-do-time">Impactos no relacionamento do time.</h4>
 
 <p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -72,7 +70,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 <p><br/></p>
 
-<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
+<h4 id="olhos-fechados-para-o-novo">Olhos fechados para o novo.</h4>
 
 <p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -95,7 +93,7 @@ suas mentes não conseguem mudar nada.
 
 <p><br/></p>
 
-<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
+<h4 id="débito-técnico-antes-do-começo">Débito técnico antes do começo.</h4>
 
 <p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -105,7 +103,7 @@ gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
 <p><br/></p>
 
-<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
+<h3 id="conclusão">Conclusão</h3>
 
 <p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -121,17 +119,16 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 
 <p><br/></p>
 
-<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
+<h3 id="quem-ganha-a-guerra">Quem ganha a guerra?</h3>
 
 <p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
 <p><br/>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
-
         ]]>
       </description>
     </item>

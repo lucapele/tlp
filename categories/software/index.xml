@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/categories/software/</link>
-    <description>RSS in Software on Juliano Marcon</description>
+    <title>Software on JULIANO MARCON</title>
+    <link>http://localhost:1313/categories/software/index.xml</link>
+    <description>RSS in Software on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Wed, 20 Apr 2016 17:48:35 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sobre TDD e Refactoring</title>
-      <link>https://jmarcon.github.io/post/20160420-sobre-refactoring/</link>
+      <link>http://localhost:1313/post/20160420-sobre-refactoring/</link>
       <pubDate>Wed, 20 Apr 2016 17:48:35 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160420-sobre-refactoring/</guid>
+      <guid>http://localhost:1313/post/20160420-sobre-refactoring/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/tdd.jpg" alt="tdd.jpg" />
-          
-
-<p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
+        <![CDATA[<img src="http://localhost:1313/images/post/tdd.jpg" alt="tdd.jpg" />
+          <p>A preocupação diária com a qualidade dos código construídos nas empresas que desenvolvem software, próprios ou para terceiros, estão fomentando a prática de técnicas como o TDD.</p>
 
 <p>Os times tem espaço para aprender e aplicar essa técnica? Será que as empresas realmente sabem o que significa isso?</p>
 
-<h3 id="o-que-é-tdd:c4ad02df1cdf47bd76798d9b4f65673e">O que é TDD?</h3>
+<p></p>
+
+<h3 id="o-que-é-tdd">O que é TDD?</h3>
 
 <p><a href="https://pt.wikipedia.org/wiki/Test_Driven_Development">Test Driven Development (TDD)</a>, ou em tradução livre, Desenvolvimento Orientado a Testes é uma metodologia com foco em converter as necessidades de negócios em testes computacionais para, em seguida, escrever um trecho de código que passe no teste e, finalmente, executar o Refactoring dos programas.</p>
 
 <p>Busca-se um código de qualidade, funcionando e testado, através da repetição contínua do ciclo apresentado acima.</p>
 
-<h3 id="o-que-é-refactoring:c4ad02df1cdf47bd76798d9b4f65673e">O que é Refactoring?</h3>
+<h3 id="o-que-é-refactoring">O que é Refactoring?</h3>
 
 <p>É a prática de reescrever códigos sem alterar sua funcionalidade evoluindo suas características não funcionais. Executar de forma contínua pequenos procedimentos de refactoring produz uma reestruturação significativa no projeto.</p>
 
@@ -43,15 +42,15 @@
 
 <p>Mesmo que a grande maioria dos gestores de projeto conheça essa tríplice, quando se trata de software, a espectativa deles é que a qualidade seja garantida pela equipe de desenvolvimento. Desta formar, a qualidade é a primeira que sofre impactos quando o cronograma precisa ser reduzido sem perder as funcionalidades pedidas pelo cliente.</p>
 
-<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="https://jmarcon.github.io/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
+<p>Isso seria um comportamento aceitável em circunstâncias onde exista flexibilidade para rever o código posteriormente. Mas&hellip; Projetos devem ter começo e fim. A solução seria criar um novo projeto para resolver as falhas futuras, mas é difícil defender o lucro em um projeto assim. Tento apresentar uma sugestão para lidar com essa situação em <a href="http://localhost:1313/post/20160424-o-debito-tecnico-das-empresas-projetizadas/">outro artigo</a>.</p>
 
 <p>Ao final, considerado entregue, um produto sai da fila de prioridades da empresa e novos projetos começam a ser estudados.</p>
 
-<h3 id="como-manter-a-qualidade:c4ad02df1cdf47bd76798d9b4f65673e">Como manter a qualidade?</h3>
+<h3 id="como-manter-a-qualidade">Como manter a qualidade?</h3>
 
 <p>A janela da situação do projeto continuará sendo um cronograma, mas não apenas é possível apresentar as necessidades e os benefícios de investir na qualidade durante o desenvolvimento, como é simples demonstrar o valor agregado nessas ações.</p>
 
-<h5 id="qualidade-faz-parte-do-escopo:c4ad02df1cdf47bd76798d9b4f65673e">Qualidade faz parte do escopo:</h5>
+<h5 id="qualidade-faz-parte-do-escopo">Qualidade faz parte do escopo:</h5>
 
 <p>Apesar de improvável, o levantamento inicial deveria considerar os requisitos não funcionais como parte do escopo e o tempo de refactoring necessário para garantir a qualidade do código.</p>
 
@@ -59,7 +58,7 @@
 
 <p>Em times ágeis, a participação de um arquiteto e o auto aprendizado do time causa um senso de responsabilidade pelo produto que força as pessoas a considerar o refactoring no momento da definição do escopo das atividades.</p>
 
-<h5 id="equipes-de-qualidade-que-entendem-do-código:c4ad02df1cdf47bd76798d9b4f65673e">Equipes de qualidade que entendem do código:</h5>
+<h5 id="equipes-de-qualidade-que-entendem-do-código">Equipes de qualidade que entendem do código:</h5>
 
 <p>Definir uma equipe de revisão de código constante e responsável pela arquitetura e requisitos não funcionais de cada projeto.</p>
 
@@ -67,7 +66,7 @@
 
 <p>É uma prática comum para escalar os times ágeis ter um time de arquitetura responsável por um conjunto de produtos e funcionalidades apoiando os times de desenvolvimento.</p>
 
-<h5 id="definir-o-que-testar:c4ad02df1cdf47bd76798d9b4f65673e">Definir o que testar:</h5>
+<h5 id="definir-o-que-testar">Definir o que testar:</h5>
 
 <p>Ter absolutamente tudo com testes é algo muito caro e, provavelmente, o custo envolvido supera os benefícios.</p>
 
@@ -79,25 +78,23 @@
 
 <p>Portanto, neste caso, o time deve ser guiado e evoluir para conseguir criar uma consciência comum sobre a relevância do teste, a visão da equipe de negócios sobre a funcionalidade e a percepção dos programas que possuem dependências de outros trechos de código e que podem ser impactados facilmente por alterações futuras.</p>
 
-<h5 id="acompanhe:c4ad02df1cdf47bd76798d9b4f65673e">Acompanhe:</h5>
+<h5 id="acompanhe">Acompanhe:</h5>
 
 <p>Use algumas métricas para acompanhar a evolução da qualidade de seu código, como a quantidade de defeitos encontrados após a entrega, a melhora da velocidade da aplicação ou a diminuição das reclamações dos clientes.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
+      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
+      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
-          
-
-<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.</p>
+        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+          <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
+</p>
 
 <p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
 <a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
@@ -114,9 +111,9 @@ que foque primeiro nas tecnologias em separado:</p>
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
 para apoiar sua escolha.</p>
 
-<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma">A linguagem é sempre a mesma</h4>
 
 <p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda as pessoas
 a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar um programa da melhor forma possível.</p>
@@ -124,7 +121,7 @@ a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar
 <p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
 o <strong>code review</strong> de outros mais facilmente. Dessa forma, mais e mais pessoas terão a capacidade de avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
+<h4 id="curva-de-aprendizagem">Curva de aprendizagem</h4>
 
 <p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
 evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
@@ -133,7 +130,7 @@ evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtiv
 de cursos e treinamentos estarão disponíveis para apoiar a evolução de um time em
 formação.</p>
 
-<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
+<h4 id="a-linguagem-é-bem-difundida">A linguagem é bem difundida</h4>
 
 <p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
@@ -143,7 +140,7 @@ momento de montar um time de desenvolvedores.</p>
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
 de recrutamento captar pessoas para o time em crescimento.</p>
 
-<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
+<h4 id="existe-muita-coisa-pronta">Existe muita coisa pronta</h4>
 
 <p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
@@ -162,9 +159,9 @@ módulos nas aplicações.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma-1">A linguagem é sempre a mesma</h4>
 
 <p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
@@ -174,7 +171,7 @@ pode causar um risco aos projetos.</p>
 diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
 informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
 <p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
 projeto novo.</p>
@@ -195,7 +192,7 @@ bem como isso pode estar afetando a comunidade.</p>
 <li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
 </ul>
 
-<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
+<h4 id="dependência">Dependência</h4>
 
 <p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
 de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
@@ -209,7 +206,7 @@ lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
 débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
+<h5 id="é-muita-coisa-para-um-único-profissional">É muita coisa para um único profissional</h5>
 
 <div class="row">
   <div class="col-xs-2"></div>
@@ -221,30 +218,30 @@ débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
+<h2 id="conclusão">Conclusão</h2>
 
 <p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito, e que, após um resultado positivo, se preparem para mitigar os riscos e construir, não apenas
 uma aplicação escalável, mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Node e Cassandra - Parte 3 : Criando uma API Simples</title>
-      <link>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
+      <link>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</link>
       <pubDate>Tue, 22 Mar 2016 17:19:31 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
+      <guid>http://localhost:1313/post/20160322-node-e-cassandra-parte3-criando-uma-api-simples/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/nodejs.jpg" alt="nodejs.jpg" />
+        <![CDATA[<img src="http://localhost:1313/images/post/nodejs.jpg" alt="nodejs.jpg" />
           <p>Este é o terceiro e último de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
 <p>Nos posts anteriores deixamos o ambiente parcialmente preparado e criamos a
-base de dados que usaremos no cassandra.</p>
+base de dados que usaremos no cassandra.
+</p>
 
 <p>Então vamos criar a aplicação dentro da pasta</p>
 
@@ -395,24 +392,24 @@ endereços:</p>
 <li><a href="http://192.168.99.100:3000/api/register">http://192.168.99.100:3000/api/register</a> (POST)</li>
 <li><a href="http://192.168.99.100:3000/api/login">http://192.168.99.100:3000/api/login</a> (POST)</li>
 </ul>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Node e Cassandra - Parte 2 : O mínimo do cassandra</title>
-      <link>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
+      <link>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</link>
       <pubDate>Mon, 21 Mar 2016 17:19:15 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
+      <guid>http://localhost:1313/post/20160321-node-e-cassandra-parte2-o-minimo-do-cassandra/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/cassandra.png" alt="cassandra.png" />
+        <![CDATA[<img src="http://localhost:1313/images/post/cassandra.png" alt="cassandra.png" />
           <p>Este é o segundo de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
 <p>Não vou discutir qual é o banco mais indicado para seu projeto, deixo aqui alguns
-benchmarks encontrados na internet para que você possa tomar a decisão.</p>
+benchmarks encontrados na internet para que você possa tomar a decisão.
+</p>
 
 <ul>
 <li><a href="http://www.planetcassandra.org/nosql-performance-benchmarks/">Planet Cassandra</a></li>
@@ -425,7 +422,7 @@ nosso exemplo apenas armazenaremos dados simples de email e senha. Apenas focado
 em uma autenticação simples.</p>
 
 <p>Com o Docker do Cassandra rodando como descrito no
-<a href="https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
+<a href="http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/">artigo anterior</a>, vamos agora nos conectar
 na base de dados.</p>
 
 <p>Se você criou as pastas como indicado, vamos iniciar o prompt do cassandra em uma
@@ -485,30 +482,28 @@ demo   system_schema   system_auth   ...
 
 <p>Desta forma deixamos nosso banco pronto para nosso exemplo de API em NodeJS
 que será finalizado no próximo artigo.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Node e Cassandra - Parte 1 : Ambiente</title>
-      <link>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</link>
+      <link>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</link>
       <pubDate>Sun, 20 Mar 2016 17:19:02 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
+      <guid>http://localhost:1313/post/20160320-node-e-cassandra-parte1-ambiente/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/docker.png" alt="docker.png" />
-          
-
-<p>Este é o primeiro de três posts sobre como criar uma API utilizando o
+        <![CDATA[<img src="http://localhost:1313/images/post/docker.png" alt="docker.png" />
+          <p>Este é o primeiro de três posts sobre como criar uma API utilizando o
 <a href="https://nodejs.org">NodeJS</a> e o <a href="https://cassandra.apache.org">Apache Cassandra</a>.</p>
 
 <p>Vejo uma grande parte dos textos falando sobre a dupla de NodeJS com o
 <a href="https://www.mongodb.org">MongoDB</a>. Mas o Cassandra pode ser uma alternativa para
 alguns tipos de aplicações que demandam outros níveis de acessos de escrita e
-leitura.</p>
+leitura.
+</p>
 
-<h3 id="instalando-o-ambiente:2d07405689eed99118c9470fa868ed61">Instalando o ambiente.</h3>
+<h3 id="instalando-o-ambiente">Instalando o ambiente.</h3>
 
 <p>Primeiro, estou utilizando o OSX mas, provavelmente, você terá pouco trabalho
 para adaptar o que vamos ter aqui para outros sistemas.</p>
@@ -520,7 +515,7 @@ um pouco mais automático com o recurso &ldquo;docker-compose&rdquo;.</p>
 <a href="https://www.kitematic.com">Kitematic</a> que após instalado vai lhe fornecer
 todos os requisitos necessários para criar nosso ambiente.</p>
 
-<h4 id="preparando-os-arquivos:2d07405689eed99118c9470fa868ed61">Preparando os arquivos</h4>
+<h4 id="preparando-os-arquivos">Preparando os arquivos</h4>
 
 <p>Vamos começar simplesmente criando uma arvore de diretórios que vai nos apoiar
 nesse projeto.</p>
@@ -533,7 +528,7 @@ nesse projeto.</p>
     [api]
 </code></pre>
 
-<h4 id="criando-a-maquina-do-cassandra:2d07405689eed99118c9470fa868ed61">Criando a maquina do Cassandra</h4>
+<h4 id="criando-a-maquina-do-cassandra">Criando a maquina do Cassandra</h4>
 
 <p>Dentro da pasta do cassandra vamos criar o arquivo de nome <strong>Dockerfile</strong> que vai
 informar ao docker como criar a maquina.</p>
@@ -544,7 +539,7 @@ FROM cassandra:latest
 
 <p>Bem simples!</p>
 
-<h4 id="criando-a-maquina-do-nodejs:2d07405689eed99118c9470fa868ed61">Criando a maquina do NodeJS</h4>
+<h4 id="criando-a-maquina-do-nodejs">Criando a maquina do NodeJS</h4>
 
 <p>Dentro da pasta node crie mais um arquivo com o node de <strong>Dockerfile</strong> para
 configurar o docker que vai rodar o node.</p>
@@ -565,7 +560,7 @@ ENTRYPOINT [&quot;/bin/bash&quot;, &quot;start.sh&quot;]
 <p>Os arquivos da aplicação serão criados durante o ultimo POST desta série. Mas vamos
 deixar algo preparado aqui.</p>
 
-<h4 id="configurando-a-composição:2d07405689eed99118c9470fa868ed61">Configurando a composição</h4>
+<h4 id="configurando-a-composição">Configurando a composição</h4>
 
 <p>Crie na pasta raiz (cassandra_docker) um arquivo com o nome &ldquo;docker-compose.yml&rdquo;
 que vai receber a configuração detalhada de como o dockers vão ser criados e
@@ -594,7 +589,7 @@ nodejs:
     - &quot;cassandra:cassandra&quot;
 </code></pre>
 
-<h3 id="iniciando-as-maquinas:2d07405689eed99118c9470fa868ed61">Iniciando as maquinas</h3>
+<h3 id="iniciando-as-maquinas">Iniciando as maquinas</h3>
 
 <p>Execute o comando abaixo e aguarde a maquina do cassandra subir:</p>
 
@@ -609,30 +604,28 @@ quiser utilizar uma GUI para acessar o banco.</p>
 <p>O IP <strong><em>192.168.99.100</em></strong> é atribuído para a maquina virtual (virtualbox) criada como
 docker-machine pelo Kitematic.</p>
 </blockquote>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
+      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-          
-
-<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+          <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.</p>
+quando se trata de um time de desenvolvimento.
+</p>
 
-<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
 <p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -647,9 +640,9 @@ comparativo detalhado baseado em dados e benchmarks.</p>
 
 <p><br/></p>
 
-<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
+<h4 id="solução-em-segundo-plano">Solução em segundo plano.</h4>
 
 <p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -661,7 +654,7 @@ pessoais envolvidos na solução.</p>
 
 <p><br/></p>
 
-<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
+<h4 id="impactos-no-relacionamento-do-time">Impactos no relacionamento do time.</h4>
 
 <p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -675,7 +668,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 <p><br/></p>
 
-<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
+<h4 id="olhos-fechados-para-o-novo">Olhos fechados para o novo.</h4>
 
 <p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -698,7 +691,7 @@ suas mentes não conseguem mudar nada.
 
 <p><br/></p>
 
-<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
+<h4 id="débito-técnico-antes-do-começo">Débito técnico antes do começo.</h4>
 
 <p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -708,7 +701,7 @@ gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
 <p><br/></p>
 
-<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
+<h3 id="conclusão">Conclusão</h3>
 
 <p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -724,17 +717,16 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 
 <p><br/></p>
 
-<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
+<h3 id="quem-ganha-a-guerra">Quem ganha a guerra?</h3>
 
 <p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
 <p><br/>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
-
         ]]>
       </description>
     </item>

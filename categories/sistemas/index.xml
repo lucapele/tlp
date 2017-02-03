@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sistemas on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/categories/sistemas/</link>
-    <description>RSS in Sistemas on Juliano Marcon</description>
+    <title>Sistemas on JULIANO MARCON</title>
+    <link>http://localhost:1313/categories/sistemas/index.xml</link>
+    <description>RSS in Sistemas on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Fri, 25 Mar 2016 14:26:38 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/categories/sistemas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/sistemas/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Outsourcing: Riscos e Oportunidades</title>
-      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <link>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</link>
       <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <guid>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
-          
+        <![CDATA[<img src="http://localhost:1313/images/post/gears.jpg" alt="gears.jpg" />
+          <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.
+</p>
 
-<p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.</p>
-
-<h3 id="vantagens:481c1976cafc46cc10d8c82887287de8">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
 <p>Terceirizar parcialmente ou totalmente uma área de tecnologia pode trazer alguns benefícios evidentes e, muitas vezes, de curto prazo em relação ao serviço prestado antes da contratação.</p>
 
-<h4 id="foco:481c1976cafc46cc10d8c82887287de8">Foco</h4>
+<h4 id="foco">Foco</h4>
 
 <p>A abstração das diversas dificuldades de gestão causados por uma equipe interna pode permitir os profissionais da alta gestão ter maior foco no direcionamento da empresa e ter um pensamento mais estratégico do que ações de <strong>como</strong> resolver os problemas.</p>
 
-<h4 id="redução-de-custos:481c1976cafc46cc10d8c82887287de8">Redução de Custos</h4>
+<h4 id="redução-de-custos">Redução de Custos</h4>
 
 <p>Manter um funcionário é mais caro do que contratar uma empresa de outsourcing. Os custos operacionais de contratação, treinamento, espaço, ferias e tantos outros benefícios aplicados pela <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm">CLT</a> encarecem significativamente manter um funcionário contratado para um serviço.</p>
 
 <p>Para as empresas contratantes é vantajoso não possuir esse vínculo direto com as pessoas e permite que, caso seja necessário, substituir as pessoas que não estão atendendo as necessidades de forma mais rápida.</p>
 
-<h4 id="escalabilidade:481c1976cafc46cc10d8c82887287de8">Escalabilidade</h4>
+<h4 id="escalabilidade">Escalabilidade</h4>
 
 <p>Todo o processo de recrutamento e seleção é caro e demorado. Dependendo da velocidade de crescimento do produto, a necessidade de possuir mais pessoas para apoiar o desenvolvimento em um curto prazo é um grande desafio para empresas em expansão.</p>
 
 <p>As empresas de outsourcing podem facilitar esse processo pois em alguns casos possuem um ritmo diferente de alocação de recursos. A contratação de um novo funcionário para uma empresa terceirizada ocorre de forma muito mais rápida do que na maioria de seus clientes.</p>
 
-<h4 id="simplificação:481c1976cafc46cc10d8c82887287de8">Simplificação</h4>
+<h4 id="simplificação">Simplificação</h4>
 
 <p>Em muitas empresas os processos estabelecidos podem causar uma certa morosidade no atendimento das necessidades principais de manutenção de produtos de tecnologia.</p>
 
 <p>Empresas terceirizadas possuem um fluxo de atendimento mais enxuto que pode simplificar o processo de atendimento em situações de emergência. Por não estar incluída diretamente nas restrições das empresas que contratam seus serviços, as empresas de outsourcing conseguem atender aos requisitos através de processos mais simples.</p>
 
-<h4 id="velocidade:481c1976cafc46cc10d8c82887287de8">Velocidade</h4>
+<h4 id="velocidade">Velocidade</h4>
 
 <p>Normalmente, ao inicio de uma contratação de outsourcing, as entregas passam a se tornar mais rápidas pois a ação acaba por movimentar um conjunto de pessoas para atender as defasagens e oportunidades mais necessárias em um curto espaço de tempo. Ao serem contratadas as empresas identificam oportunidades de melhoria que podem ser utilizadas para a evolução do processo como todo.</p>
 
-<h3 id="desvantagens:481c1976cafc46cc10d8c82887287de8">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
 <p>Nem tudo são flores em um procedimento de terceirização de trabalhos. Muitas dificuldades começam a aparecer depois de alguns meses trabalhando nesse modelo.</p>
 
-<h4 id="conhecimento-perdido:481c1976cafc46cc10d8c82887287de8">Conhecimento perdido</h4>
+<h4 id="conhecimento-perdido">Conhecimento perdido</h4>
 
 <p>A contratação de uma equipe em outsourcing pode trazer ganhos rápidos, mas normalmente os contratos tem tempo definido e, em momento de renegociação, acordos são quebrados.</p>
 
@@ -65,19 +63,19 @@
 
 <p>O risco ocorre da mesma forma com profissionais da empresa? Sim; Mas é fato que as ações necessárias para reduzir este <a href="https://pt.wikipedia.org/wiki/Rotatividade_de_pessoal">turnover</a> ficam na própria empresa.</p>
 
-<h4 id="gestão-impessoal:481c1976cafc46cc10d8c82887287de8">Gestão impessoal</h4>
+<h4 id="gestão-impessoal">Gestão impessoal</h4>
 
 <p>Durante um contrato de outsourcing a gestão deve sempre ficar com um funcionário da empresa de outsourcing. Responder diretamente a um funcionário da empresa contratante pode gerar vínculos empregatícios independente do contrato firmado com a empresa.</p>
 
 <p>Isso acaba tornando o processo de gestão das pessoas e tarefas algo extremamente burocrático e impessoal. Todo feedback sobre a evolução de um funcionário terceirizado deve ser feito ao seu gestor direto na empresa.</p>
 
-<h4 id="comunicação-mais-lenta:481c1976cafc46cc10d8c82887287de8">Comunicação mais lenta</h4>
+<h4 id="comunicação-mais-lenta">Comunicação mais lenta</h4>
 
 <p>Normalmente ações de outsourcing ocorrem em ambientes físicos separados e toda comunicação deve ser muito bem documentada para evitar mudanças inesperadas.</p>
 
 <p>Uma ligação provavelmente não será atendida sem um email documentando o processo, uma reunião não será considerada sem uma ata revisada pelos dois lados, pedir de informações do especialista demanda um processo de alocação de horas.</p>
 
-<h4 id="resistência-a-mudanças:481c1976cafc46cc10d8c82887287de8">Resistência a mudanças</h4>
+<h4 id="resistência-a-mudanças">Resistência a mudanças</h4>
 
 <p>Com a desculpa de garantir a entrega do que foi contratado, as empresas de outsourcing se tornam resistentes a mudanças das necessidades dos clientes após o inicio dos trabalhos.</p>
 
@@ -85,13 +83,13 @@
 
 <p>As empresas de outsourcing precisam garantir que o escopo mude muito pouco para garantir que os valores e recursos investidos gerem o lucro esperado. Mudanças durante o projeto, podem causar impactos na entrega e custos maiores mesmo que todos os envolvidos estejam de acordo da necessidade daquela implementação.</p>
 
-<h4 id="segurança:481c1976cafc46cc10d8c82887287de8">Segurança</h4>
+<h4 id="segurança">Segurança</h4>
 
 <p>Por mais que a empresa contratada seja reconhecida e tenha ótima reputação de mercado, a segurança é um dos fatores críticos a ser considerado ao contratar serviços terceirizados de tecnologia.</p>
 
 <p>Os processos envolvidos em garantir que um terceiro possa fazer parte do grupo de desenvolvimento de novas tecnologias, acessar servidores produtivos, corrigir uma falha de forma urgente, etc. Podem tornar as novas contratações demoradas.</p>
 
-<h4 id="a-escolha-por-preço:481c1976cafc46cc10d8c82887287de8">A escolha por preço</h4>
+<h4 id="a-escolha-por-preço">A escolha por preço</h4>
 
 <p>A forma de escolher uma empresa para atender uma demanda em outsourcing pode ser um grande risco para o projeto. Um profissional deve receber a atenção necessária para atender os principais custos implícitos motivacionais como:</p>
 
@@ -108,7 +106,7 @@
 
 <p>Quem você quer que faça o seu trabalho fundamental, patriotas ou mercenários?</p>
 
-<h4 id="nem-tudo-encaixa:481c1976cafc46cc10d8c82887287de8">Nem tudo encaixa</h4>
+<h4 id="nem-tudo-encaixa">Nem tudo encaixa</h4>
 
 <p>Em grandes projetos ou processos que demandam a contratação de mais de uma empresa de outsourcing a conexão entre as entregas e procedimentos de todos é algo de extrema complexidade.</p>
 
@@ -116,11 +114,11 @@
 
 <p>O conhecimento descentralizado e espalhado torna mais complexo a visão de evolução dos produtos atuais.</p>
 
-<h3 id="praticas-comuns-no-brasil:481c1976cafc46cc10d8c82887287de8">Praticas comuns no Brasil</h3>
+<h3 id="praticas-comuns-no-brasil">Praticas comuns no Brasil</h3>
 
 <p>É possível ver no nosso País cenários de outsourcing que acabam tornando a pratica um grande risco para o negócio. É obvio que as empresas que prestam os serviços visam o lucro próprio e o bem comum dos produtos e serviços prestados pela sua contratante é secundário.</p>
 
-<h4 id="evolução-despreparada:481c1976cafc46cc10d8c82887287de8">Evolução despreparada</h4>
+<h4 id="evolução-despreparada">Evolução despreparada</h4>
 
 <p>Diante da necessidade de vender o serviço, mesmo não tendo o recurso com o nível necessário para as atividades. Alguns funcionários são promovidos para se enquadrar nas necessidades do cliente.</p>
 
@@ -128,12 +126,11 @@
 
 <p>Isso causa um atraso significativo nas entregas. Dependendo do contrato, o valor ganho no processo vale o risco. Mas é fácil identificar que quem sai perdendo é o cliente final.</p>
 
-<h4 id="vende-primeiro-pensa-depois:481c1976cafc46cc10d8c82887287de8">Vende primeiro, pensa depois</h4>
+<h4 id="vende-primeiro-pensa-depois">Vende primeiro, pensa depois</h4>
 
 <p>Para as empresas de outsourcing, para deixar os custos mais enxutos, a venda ocorre antes de possuir todas as pessoas necessárias para atender aos projetos em que se encontram.</p>
 
 <p>As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.</p>
-
         ]]>
       </description>
     </item>

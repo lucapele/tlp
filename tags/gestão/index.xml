@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gestão on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/gest%C3%A3o/</link>
-    <description>RSS in Gestão on Juliano Marcon</description>
+    <title>Gestão on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/gest%C3%A3o/index.xml</link>
+    <description>RSS in Gestão on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Sat, 16 Apr 2016 15:42:00 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/gest%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gest%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>É tudo JavaScript</title>
-      <link>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</link>
+      <link>http://localhost:1313/post/20160416-e-tudo-javascript/</link>
       <pubDate>Sat, 16 Apr 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160416-e-tudo-javascript/</guid>
+      <guid>http://localhost:1313/post/20160416-e-tudo-javascript/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/meanjs.png" alt="meanjs.png" />
-          
-
-<p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.</p>
+        <![CDATA[<img src="http://localhost:1313/images/post/meanjs.png" alt="meanjs.png" />
+          <p>Vejo que atualmente muito se fala sobre MEAN Stack. Em resumo é uma pilha de tecnologias para desenvolvimento web baseada em JavaScript. Não pretendo discutir se a linguagem é a melhor. Vou apresentar as vantagens e desvantagens de basear todo o ambiente em uma única linguagem.
+</p>
 
 <p>Se seu foco é aprender sobre o MEAN, pode encontrar informações agrupadas em
 <a href="http://www.mean.io">MEAN.IO</a> ou em <a href="https://www.meanjs.org">MEAN.JS</a>. Mas sugiro
@@ -38,9 +36,9 @@ que foque primeiro nas tecnologias em separado:</p>
 esse conjunto de recursos vou levantar alguns pontos que podem ser de seu interesse
 para apoiar sua escolha.</p>
 
-<h3 id="vantagens:dcbb73ac5f26f3360a06acfd8695c880">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma">A linguagem é sempre a mesma</h4>
 
 <p>Ter um ambiente onde todos os sistemas falam a mesma língua ajuda as pessoas
 a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar um programa da melhor forma possível.</p>
@@ -48,7 +46,7 @@ a conseguirem discutir livremente sobre o que pode estar ocorrendo ou como criar
 <p>A análise da qualidade do código pode ser simplificada, programadores podem fazer
 o <strong>code review</strong> de outros mais facilmente. Dessa forma, mais e mais pessoas terão a capacidade de avaliar se o que está sendo produzido é feito da melhor forma.</p>
 
-<h4 id="curva-de-aprendizagem:dcbb73ac5f26f3360a06acfd8695c880">Curva de aprendizagem</h4>
+<h4 id="curva-de-aprendizagem">Curva de aprendizagem</h4>
 
 <p>A curva de aprendizagem entre os sistemas e tecnologias envolvidos é reduzida e as pessoas podem
 evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtividade.</p>
@@ -57,7 +55,7 @@ evoluir mais rapidamente no conhecimento do código gerado e aumentar a produtiv
 de cursos e treinamentos estarão disponíveis para apoiar a evolução de um time em
 formação.</p>
 
-<h4 id="a-linguagem-é-bem-difundida:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida</h4>
+<h4 id="a-linguagem-é-bem-difundida">A linguagem é bem difundida</h4>
 
 <p>Se existe tecnologia em diversos meios com a mesma linguagem, é bem provável que
 exista um maior numero de pessoas que a conheçam bem. Isso é um aliado forte no
@@ -67,7 +65,7 @@ momento de montar um time de desenvolvedores.</p>
 desafio. Saber que a tecnologia é amplamente conhecida facilita para as equipes
 de recrutamento captar pessoas para o time em crescimento.</p>
 
-<h4 id="existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">Existe muita coisa pronta</h4>
+<h4 id="existe-muita-coisa-pronta">Existe muita coisa pronta</h4>
 
 <p>Com a mesma linguagem, a quantidade de módulos e códigos prontos disponíveis nos
 repositórios na internet aumenta significativamente a cada dia. Isso pode significar
@@ -86,9 +84,9 @@ módulos nas aplicações.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h3 id="desvantagens:dcbb73ac5f26f3360a06acfd8695c880">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="a-linguagem-é-sempre-a-mesma-1:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é sempre a mesma</h4>
+<h4 id="a-linguagem-é-sempre-a-mesma-1">A linguagem é sempre a mesma</h4>
 
 <p>Você deve estar se perguntando: &ldquo;Mas isso não é uma vantagem?&rdquo;. Nesse caso, existem dois
 lados da moeda. A falsa visão de que, por ser a mesma linguagem, a tecnologia é a mesma
@@ -98,7 +96,7 @@ pode causar um risco aos projetos.</p>
 diferente do programador de &ldquo;back-end&rdquo; que tem um foco diferente de como armazenar
 informações e deveria ter apoio de conhecedores do banco de dados escolhido.</p>
 
-<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta:dcbb73ac5f26f3360a06acfd8695c880">A linguagem é bem difundida e existe muita coisa pronta</h4>
+<h4 id="a-linguagem-é-bem-difundida-e-existe-muita-coisa-pronta">A linguagem é bem difundida e existe muita coisa pronta</h4>
 
 <p>Agrupei essas duas vantagens para apresentar o risco que ambas podem gerar em um
 projeto novo.</p>
@@ -119,7 +117,7 @@ bem como isso pode estar afetando a comunidade.</p>
 <li><a href="https://youtu.be/kA4-b7hvWhg">Why Code in Node.js often gets Rejected by SoundCloud</a></li>
 </ul>
 
-<h4 id="dependência:dcbb73ac5f26f3360a06acfd8695c880">Dependência</h4>
+<h4 id="dependência">Dependência</h4>
 
 <p>A escolha de uma pilha baseada na mesma linguagem normalmente inclui a utilização
 de frameworks. Isso é natural, o MEAN é um caso desses, pois utiliza o Express.</p>
@@ -133,7 +131,7 @@ lançadas e a aplicação precisa de refactorings para utilizar o que é novo.</
 desenvolvido e as aplicações continuam a ser utilizadas. Mudanças futuras terão um
 débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
 
-<h5 id="é-muita-coisa-para-um-único-profissional:dcbb73ac5f26f3360a06acfd8695c880">É muita coisa para um único profissional</h5>
+<h5 id="é-muita-coisa-para-um-único-profissional">É muita coisa para um único profissional</h5>
 
 <div class="row">
   <div class="col-xs-2"></div>
@@ -145,64 +143,62 @@ débito técnico que nunca poderão pagar sem reescrever todo o código.</p>
   <div class="col-xs-2"></div>
 </div>
 
-<h2 id="conclusão:dcbb73ac5f26f3360a06acfd8695c880">Conclusão</h2>
+<h2 id="conclusão">Conclusão</h2>
 
 <p>Considerando os pontos acima, acredito que utilizar recursos como o MEAN é vantajoso
 principalmente para profissionais ou empresas que pretendem provar um conceito, e que, após um resultado positivo, se preparem para mitigar os riscos e construir, não apenas
 uma aplicação escalável, mas formas de mitigar os riscos gerados por essa escolha
 dentro de seus ambientes.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Outsourcing: Riscos e Oportunidades</title>
-      <link>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</link>
+      <link>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</link>
       <pubDate>Fri, 25 Mar 2016 14:26:38 -0200</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
+      <guid>http://localhost:1313/post/20160325-outsourcing-riscos-e-oportunidades/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/gears.jpg" alt="gears.jpg" />
-          
+        <![CDATA[<img src="http://localhost:1313/images/post/gears.jpg" alt="gears.jpg" />
+          <p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.
+</p>
 
-<p>O Outsourcing é uma pratica de terceirização através da aquisição de bens e serviços de fornecedores externos. Assim, em tecnologia, é possível ver empresas subcontrantando um ou mais fornecedores para execução de serviços ou até mesmo um processo completo de negócio.</p>
-
-<h3 id="vantagens:481c1976cafc46cc10d8c82887287de8">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
 <p>Terceirizar parcialmente ou totalmente uma área de tecnologia pode trazer alguns benefícios evidentes e, muitas vezes, de curto prazo em relação ao serviço prestado antes da contratação.</p>
 
-<h4 id="foco:481c1976cafc46cc10d8c82887287de8">Foco</h4>
+<h4 id="foco">Foco</h4>
 
 <p>A abstração das diversas dificuldades de gestão causados por uma equipe interna pode permitir os profissionais da alta gestão ter maior foco no direcionamento da empresa e ter um pensamento mais estratégico do que ações de <strong>como</strong> resolver os problemas.</p>
 
-<h4 id="redução-de-custos:481c1976cafc46cc10d8c82887287de8">Redução de Custos</h4>
+<h4 id="redução-de-custos">Redução de Custos</h4>
 
 <p>Manter um funcionário é mais caro do que contratar uma empresa de outsourcing. Os custos operacionais de contratação, treinamento, espaço, ferias e tantos outros benefícios aplicados pela <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm">CLT</a> encarecem significativamente manter um funcionário contratado para um serviço.</p>
 
 <p>Para as empresas contratantes é vantajoso não possuir esse vínculo direto com as pessoas e permite que, caso seja necessário, substituir as pessoas que não estão atendendo as necessidades de forma mais rápida.</p>
 
-<h4 id="escalabilidade:481c1976cafc46cc10d8c82887287de8">Escalabilidade</h4>
+<h4 id="escalabilidade">Escalabilidade</h4>
 
 <p>Todo o processo de recrutamento e seleção é caro e demorado. Dependendo da velocidade de crescimento do produto, a necessidade de possuir mais pessoas para apoiar o desenvolvimento em um curto prazo é um grande desafio para empresas em expansão.</p>
 
 <p>As empresas de outsourcing podem facilitar esse processo pois em alguns casos possuem um ritmo diferente de alocação de recursos. A contratação de um novo funcionário para uma empresa terceirizada ocorre de forma muito mais rápida do que na maioria de seus clientes.</p>
 
-<h4 id="simplificação:481c1976cafc46cc10d8c82887287de8">Simplificação</h4>
+<h4 id="simplificação">Simplificação</h4>
 
 <p>Em muitas empresas os processos estabelecidos podem causar uma certa morosidade no atendimento das necessidades principais de manutenção de produtos de tecnologia.</p>
 
 <p>Empresas terceirizadas possuem um fluxo de atendimento mais enxuto que pode simplificar o processo de atendimento em situações de emergência. Por não estar incluída diretamente nas restrições das empresas que contratam seus serviços, as empresas de outsourcing conseguem atender aos requisitos através de processos mais simples.</p>
 
-<h4 id="velocidade:481c1976cafc46cc10d8c82887287de8">Velocidade</h4>
+<h4 id="velocidade">Velocidade</h4>
 
 <p>Normalmente, ao inicio de uma contratação de outsourcing, as entregas passam a se tornar mais rápidas pois a ação acaba por movimentar um conjunto de pessoas para atender as defasagens e oportunidades mais necessárias em um curto espaço de tempo. Ao serem contratadas as empresas identificam oportunidades de melhoria que podem ser utilizadas para a evolução do processo como todo.</p>
 
-<h3 id="desvantagens:481c1976cafc46cc10d8c82887287de8">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
 <p>Nem tudo são flores em um procedimento de terceirização de trabalhos. Muitas dificuldades começam a aparecer depois de alguns meses trabalhando nesse modelo.</p>
 
-<h4 id="conhecimento-perdido:481c1976cafc46cc10d8c82887287de8">Conhecimento perdido</h4>
+<h4 id="conhecimento-perdido">Conhecimento perdido</h4>
 
 <p>A contratação de uma equipe em outsourcing pode trazer ganhos rápidos, mas normalmente os contratos tem tempo definido e, em momento de renegociação, acordos são quebrados.</p>
 
@@ -210,19 +206,19 @@ dentro de seus ambientes.</p>
 
 <p>O risco ocorre da mesma forma com profissionais da empresa? Sim; Mas é fato que as ações necessárias para reduzir este <a href="https://pt.wikipedia.org/wiki/Rotatividade_de_pessoal">turnover</a> ficam na própria empresa.</p>
 
-<h4 id="gestão-impessoal:481c1976cafc46cc10d8c82887287de8">Gestão impessoal</h4>
+<h4 id="gestão-impessoal">Gestão impessoal</h4>
 
 <p>Durante um contrato de outsourcing a gestão deve sempre ficar com um funcionário da empresa de outsourcing. Responder diretamente a um funcionário da empresa contratante pode gerar vínculos empregatícios independente do contrato firmado com a empresa.</p>
 
 <p>Isso acaba tornando o processo de gestão das pessoas e tarefas algo extremamente burocrático e impessoal. Todo feedback sobre a evolução de um funcionário terceirizado deve ser feito ao seu gestor direto na empresa.</p>
 
-<h4 id="comunicação-mais-lenta:481c1976cafc46cc10d8c82887287de8">Comunicação mais lenta</h4>
+<h4 id="comunicação-mais-lenta">Comunicação mais lenta</h4>
 
 <p>Normalmente ações de outsourcing ocorrem em ambientes físicos separados e toda comunicação deve ser muito bem documentada para evitar mudanças inesperadas.</p>
 
 <p>Uma ligação provavelmente não será atendida sem um email documentando o processo, uma reunião não será considerada sem uma ata revisada pelos dois lados, pedir de informações do especialista demanda um processo de alocação de horas.</p>
 
-<h4 id="resistência-a-mudanças:481c1976cafc46cc10d8c82887287de8">Resistência a mudanças</h4>
+<h4 id="resistência-a-mudanças">Resistência a mudanças</h4>
 
 <p>Com a desculpa de garantir a entrega do que foi contratado, as empresas de outsourcing se tornam resistentes a mudanças das necessidades dos clientes após o inicio dos trabalhos.</p>
 
@@ -230,13 +226,13 @@ dentro de seus ambientes.</p>
 
 <p>As empresas de outsourcing precisam garantir que o escopo mude muito pouco para garantir que os valores e recursos investidos gerem o lucro esperado. Mudanças durante o projeto, podem causar impactos na entrega e custos maiores mesmo que todos os envolvidos estejam de acordo da necessidade daquela implementação.</p>
 
-<h4 id="segurança:481c1976cafc46cc10d8c82887287de8">Segurança</h4>
+<h4 id="segurança">Segurança</h4>
 
 <p>Por mais que a empresa contratada seja reconhecida e tenha ótima reputação de mercado, a segurança é um dos fatores críticos a ser considerado ao contratar serviços terceirizados de tecnologia.</p>
 
 <p>Os processos envolvidos em garantir que um terceiro possa fazer parte do grupo de desenvolvimento de novas tecnologias, acessar servidores produtivos, corrigir uma falha de forma urgente, etc. Podem tornar as novas contratações demoradas.</p>
 
-<h4 id="a-escolha-por-preço:481c1976cafc46cc10d8c82887287de8">A escolha por preço</h4>
+<h4 id="a-escolha-por-preço">A escolha por preço</h4>
 
 <p>A forma de escolher uma empresa para atender uma demanda em outsourcing pode ser um grande risco para o projeto. Um profissional deve receber a atenção necessária para atender os principais custos implícitos motivacionais como:</p>
 
@@ -253,7 +249,7 @@ dentro de seus ambientes.</p>
 
 <p>Quem você quer que faça o seu trabalho fundamental, patriotas ou mercenários?</p>
 
-<h4 id="nem-tudo-encaixa:481c1976cafc46cc10d8c82887287de8">Nem tudo encaixa</h4>
+<h4 id="nem-tudo-encaixa">Nem tudo encaixa</h4>
 
 <p>Em grandes projetos ou processos que demandam a contratação de mais de uma empresa de outsourcing a conexão entre as entregas e procedimentos de todos é algo de extrema complexidade.</p>
 
@@ -261,11 +257,11 @@ dentro de seus ambientes.</p>
 
 <p>O conhecimento descentralizado e espalhado torna mais complexo a visão de evolução dos produtos atuais.</p>
 
-<h3 id="praticas-comuns-no-brasil:481c1976cafc46cc10d8c82887287de8">Praticas comuns no Brasil</h3>
+<h3 id="praticas-comuns-no-brasil">Praticas comuns no Brasil</h3>
 
 <p>É possível ver no nosso País cenários de outsourcing que acabam tornando a pratica um grande risco para o negócio. É obvio que as empresas que prestam os serviços visam o lucro próprio e o bem comum dos produtos e serviços prestados pela sua contratante é secundário.</p>
 
-<h4 id="evolução-despreparada:481c1976cafc46cc10d8c82887287de8">Evolução despreparada</h4>
+<h4 id="evolução-despreparada">Evolução despreparada</h4>
 
 <p>Diante da necessidade de vender o serviço, mesmo não tendo o recurso com o nível necessário para as atividades. Alguns funcionários são promovidos para se enquadrar nas necessidades do cliente.</p>
 
@@ -273,35 +269,33 @@ dentro de seus ambientes.</p>
 
 <p>Isso causa um atraso significativo nas entregas. Dependendo do contrato, o valor ganho no processo vale o risco. Mas é fácil identificar que quem sai perdendo é o cliente final.</p>
 
-<h4 id="vende-primeiro-pensa-depois:481c1976cafc46cc10d8c82887287de8">Vende primeiro, pensa depois</h4>
+<h4 id="vende-primeiro-pensa-depois">Vende primeiro, pensa depois</h4>
 
 <p>Para as empresas de outsourcing, para deixar os custos mais enxutos, a venda ocorre antes de possuir todas as pessoas necessárias para atender aos projetos em que se encontram.</p>
 
 <p>As empresas atendidas acabam por receber os serviços prestados por pessoas escolhidas as pressas e que geram um risco operacional enorme para os envolvidos.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>A Guerra das linguagens</title>
-      <link>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</link>
+      <link>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</link>
       <pubDate>Wed, 16 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/</guid>
+      <guid>http://localhost:1313/post/20160316-a-guerra-das-linguagens/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/languages.png" alt="languages.png" />
-          
-
-<p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
+        <![CDATA[<img src="http://localhost:1313/images/post/languages.png" alt="languages.png" />
+          <p>Praticamente todos os dias vejo pessoas se digladiando sobre qual linguagem
 preferem, que a sua escolha é a melhor e que as outras são mais fracas. Todos
 tem ótimos argumentos do motivo pelo qual a sua escolha seria a escolha mais
 evidente para todos. Esse posicionamento forte tem vantagens e desvantagens
-quando se trata de um time de desenvolvimento.</p>
+quando se trata de um time de desenvolvimento.
+</p>
 
-<h3 id="vantagens:b111f52da7a87d8d81eee532336c896d">Vantagens</h3>
+<h3 id="vantagens">Vantagens</h3>
 
-<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem:b111f52da7a87d8d81eee532336c896d">Avaliação de pontos fortes e fracos de cada linguagem</h4>
+<h4 id="avaliação-de-pontos-fortes-e-fracos-de-cada-linguagem">Avaliação de pontos fortes e fracos de cada linguagem</h4>
 
 <p>É evidente que estas discussões podem e vão evidenciar os diferenciais que
 cada linguagem possui. Evangelistas de cada tecnologia acabam por expor um
@@ -316,9 +310,9 @@ comparativo detalhado baseado em dados e benchmarks.</p>
 
 <p><br/></p>
 
-<h3 id="desvantagens:b111f52da7a87d8d81eee532336c896d">Desvantagens</h3>
+<h3 id="desvantagens">Desvantagens</h3>
 
-<h4 id="solução-em-segundo-plano:b111f52da7a87d8d81eee532336c896d">Solução em segundo plano.</h4>
+<h4 id="solução-em-segundo-plano">Solução em segundo plano.</h4>
 
 <p>Normalmente a explanação dos evangelistas não está direcionada a solucionar um
 problema ou identificar se suas vantagens são parte dos requisitos da solução
@@ -330,7 +324,7 @@ pessoais envolvidos na solução.</p>
 
 <p><br/></p>
 
-<h4 id="impactos-no-relacionamento-do-time:b111f52da7a87d8d81eee532336c896d">Impactos no relacionamento do time.</h4>
+<h4 id="impactos-no-relacionamento-do-time">Impactos no relacionamento do time.</h4>
 
 <p>É fato que quando existe uma discussão entre dois evangelistas de tecnologias
 concorrentes o clima costuma não se manter em uma estrutura de diálogo. Os
@@ -344,7 +338,7 @@ momento ou ficará desestimulado em participar ativamente de definições futura
 
 <p><br/></p>
 
-<h4 id="olhos-fechados-para-o-novo:b111f52da7a87d8d81eee532336c896d">Olhos fechados para o novo.</h4>
+<h4 id="olhos-fechados-para-o-novo">Olhos fechados para o novo.</h4>
 
 <p>Nem sempre as discussões são sobre <strong>novas</strong> tecnologias, na verdade, diversas
 vezes a discussão ocorre envolvendo tecnologias já estabelecidas que já
@@ -367,7 +361,7 @@ suas mentes não conseguem mudar nada.
 
 <p><br/></p>
 
-<h4 id="débito-técnico-antes-do-começo:b111f52da7a87d8d81eee532336c896d">Débito técnico antes do começo.</h4>
+<h4 id="débito-técnico-antes-do-começo">Débito técnico antes do começo.</h4>
 
 <p>Se o vencedor ganhar pela melhor argumentação sobre a superioridade técnica de
 sua tecnologia sem olhar o que se espera da solução é fácil perceber que o
@@ -377,7 +371,7 @@ gerar grandes re-trabalhos ou ainda inviabilizar a entrega de valor.</p>
 
 <p><br/></p>
 
-<h3 id="conclusão:b111f52da7a87d8d81eee532336c896d">Conclusão</h3>
+<h3 id="conclusão">Conclusão</h3>
 
 <p>Ter uma opinião sobre uma tecnologia é algo de extrema importância para todo
 profissional envolvido com o desenvolvimento de soluções mas, tão importante
@@ -393,17 +387,16 @@ em novas tecnologias). Mas isso é assunto para outro post.</p>
 
 <p><br/></p>
 
-<h3 id="quem-ganha-a-guerra:b111f52da7a87d8d81eee532336c896d">Quem ganha a guerra?</h3>
+<h3 id="quem-ganha-a-guerra">Quem ganha a guerra?</h3>
 
 <p>Como sempre…  <strong>NINGUÉM</strong>. Mas tenho certeza que existe um maior perdedor:</p>
 
-<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente:b111f52da7a87d8d81eee532336c896d"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
+<h1 id="span-nbsp-nbsp-nbsp-nbsp-span-o-cliente"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <strong>O cliente!</strong></h1>
 
 <p><br/>
 <br/></p>
 
 <p><em>Lembre-se que:</em>  <strong>Não existe panacéia tecnológica.</strong></p>
-
         ]]>
       </description>
     </item>

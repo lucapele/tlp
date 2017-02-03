@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Liderança Corporativa on Juliano Marcon</title>
-    <link>https://jmarcon.github.io/tags/lideran%C3%A7a-corporativa/</link>
-    <description>RSS in Liderança Corporativa on Juliano Marcon</description>
+    <title>Liderança Corporativa on JULIANO MARCON</title>
+    <link>http://localhost:1313/tags/lideran%C3%A7a-corporativa/index.xml</link>
+    <description>RSS in Liderança Corporativa on JULIANO MARCON</description>
     <generator>Juliano Marcon</generator>
     <language>pt-br</language>
     <managingEditor>contato@julianomarcon.com.br (Juliano Marcon)</managingEditor>
     <webMaster>contato@julianomarcon.com.br (Juliano Marcon)</webMaster>
-    <lastBuildDate>Mon, 18 Apr 2016 17:53:07 -0300</lastBuildDate>
-    <atom:link href="https://jmarcon.github.io/tags/lideran%C3%A7a-corporativa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/lideran%C3%A7a-corporativa/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Como ser um desenvolvedor melhor</title>
-      <link>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
+      <link>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</link>
       <pubDate>Mon, 18 Apr 2016 17:53:07 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
+      <guid>http://localhost:1313/post/20160418-como-ser-um-desenvolvedor-melhor/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
-          
-
-<p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
+        <![CDATA[<img src="http://localhost:1313/images/post/soft-skills.jpg" alt="soft-skills.jpg" />
+          <p>Conhecer com maestria uma determinada tecnologia pode não ser suficiente
 para definir um ótimo desenvolvedor de softwares nos dias atuais. Os conceitos
 de <a href="http://www.manifestoagil.com.br/">agilidade</a> acabam por determinar comportamentos
-esperados dos envolvidos na criação de softwares.</p>
+esperados dos envolvidos na criação de softwares.
+</p>
 
 <p>As habilidades ou &ldquo;Soft Skills&rdquo; do profissional diferenciado no
 mercado atual seriam:</p>
 
-<h3 id="consciência:af9ab6b1e8d6ef0096a7a2c1474e7990">Consciência</h3>
+<h3 id="consciência">Consciência</h3>
 
 <p>Saber no que você é bom e no que você não é. Isso é um diferencial nas equipes que tem foco em desenvolver softwares com qualidade, principalmente nos momentos em que é preciso definir quais serão suas atividades para a próxima entrega.</p>
 
 <p>Se você possui um emprego que te permite fazer o que gosta e que te paga bem, tenha a consciência de que tem sorte. Vivemos em tempos que a demanda por programadores excede a oferta, mesmo assim, nem todos tem essa sorte.</p>
 
-<h3 id="humildade:af9ab6b1e8d6ef0096a7a2c1474e7990">Humildade</h3>
+<h3 id="humildade">Humildade</h3>
 
 <p>Estar aberto à possibilidade de estar errado é fundamental para fazer parte
 de um time. Aprenda, melhore sempre e reconheça seus erros sempre que estes
@@ -44,22 +42,22 @@ erradas, mais confiantes elas serão.</p>
 
 <p>Confie que as pessoas farão seu trabalho!</p>
 
-<h3 id="empatia:af9ab6b1e8d6ef0096a7a2c1474e7990">Empatia</h3>
+<h3 id="empatia">Empatia</h3>
 
 <p>Pratique isso com todos que você conhece e que interagem com seu trabalho. Entenda que a equipe de negócios e o seu time serão os maiores afetados pelas decisões que você tomar. Não é possível ter colaboração com o cliente sem se colocar no lugar dele, muito menos responder a mudanças de forma satisfatória.</p>
 
 <p>Nunca assuma que sabe o motivo de uma decisão, a não ser que esteja na sala quando ela foi tomada.</p>
 
-<h3 id="espirito-de-time:af9ab6b1e8d6ef0096a7a2c1474e7990">Espirito de Time</h3>
+<h3 id="espirito-de-time">Espirito de Time</h3>
 
 <p>Indivíduos e a interação entre eles são essenciais para entregar valor da melhor forma.
 É importante saber que suas atividades vão impactar as pessoas ao seu redor e as suas entregas vão melhorar a vida de várias pessoas. Pessoas relacionadas a negócios e desenvolvedores devem trabalhar em conjunto e, diariamente, durante todo o curso do projeto.</p>
 
 <p>Compartilhe o que sabe e o que aprendeu com as pessoas ao seu redor e sempre peça para que elas façam o mesmo com você. Lembre-se: o método mais eficiente de transmitir informações é através de uma conversa cara a cara.</p>
 
-<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="https://jmarcon.github.io/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
+<p>Cuidado ao entrar em discussões do tipo A contra B. Raramente isso vale o tempo e, com certeza, não vai entregar valor. Ja comentei sobre isso em <a href="http://localhost:1313/post/20160316-a-guerra-das-linguagens/">Guerra das Linguagens</a>.</p>
 
-<h3 id="criatividade:af9ab6b1e8d6ef0096a7a2c1474e7990">Criatividade</h3>
+<h3 id="criatividade">Criatividade</h3>
 
 <p>A tecnologia não para e muita coisa nova e interessante aparece todos os dias. Os profissionais devem considerar separar um tempo semanal para conhecer o que está surgindo na comunidade.</p>
 
@@ -67,7 +65,7 @@ erradas, mais confiantes elas serão.</p>
 palestra de uma tecnologia que você não domina. Conhecer outras abordagens e
 soluções vai te ajudar a ser um desenvolvedor melhor.</p>
 
-<h3 id="cuidadoso:af9ab6b1e8d6ef0096a7a2c1474e7990">Cuidadoso</h3>
+<h3 id="cuidadoso">Cuidadoso</h3>
 
 <p>Seja cético com posições extremas. Normalmente quando conhecemos algum &lsquo;evangelista&rsquo;
 nos deparamos com a solução para tudo.</p>
@@ -79,7 +77,7 @@ e da capacidade do time.</p>
 <p>Enfim, as melhores arquiteturas, requisitos e designs emergem de times
 auto-organizáveis.</p>
 
-<h3 id="lealdade-e-respeito-com-as-pessoas:af9ab6b1e8d6ef0096a7a2c1474e7990">Lealdade e respeito com as pessoas</h3>
+<h3 id="lealdade-e-respeito-com-as-pessoas">Lealdade e respeito com as pessoas</h3>
 
 <p>A lealdade com as pessoas é um valor importante na construção de um grupo de trabalho.
 Não seja leal a marcas, empresas ou tecnologias. Quem vai sempre te apoiar é o
@@ -88,7 +86,7 @@ seu time.</p>
 <p>O respeito entre todos é essencial para que as pessoas possam refletir e tomar descisões sobre como o time pode se tornar mais efetivo, se
 ajustar e otimizar os comportamentos dos indivíduos para atingir os objetivos.</p>
 
-<h1 id="valores:af9ab6b1e8d6ef0096a7a2c1474e7990">Valores</h1>
+<h1 id="valores">Valores</h1>
 
 <p>Se para você os valores acima são óbvios, então é bem provável que você já os tenha
 impregnados em seu dia a dia. Neste caso, tenha empatia para com aqueles que não
@@ -97,24 +95,22 @@ mantêm esses comportamentos e os apoie a evoluir.</p>
 <p>Caso não seja seu caso, é um bom momento para revisar seus valores e pensar sobre
 como serão suas atividades no futuro. O mundo está mudando, talvez seja hora de
 mudar com ele.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Multitarefa e a motivação</title>
-      <link>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</link>
+      <link>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</link>
       <pubDate>Sun, 17 Apr 2016 16:06:25 -0400</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160417-multitarefa-e-a-motivacao/</guid>
+      <guid>http://localhost:1313/post/20160417-multitarefa-e-a-motivacao/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
-          
-
-<p>As exigências da globalização e da redução de custos das empresas estão criando um
+        <![CDATA[<img src="http://localhost:1313/images/post/tasks-min.jpg" alt="tasks-min.jpg" />
+          <p>As exigências da globalização e da redução de custos das empresas estão criando um
 foco cada vez maior na arte de fazer mais com menos. Isso está gerando a busca por
-pessoas com a capacidade de fazer várias coisas ao mesmo tempo, o que é um desafio para as equipes de recursos humanos. Entretanto, será que isso está tornando as pessoas realmente mais produtivas?</p>
+pessoas com a capacidade de fazer várias coisas ao mesmo tempo, o que é um desafio para as equipes de recursos humanos. Entretanto, será que isso está tornando as pessoas realmente mais produtivas?
+</p>
 
 <p><a href="https://www.theguardian.com/science/2015/jan/18/modern-world-bad-for-brain-daniel-j-levitin-organized-mind-information-overload">Nossos cérebros não foram feitos para ser multitarefa</a>. Seu design foi construído para focar em uma coisa de cada vez e bombardea-lo com vários tipos de informação apenas o torna mais lento.</p>
 
@@ -128,7 +124,7 @@ que prevalece é que não há entrega de valor.</p>
 
 <p>Quanto mais esse sentimento aumenta, mais difícil será para manter as entregas em dia.</p>
 
-<h3 id="mas-como-lidar-com-isso:2efb430dd0c71c7cb7c170aa7a47b57c">Mas, como lidar com isso?</h3>
+<h3 id="mas-como-lidar-com-isso">Mas, como lidar com isso?</h3>
 
 <p><img src="https://https://jmarcon.github.io/images/post/path-min.jpg" alt="Mono-vs-Multi"
 class="img-responsive"
@@ -149,7 +145,7 @@ definidas para o dia. Essas conquistas devem ser atividades complexas ou que pos
 <li><a href="https://pt.wikipedia.org/wiki/GUT">Matriz GUT</a></li>
 </ul>
 
-<h5 id="como-um-gestor-lida-com-tudo:2efb430dd0c71c7cb7c170aa7a47b57c">Como um gestor lida com tudo?</h5>
+<h5 id="como-um-gestor-lida-com-tudo">Como um gestor lida com tudo?</h5>
 
 <p>No papel de líder e gestor de uma equipe, é parte de seu trabalho manter todas as
 pessoas sabendo quais são seus principais objetivos e o resultado que se espera delas.</p>
@@ -178,22 +174,22 @@ boas ideias que existem. Você precisa selecionar cuidadosamente.
 </blockquote>
 
 <p><div style="clear:both"/></p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>TI Bimodal : Uma questão de respeito</title>
-      <link>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
+      <link>http://localhost:1313/post/20160319-ti-bimodal-uma-questao-de-respeito/</link>
       <pubDate>Sat, 19 Mar 2016 17:18:14 -0500</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
+      <guid>http://localhost:1313/post/20160319-ti-bimodal-uma-questao-de-respeito/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/sync.jpg" alt="sync.jpg" />
+        <![CDATA[<img src="http://localhost:1313/images/post/sync.jpg" alt="sync.jpg" />
           <p>Agilidade é, com certeza, o termo mais citado quando o futuro é discutido em grandes empresas financeiras ou necessitando se reinventar no mundo da tecnologia.</p>
 
-<p>A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.</p>
+<p>A existência de um legado exige que as empresas foquem seus esforços em perfis distintos na gestão e investimento de seus recursos de tecnologia de informação.
+</p>
 
 <p>O Gartner define como:</p>
 
@@ -233,27 +229,25 @@ boas ideias que existem. Você precisa selecionar cuidadosamente.
 <p>São diversas coisas que não necessariamente impactam a disponibilização dos serviços essenciais da empresa e que podem dar visibilidade e velocidade para as empresas dentro dos cenários digitais do futuro.</p>
 
 <p>E eles devem compreender e respeitar que os serviços que eles consomem são o coração da empresa e o coração não deve falhar.</p>
-
         ]]>
       </description>
     </item>
     
     <item>
       <title>Benefícios de Hackathons e DoJos internos</title>
-      <link>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
+      <link>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</link>
       <pubDate>Sat, 12 Mar 2016 15:42:00 -0300</pubDate>
       <author>contato@julianomarcon.com.br (Juliano Marcon)</author>
-      <guid>https://jmarcon.github.io/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
+      <guid>http://localhost:1313/post/20160312-beneficios-de-hackathons-dojos-internos/</guid>
       <description>
-        <![CDATA[<img src="https://jmarcon.github.io/images/post/hackathon2.png" alt="hackathon2.png" />
-          
-
-<p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
+        <![CDATA[<img src="http://localhost:1313/images/post/hackathon2.png" alt="hackathon2.png" />
+          <p>Grandes empresas executam DoJos ou Hackathons sobre desenvolvimento para
 identificar equipes e profissionais de alto nível para oferecer uma nova
 oportunidade de participar de algo maior. Muitas vezes, a mesma empresa ignora
-os benefícios de manter eventos como esse dentro da corporação.</p>
+os benefícios de manter eventos como esse dentro da corporação.
+</p>
 
-<h3 id="pagar-as-promessas-de-eleição:11907174e38579cadf1803c32f3009f7">Pagar as promessas de eleição</h3>
+<h3 id="pagar-as-promessas-de-eleição">Pagar as promessas de eleição</h3>
 
 <p>Quando o objetivo dos eventos externos é alcançado, a empresa consegue contratar
 ótimos profissionais e agregar valor com novas tecnologias. No entanto, quando
@@ -264,7 +258,7 @@ uma promessa de eleição.</p>
 <p>Executar eventos internamente demonstra consistência e continuidade nos valores
 e que a empresa não quer apenas <strong>parecer</strong> cool, como isso é parte integrante da cultura organizacional.</p>
 
-<h3 id="reconhecimento-do-conhecimento:11907174e38579cadf1803c32f3009f7">Reconhecimento do conhecimento</h3>
+<h3 id="reconhecimento-do-conhecimento">Reconhecimento do conhecimento</h3>
 
 <p>Colocar as melhores mentes técnicas para liderar reuniões como essa é parte do
 reconhecimento por sua evolução e conhecimento. As premiações de Hackathons,
@@ -272,7 +266,7 @@ apesar de serem muitas vezes simbólicas, demonstram o quanto a empresa dá valo
 ao conhecimento técnico e que a instituição entende o setor de desenvolvimento
 de software como algo importante para o futuro e não apenas um commodity.</p>
 
-<h3 id="motivação-para-inovação:11907174e38579cadf1803c32f3009f7">Motivação para inovação</h3>
+<h3 id="motivação-para-inovação">Motivação para inovação</h3>
 
 <p>O cotidiano das pessoas dentro das empresas é algo cheio de responsabilidades e
 dificilmente sobra tempo para inovar.</p>
@@ -284,14 +278,14 @@ a empresa.</p>
 
 <p>O evento se torna um investimento em soluções mais rápidas no futuro.</p>
 
-<h3 id="diversão-produtiva:11907174e38579cadf1803c32f3009f7">Diversão produtiva</h3>
+<h3 id="diversão-produtiva">Diversão produtiva</h3>
 
 <p>Lógico que estes eventos tem como um dos pilares o divertimento. Mas ao final,
 algo de concreto é apresentado e possivelmente poderá ser aproveitado como o
 início de um novo produto ou, com poucas adaptações, um novo recurso pronto para
 ser disponibilizado para seus clientes.</p>
 
-<h3 id="juntos-somos-mais:11907174e38579cadf1803c32f3009f7">Juntos somos mais</h3>
+<h3 id="juntos-somos-mais">Juntos somos mais</h3>
 
 <p>Compartilhar um tempo divertido com pessoas com objetivos parecidos vai trazer
 uma integração maior entre times e melhorar o clima organizacional. Não será
@@ -301,14 +295,13 @@ ocorrer após estes eventos.</p>
 <p>Eventos devem, inclusive, promover a integração entre pessoas de times
 diferentes.</p>
 
-<h3 id="a-prática-leva-a-perfeição:11907174e38579cadf1803c32f3009f7">A prática leva a perfeição</h3>
+<h3 id="a-prática-leva-a-perfeição">A prática leva a perfeição</h3>
 
 <p>Por último e não menos importante, a manutenção de eventos como DoJos de
 programação faz com que o compartilhamento do conhecimento gere a evolução do
 padrão de desenvolvimento em conjunto com todos, uma consciência corporativa da
 qualidade do código e boas praticas de desenvolvimento e, por consequência, o
 aumento da qualidade dos projetos entregues.</p>
-
         ]]>
       </description>
     </item>
